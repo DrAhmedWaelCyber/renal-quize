@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فارماكولوجيا الكلى ومدرات البول | موديول الكلى - طب الأزهر بنين بالقاهرة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Amiri:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #06111d;
+            --bg-secondary: #0a1b2e;
+            --bg-card: #0f2742;
+            --bg-card-hover: #16365c;
+            --border-card: #1d3e66;
+            --cyan-glow: #00e5ff;
+            --teal-accent: #0d9488;
+            --gold-azhar: #efd57f;
+            --gold-light: #fce494;
+            --amber-solute: #f59e0b;
+            --azhar-green: #059669;
+            --azhar-green-light: #10b981;
+            --crimson: #ef4444;
+            --text-main: #ffffff;
+            --text-secondary: #cde1f5;
+            --text-muted: #8aa9c7;
+            --shadow-card: 0 16px 36px -8px rgba(3, 9, 16, 0.75), 0 0 0 1px rgba(0, 229, 255, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(0, 229, 255, 0.08) 0%, transparent 70%),
+                linear-gradient(180deg, #06111d 0%, #0a1b2e 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding-bottom: 90px;
+            line-height: 1.6;
+        }
+
+        /* Header Bar */
+        .quiz-header {
+            background: linear-gradient(180deg, #091829 0%, var(--bg-secondary) 100%);
+            border-bottom: 1.5px solid var(--border-card);
+            padding: 16px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .brand-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .faculty-logo-mini {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 2px solid var(--gold-azhar);
+            background: #ffffff;
+            padding: 2px;
+            object-fit: contain;
+            box-shadow: 0 0 14px rgba(239, 213, 127, 0.3);
+        }
+
+        .brand-titles h1 {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .brand-titles p {
+            font-size: 0.8rem;
+            color: var(--cyan-glow);
+            font-weight: 600;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-action {
+            background: rgba(15, 39, 66, 0.8);
+            border: 1px solid var(--border-card);
+            color: var(--text-secondary);
+            border-radius: 10px;
+            padding: 7px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .btn-action:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--cyan-glow);
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .btn-action.active-mode {
+            background: var(--cyan-glow);
+            color: #06111d;
+            border-color: var(--cyan-glow);
+            box-shadow: 0 0 14px rgba(0, 229, 255, 0.4);
+        }
+
+        /* Main Container */
+        .quiz-container {
+            max-width: 900px;
+            margin: 24px auto;
+            padding: 0 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Banner Card */
+        .subject-hero-card {
+            background: var(--bg-secondary);
+            border: 1.5px solid var(--border-card);
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            position: relative;
+        }
+
+        .hero-banner-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 2px solid var(--cyan-glow);
+        }
+
+        .hero-overlay {
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(180deg, rgba(10, 27, 46, 0.8) 0%, var(--bg-secondary) 100%);
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .hero-meta h2 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hero-meta p {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        .hero-kpis {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .kpi-pill {
+            background: rgba(0, 229, 255, 0.12);
+            border: 1px solid rgba(0, 229, 255, 0.3);
+            border-radius: 30px;
+            padding: 5px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--cyan-glow);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Progress Bar */
+        .progress-wrapper {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-card);
+            border-radius: 14px;
+            padding: 12px 18px;
+            box-shadow: var(--shadow-card);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .progress-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+        }
+
+        .progress-track {
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--teal-accent), var(--cyan-glow));
+            width: 0%;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        /* Active Question Card */
+        .question-card {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-card);
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: var(--shadow-card);
+            position: relative;
+            transition: all 0.25s ease;
+        }
+
+        .q-badge-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .q-tag {
+            background: rgba(0, 229, 255, 0.15);
+            color: var(--cyan-glow);
+            border: 1px solid rgba(0, 229, 255, 0.35);
+            font-size: 0.8rem;
+            font-weight: 800;
+            border-radius: 20px;
+            padding: 4px 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .flag-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 700;
+            transition: color 0.2s;
+        }
+
+        .flag-btn.flagged {
+            color: var(--amber-solute);
+        }
+
+        .q-stem {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.75;
+            margin-bottom: 22px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        /* Options Grid */
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            direction: ltr;
+        }
+
+        .option-item {
+            background: rgba(10, 27, 46, 0.6);
+            border: 1.5px solid var(--border-card);
+            border-radius: 14px;
+            padding: 14px 18px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+            user-select: none;
+        }
+
+        .option-item:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--cyan-glow);
+            transform: translateX(4px);
+        }
+
+        .opt-letter {
+            width: 34px;
+            height: 34px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--border-card);
+            color: var(--cyan-glow);
+            font-weight: 800;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all 0.2s ease;
+        }
+
+        .opt-text {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        /* Option States */
+        .option-item.selected {
+            border-color: var(--cyan-glow);
+            background: rgba(0, 229, 255, 0.12);
+        }
+
+        .option-item.selected .opt-letter {
+            background: var(--cyan-glow);
+            color: #06111d;
+        }
+
+        .option-item.correct {
+            border-color: var(--azhar-green-light) !important;
+            background: rgba(16, 185, 129, 0.15) !important;
+            color: #ffffff;
+        }
+
+        .option-item.correct .opt-letter {
+            background: var(--azhar-green);
+            color: #ffffff;
+            border-color: var(--azhar-green-light);
+        }
+
+        .option-item.incorrect {
+            border-color: var(--crimson) !important;
+            background: rgba(239, 68, 68, 0.15) !important;
+            color: #ffffff;
+        }
+
+        .option-item.incorrect .opt-letter {
+            background: var(--crimson);
+            color: #ffffff;
+            border-color: var(--crimson);
+        }
+
+        /* Medical Pearl & Rationale Card */
+        .rationale-card {
+            margin-top: 22px;
+            background: linear-gradient(135deg, rgba(13, 148, 136, 0.15) 0%, rgba(10, 27, 46, 0.85) 100%);
+            border: 1.5px solid var(--teal-accent);
+            border-right: 5px solid var(--gold-azhar);
+            border-radius: 16px;
+            padding: 18px 20px;
+            display: none;
+            direction: rtl;
+            text-align: right;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .rationale-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--gold-light);
+            font-size: 0.95rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .pearl-box {
+            background: rgba(239, 213, 127, 0.1);
+            border: 1px solid rgba(239, 213, 127, 0.35);
+            border-radius: 12px;
+            padding: 12px 14px;
+            margin-top: 12px;
+            color: #fef08a;
+            font-size: 0.92rem;
+            line-height: 1.7;
+            font-weight: 600;
+        }
+
+        .rationale-content {
+            font-size: 0.96rem;
+            color: #e2e8f0;
+            line-height: 1.7;
+            direction: ltr;
+            text-align: left;
+            margin-top: 8px;
+        }
+
+        /* Bottom Controls Bar */
+        .controls-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .btn-nav {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-card);
+            color: #ffffff;
+            border-radius: 14px;
+            padding: 12px 24px;
+            font-size: 0.95rem;
+            font-weight: 800;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .btn-nav:hover:not(:disabled) {
+            background: var(--bg-card-hover);
+            border-color: var(--cyan-glow);
+            transform: translateY(-2px);
+            color: var(--cyan-glow);
+        }
+
+        .btn-nav:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .btn-nav.btn-primary {
+            background: var(--cyan-glow);
+            color: #06111d;
+            border-color: var(--cyan-glow);
+        }
+
+        .btn-nav.btn-primary:hover {
+            background: #4ef0ff;
+            color: #000000;
+            box-shadow: 0 0 18px rgba(0, 229, 255, 0.5);
+        }
+
+        /* Floating Palette FAB */
+        .palette-fab {
+            position: fixed;
+            bottom: 24px;
+            left: 24px;
+            background: var(--teal-accent);
+            color: #ffffff;
+            border: 2px solid var(--cyan-glow);
+            border-radius: 30px;
+            padding: 12px 20px;
+            font-size: 0.92rem;
+            font-weight: 800;
+            cursor: pointer;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+            z-index: 99;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .palette-fab:hover {
+            background: #0f766e;
+            transform: scale(1.05);
+        }
+
+        /* Palette Modal */
+        .palette-modal {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(6px);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+
+        .palette-window {
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-card);
+            border-radius: 20px;
+            max-width: 800px;
+            width: 100%;
+            max-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+        }
+
+        .palette-header {
+            padding: 16px 20px;
+            border-bottom: 1.5px solid var(--border-card);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--bg-card);
+        }
+
+        .palette-grid {
+            padding: 20px;
+            overflow-y: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+            gap: 10px;
+        }
+
+        .pal-cell {
+            aspect-ratio: 1;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-card);
+            color: var(--text-secondary);
+            font-weight: 800;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .pal-cell:hover {
+            border-color: var(--cyan-glow);
+            transform: scale(1.1);
+        }
+
+        .pal-cell.current {
+            border-color: var(--cyan-glow);
+            box-shadow: 0 0 10px var(--cyan-glow);
+        }
+
+        .pal-cell.correct {
+            background: var(--azhar-green);
+            color: #ffffff;
+            border-color: var(--azhar-green-light);
+        }
+
+        .pal-cell.incorrect {
+            background: var(--crimson);
+            color: #ffffff;
+            border-color: #f87171;
+        }
+
+        .pal-cell.flagged::after {
+            content: '•';
+            position: absolute;
+            top: 2px;
+            right: 4px;
+            color: var(--amber-solute);
+            font-size: 1.2rem;
+        }
+
+        /* Review All Mode Container */
+        .review-mode-list {
+            display: none;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 640px) {
+            .quiz-header { padding: 12px 14px; }
+            .brand-titles h1 { font-size: 0.98rem; }
+            .hero-banner-img { height: 130px; }
+            .question-card { padding: 18px 14px; }
+            .q-stem { font-size: 1.02rem; }
+            .btn-nav { padding: 10px 16px; font-size: 0.88rem; }
+            .palette-fab { bottom: 16px; left: 16px; padding: 10px 16px; font-size: 0.82rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="quiz-header">
+        <div class="header-content">
+            <div class="brand-left">
+                <img src="assets/al_azhar_logo.png" alt="شعار الأزهر" class="faculty-logo-mini">
+                <div class="brand-titles">
+                    <h1>💊 فارماكولوجيا الكلى ومدرات البول</h1>
+                    <p>موديول الكلى والجهاز البولي | إعداد وتدقيق: د. أحمد وائل</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="index.html" class="btn-action">🏠 الرئيسية</a>
+                <button id="modeToggleBtn" class="btn-action active-mode">💡 نمط التدريب</button>
+                <button id="reviewModeBtn" class="btn-action">📋 استعراض الكل</button>
+                <button id="soundToggleBtn" class="btn-action">🔊 صوت</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quiz Main View -->
+    <main class="quiz-container">
+        
+        <!-- Hero Subject Card -->
+        <section class="subject-hero-card">
+            <img src="assets/pharmacology_banner.jpg" alt="فارماكولوجيا الكلى ومدرات البول" class="hero-banner-img">
+            <div class="hero-overlay">
+                <div class="hero-meta">
+                    <h2>فارماكولوجيا الكلى ومدرات البول (Renal Pharmacology & Diuretics Question Bank)</h2>
+                    <p>تصنيف مدرات البول (Furosemide, Thiazides, Spironolactone)، آليات العمل الجزيئية، الاستخدامات الإكلينيكية، والتعليلات.</p>
+                </div>
+                <div class="hero-kpis">
+                    <span class="kpi-pill">📊 126 سؤالاً نموذجياً</span>
+                    <span class="kpi-pill">🌟 مع اللؤلؤة الطبية</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Tracker -->
+        <div class="progress-wrapper">
+            <div class="progress-header">
+                <span id="progressText">السؤال 1 من 126</span>
+                <span id="scoreText">الدقة: 100%</span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <!-- Question View -->
+        <div id="singleQuestionView">
+            <div class="question-card" id="questionCard">
+                <div class="q-badge-row">
+                    <span class="q-tag" id="qNumberTag">سؤال 1</span>
+                    <button class="flag-btn" id="flagBtn" title="تحديد للمراجعة">🚩 تحديد</button>
+                </div>
+                <div class="q-stem" id="qStem">Question text loading...</div>
+                <div class="options-list" id="optionsList"></div>
+
+                <!-- Explanation & Medical Pearl -->
+                <div class="rationale-card" id="rationaleCard">
+                    <div class="rationale-header">
+                        <span>💡 التوضيح الأكاديمي والتعليل السريري:</span>
+                    </div>
+                    <div class="rationale-content" id="rationaleText"></div>
+                    <div class="pearl-box" id="pearlText"></div>
+                </div>
+            </div>
+
+            <!-- Bottom Navigation -->
+            <div class="controls-card">
+                <button class="btn-nav" id="prevBtn">السابق ◀</button>
+                <button class="btn-nav btn-primary" id="nextBtn">التالي ▶</button>
+            </div>
+        </div>
+
+        <!-- Review All Mode Container -->
+        <div class="review-mode-list" id="reviewAllContainer"></div>
+
+    </main>
+
+    <!-- Floating Palette FAB -->
+    <button class="palette-fab" id="paletteFabBtn">📑 فهرس الأسئلة</button>
+
+    <!-- Palette Modal -->
+    <div class="palette-modal" id="paletteModal">
+        <div class="palette-window">
+            <div class="palette-header">
+                <h3>لوحة التنقل السريع بين الأسئلة</h3>
+                <button class="btn-action" id="closePaletteBtn">✕ إغلاق</button>
+            </div>
+            <div class="palette-grid" id="paletteGrid"></div>
+        </div>
+    </div>
+
+    <!-- Embedded Question Dataset & JavaScript Engine -->
+    <script>
+        const questions = [{"id": 596, "number": 596, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Thiazide Site of Action", "question": "The primary site of action of thiazide diuretics is:", "options": ["Renal corpuscles", "Proximal tubule", "Ascending limb of loop of Henle", "Cortical diluting segment drome).", "Collecting ducts"], "correct_index": 3, "answer_letter": "D", "explanation": "Thiazides inhibit the electroneutral Na+/Cl- cotransporter (NCCT) in the cortical diluting segment (early distal convoluted tubule).", "pearl": "مدرات الثيازايد تعمل على تثبيط ناقل Na+/Cl- في الجزء المبكر من الأنبوب الملتوي البعيد (Early DCT)."}, {"id": 597, "number": 597, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Thiazide Hypokalemia Mechanism", "question": "Thiazide diuretics enhance K+ elimination in urine primarily by: ad).", "options": ["Inhibiting proximal tubular K+ reabsorption", "Inhibiting Na+-K+-2CI cotransport in the ascending limb of loop of Henle", "Increasing the availability of Na+ in the distal tubular fluid to exchan with interstitial K+", "Potentiating the action of aldosterone", "All of the above"], "correct_index": 2, "answer_letter": "C", "explanation": "Thiazides increase the delivery of sodium and luminal fluid to the late distal tubule and cortical collecting duct, promoting aldosterone-mediated sodium uptake coupled to potassium and hydrogen secretion.", "pearl": "زيادة وصول الصوديوم إلى الأنبوب الجامع يحفز إفراز البوتاسيوم في البول مما يسبب نقص البوتاسيوم (Hypokalemia)."}, {"id": 598, "number": 598, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Thiazide Hyperglycemia", "question": "Long-term thiazide therapy can cause hyperglycemia by:", "options": ["Reducing insulin release in response to hyperglycemia", "Interfering with glycogenesis in liver", "Increasing sympathetic activity", "Increasing corticosteroid secretion", "Increasing serum potassium"], "correct_index": 0, "answer_letter": "A", "explanation": "Thiazide-induced hypokalemia hyperpolarizes pancreatic beta-cell membranes, impairing insulin secretion and worsening glycemic control in diabetic patients.", "pearl": "الثيازايد يسبب فرط سكر الدم (Hyperglycemia) لأن نقص البوتاسيوم يمنع إفراز الإنسولين من البنكرياس."}, {"id": 599, "number": 599, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Thiazide diuretics increase reabsorption of which ion in the dista convoluted tubule?", "options": ["Calcium", "Chloride", "Magnesium", "Potassium", "Sodium"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 599 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 600, "number": 600, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 40-year-old hypertensive woman with osteoporosis. Her di decided to treat her with a diuretic agent. Which of the follo diuretics is the most suitable?", "options": ["Furosemide éesd slavl elLi", "Thiazides", "Triamterene", "Chlorothalidone", "Amiloride"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 600 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 601, "number": 601, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Thiazide and Furosemide diuretics have directionally opposite effect on the net renal excretion of the following substance:", "options": ["Uric acid", "Calcium", "Magnesium", "Bicarbonate", "Potassium Doctor"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 601 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 602, "number": 602, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient with long-standing renal disease (diabetic) and hyperkalemia. Recently, he develops mild heart failure .Which of the following diuretics would be the safest in a patient with severe hyperkalemia?", "options": ["Mannitol", "Amiloride", "Triamterene", "Spironolactone", "Hydrochlorothiazide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 602 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 603, "number": 603, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following diuretic may be safe in diabetic patients?", "options": ["Furosemide", "Metolazone", "Hydrochlorothiazide", "Indapamide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 603 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 604, "number": 604, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Chlorothiazide can produce:", "options": ["Hyperkalemia", "Hyperuricemia", "Hypercalcemia", "Increase in blood pressure", "Hypoglycemia in diabetics"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 604 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 605, "number": 605, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 32-year-old woman suffering from idiopathic hypercalciuria was diagnosed with a large urinary stone in the right renal pelvis. She was scheduled for surgical removal of the calculus. Which of the following drugs would be appropriate for this patient to prevent new stone production after the operation?", "options": ["Acetazolamide", "Hydrochlorothiazide", "Furosemide", "Triamterene", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 605 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 606, "number": 606, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The most useful diuretic agent in treatment of recurrent Ca*' stones is:", "options": ["Mannitol", "Furosemide", "Acetazolamide", "Spironolactone", "Hydrochlorothiazide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 606 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 607, "number": 607, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "This drug can be used in the treatment of recurrent calcium nephrolithiasis:", "options": ["Bumetanide", "Chlorothiazide", "Indapamide", "Mannitol", "Spironolactone"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 607 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 608, "number": 608, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient presents with nephrolithiasis. Which of the following diuretics is most likely to help prevent calcium stones?", "options": ["Furosemide", "Hydrochlorothiazide", "Spironolactone", "Acetazolamide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 608 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 609, "number": 609, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following diuretic may increase plasma urate concentrations with sustained use?", "options": ["Acetazolamide", "Thiazides", "Triamterene", "Chlorothalidone", "Amiloride"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 609 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 601, "number": 601, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Thiazide and Furosemide diuretics have directionally opposite effect on the net renal excretion of the following substance:", "options": ["Uric acid", "Calcium", "Magnesium", "Bicarbonate", "Potassium Doctor"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 601 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 602, "number": 602, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient with long-standing renal disease (diabetic) and hyperkalemia. Recently, he develops mild heart failure .Which of the following diuretics would be the safest in a patient with severe hyperkalemia?", "options": ["Mannitol", "Amiloride", "Triamterene", "Spironolactone", "Hydrochlorothiazide 'UUK"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 602 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 603, "number": 603, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following diuretic may be safe in diabetic patients?", "options": ["Furosemide", "Metolazone", "Hydrochlorothiazide", "Indapamide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 603 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 604, "number": 604, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Chlorothiazide can produce:", "options": ["Hyperkalemia", "Hyperuricemia", "Hypercalcemia", "Increase in blood pressure", "Hypoglycemia in diabetics Dr NOC"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 604 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 605, "number": 605, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 32-year-old woman suffering from idiopathic hypercalciuria was diagnosed with a large urinary stone in the right renal pelvis. She was scheduled for surgical removal of the calculus. Which of the following drugs would be appropriate for this patient to prevent new stone production after the operation?", "options": ["Acetazolamide", "Hydrochlorothiazide", "Furosemide", "Triamterene", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 605 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 606, "number": 606, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The most useful diuretic agent in treatment of recurrent Ca stones is:", "options": ["Mannitol", "Furosemide", "Acetazolamide", "Spironolactone", "Hydrochlorothiazide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 606 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 607, "number": 607, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "This drug can be used in the treatment of recurrent calcium AnD nephrolithiasis:", "options": ["Bumetanide", "Chlorothiazide", "Indapamide", "Mannitol", "Spironolactone"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 607 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 608, "number": 608, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient presents with nephrolithiasis. Which of the following diuretics is most likely to help prevent calcium stones?", "options": ["Furosemide", "Hydrochlorothiazide", "Spironolactone", "Acetazolamide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 608 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 609, "number": 609, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following diuretic may increase plasma urate concentrations with sustained use?", "options": ["Acetazolamide", "Amiloride", "Hydrochlorothiazide", "Triamterene", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 609 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 610, "number": 610, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic promotes uric acid retention and may precipitate gout?", "options": ["Acetazolamide", "Amiloride", "Spironolactone", "Hydrochlorothiazide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 610 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 611, "number": 611, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The following diuretic is contraindicated in acute gouty arthritis:", "options": ["Acetazolamide", "Amiloride", "Hydrochlorothiazide", "Spironolactone", "Triamterene"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 611 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 612, "number": 612, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following should be avoided in a patient with a history of severe anaphylactic reaction to sulfa medications?", "options": ["Amiloride", "Hydrochlorothiazide", "Mannitol", "Spironolactone", "Triamterene"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 612 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 613, "number": 613, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Contraindications for the use of thiazide diuretics include all of the following EXCEPT:", "options": ["Hepatic cirrhosis.", "Renal insufficiency", "Hepatic encephalopathy.", "Nephrogenic Diabetes Insipidus. E: Hypokalemia (digitalis-interaction)."], "correct_index": 3, "answer_letter": "D", "explanation": "Question 613 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 614, "number": 614, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Individual drugs of thiazide and related class of diuretics differ markedly from each other in the following respect?", "options": ["Diuretic efficacy", "Diuretic potency", "Side effects", "Hyperkalemia cause", "Site of action"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 614 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 615, "number": 615, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The following diuretic has a vasodilator effect most probably due calcium channel blocking effect:", "options": ["Acetazolamide", "Bumetanide", "Hydrochlorothiazide", "Indapamide", "Metolazone OcTO"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 615 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 616, "number": 616, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient with HF \"mild\" and edema fails to respond adequately to maximum recommended dosages of chlorthalidone. What is the most likely appropriate and effective next step in terms of restoring the diuretic response?", "options": ["Add Metolazone", "Add Furosemide", "Add Hydrochlorothiazide", "Replace Chlorthalidone with Furosemide", "Increase Chlorthalidone dose anyway until toxicity develops"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 616 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 617, "number": 617, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The site of action of loop diuretics is the:", "options": ["Collecting duct", "Distal convoluted tubule", "Proximal convoluted tubule", "Thick ascending limb of the loop of Henle", "Thin descending limb of the loop of Henle"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 617 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 618, "number": 618, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 70-year-old woman is prescribed bumetanide for congestive cardiac failure. Where is the site of action of bumetanide?", "options": ["Descending loop of Henle", "Macula densa", "Ascending loop of Henle", "Distal collecting duct", "Proximal collecting duct"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 618 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 619, "number": 619, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Loop Diuretics Mechanism", "question": "Which of the following is the primary mechanism of action of loop diuretics like furosemide?", "options": ["Inhibition of sodium-potassium-chloride cotransporter in the distal convoluted tubule.", "Inhibition of sodium-potassium-chloride cotransporter in the loop of Henle", "Inhibition of sodium-chloride symporter in the proximal tubule.", "Inhibition of carbonic anhydrase in the proximal tubule.", "Inhibition of sodium-potassium ATPase in the collecting duct."], "correct_index": 1, "answer_letter": "B", "explanation": "Furosemide and other loop diuretics reversibly inhibit the luminal Na+/K+/2Cl- symporter (NKCC2) in the thick ascending limb of Henle's loop.", "pearl": "مدرات العروة (Furosemide) تثبط ناقل Na+/K+/2Cl- في الطرف الصاعد الثخين لالتواء هنلي وتتميز بأعلى كفاءة إدرار (High ceiling)."}, {"id": 620, "number": 620, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Loop Diuretics Mechanism", "question": "Furosemide acts by inhibiting the following in the renal tubular cell:", "options": ["Na+-K+-2Cl- cotransporter", "Nat-Cl'symporter", "Nat- H+ antiporter", "K+- H+ antiporter octor", "Na+- K+ ATPase"], "correct_index": 1, "answer_letter": "B", "explanation": "Furosemide and other loop diuretics reversibly inhibit the luminal Na+/K+/2Cl- symporter (NKCC2) in the thick ascending limb of Henle's loop.", "pearl": "مدرات العروة (Furosemide) تثبط ناقل Na+/K+/2Cl- في الطرف الصاعد الثخين لالتواء هنلي وتتميز بأعلى كفاءة إدرار (High ceiling)."}, {"id": 621, "number": 621, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Loop diuretics inhibit which transporter in the nephron?", "options": ["Na+-K+-2C| cotransporter", "Na+-Clsymporter", "Na+- Ht antiporter", "K+- H+ antiporter", "Na+- K+ ATPase UUR"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 621 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 622, "number": 622, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic is least likely to cause hyponatremia?", "options": ["Furosemide", "Hydrochlorothiazide", "Spironolactone", "Acetazolamide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 622 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 623, "number": 623, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The following diuretic is effective even in patients with poor renal function:", "options": ["Amiloride", "Ammonium Chloride", "Frusemide", "Indapamide", "Metolazone Dr NOC"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 623 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 624, "number": 624, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Diuretics in Renal Failure", "question": "Which diuretic remains effective in renal failure with GFR < 30 ml/min?", "options": ["Acetazolamide", "Furosemide", "Hydrochlorothiazide", "Mannitol", "Thiazide diuretics"], "correct_index": 1, "answer_letter": "B", "explanation": "Loop diuretics (Furosemide) remain remarkably efficacious even in severe renal impairment (GFR < 30 mL/min), whereas thiazides lose their efficacy.", "pearl": "الفوروسيميد هو مدر البول الفعال عند مرضى القصور الكلوي الشديد (GFR < 30 ml/min)."}, {"id": 625, "number": 625, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 65-year-old male with chronic kidney disease (GFR 20 ml/min) presents with edema. Which diuretic will be most effective in promoting sodium and water excretion in this patient?", "options": ["Amiloride Doctor", "Furosemide", "Hydrochlorothiazide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 625 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 626, "number": 626, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The drug can be used as a diuretic with glomerular filtration rate below 40 ml/min? 1", "options": ["Acetazolamide", "Amiloride", "Frusemide", "Spironolactone JUUN", "Thiazide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 626 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 627, "number": 627, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Loop diuretics cause hypokalemia by which of the following mechanisms:", "options": ["Inhibiting K+ recycling in loop of Henel.", "Inhibiting Carbonic Anhydrase enzyme", "Increasing Na* load in late distal convoluted tubules.", "Promoting PGE release.", "Producing metabolic alkalosis."], "correct_index": 2, "answer_letter": "C", "explanation": "Question 627 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 628, "number": 628, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A diuretic that increases (urine volume, urinary Ca*? & plasma pH) and decreases (serum K+) probably:", "options": ["Acts as an osmotic diuretic.", "Blocks aldosterone receptors in the CT.", "Inhibits carbonic anhydrase in the PCT.", "Blocks the NaCl cotransporter in the DCT.", "Inhibits the Na*/K+/2Cl cotransporter in the TAL."], "correct_index": 0, "answer_letter": "A", "explanation": "Question 628 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 629, "number": 629, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Following diuretics markedly increases the excretion of Ca2+:", "options": ["Acetazolamide", "Chlorothiazide", "Furosemide", "Spironolactone", "Triamterene"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 629 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 630, "number": 630, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 63-year-old woman was brought to the emergency department because she had become more lethargic and unresponsive over the past several days. Her past medical history was significant for bone metastases from breast cancer. Pertinent serum values were Na* 148 mEq/L (136-145 mEq/L); Ca2+ 19.2 mg/dL (8.5-10.5 mg/dL). An intravenous saline infusion was started, and a diuretic was given concurrently. Which of the following diuretics was most likely administered?", "options": ["Acetazolamide", "Hydrochlorothiazide", "Furosemide VUNS", "Amiloride", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 630 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 631, "number": 631, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following actions most likely contributed to furosemide- induced metabolic alkalosis?", "options": ["Increased reabsorption of uric acid", "Increased delivery of Na* to the distal tubule", "Mild inhibition of carbonic anhydrase", "Decreased reabsorption of Ca2+ in the loop of Henle", "Inhibition of renin secretion"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 631 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 632, "number": 632, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic causes hypokalemic metabolic alkalosis?", "options": ["Amiloride", "Furosemide", "Mannitol", "Spironolactone", "Triamterene"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 632 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 633, "number": 633, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Diuretics and Gout", "question": "Which diuretic class can worsen hyperuricemia and gout attacks?", "options": ["Loop diuretics", "Potassium-sparing diuretics c. Carbonic anhydrase inhibitors", "Osmotic diuretics", "None of the above"], "correct_index": 0, "answer_letter": "A", "explanation": "Both Thiazide and Loop diuretics compete with uric acid for the organic acid secretory transporter (OAT) in the proximal tubule, causing uric acid retention and precipitating acute gouty attacks.", "pearl": "مدرات الثيازايد ومدرات العروة ترفع حمض اليوريك وتفاقم النقرس بمنافسته على ناقل الإفراز في الأنبوب القريب."}, {"id": 634, "number": 634, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 50-year-old man with severe hypertension is being treated with Furosemide as a part of his regimen. His blood pressure responds and reads at 125/80 mm Hg. An analysis of the blood indicates high values for which of the following?", "options": ["Calcium c. Magnesium", "Sodium ENOOD F. Uric acid"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 634 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 535, "number": 535, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient with acute pulmonary edema requires rapid diuresis. Which diuretic is most appropriate?", "options": ["Furosemide", "Hydrochlorothiazide", "Spironolactone", "Acetazolamide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 535 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 536, "number": 536, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 66-year-old woman suffering from cardiac failure and acute pulmonary edema. Which of the following drugs was most likely included in the immediate medical treatment of this patient?", "options": ["Hydrochlorothiazide", "Amiloride", "Mannitol", "Epinephrine", "Furosemide Revisior"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 536 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 637, "number": 637, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Loop diuretics are useful in the treatment of the following EXCEPT:", "options": ["Congestive cardiac failure", "Acute pulmonary edema", "Ascites from cirrhosis", "Hypocalcemia", "Acute renal failure"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 637 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 638, "number": 638, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "An elderly patient with a history of heart disease and who is having difficulty breathing is brought into the emergency room. Examination reveals that she has pulmonary edema. Which of the following treatments is indicated?", "options": ["Spironolactone", "Furosemide octor", "Acetazolamide", "Chlorthalidone", "Hydrochlorothiazide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 638 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 639, "number": 639, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "An important effect of chronic therapy with loop diuretics:", "options": ["Ototoxicity", "Metabolic acidosis", "Elevation of blood pressure", "Decreased urinary excretion of Ca2+", "Elevation of pulmonary vascular pressure"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 639 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 640, "number": 640, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic commonly causes ototoxicity?", "options": ["Amiloride", "Furosemide", "Hydrochlorothiazide", "Mannitol", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 640 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 641, "number": 641, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Furosemide toxicity:", "options": ["Ototoxicity", "Hypouricemia", "Hyperkalemia", "Hypomagnesemia", "A & D are correct"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 641 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 642, "number": 642, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 72-year-old female with chronic renal insufficiency is treated with gentamycin for a urinary tract infection. Several days after starting therapy, the patient feels better but notes that she has difficulty hearing. Which of the following drugs can be responsible for this patient's problem?", "options": ["Mannitol", "Furosemide", "Triamterene", "Spironolactone", "Hydrochlorothiazide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 642 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 643, "number": 643, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Diuretics acting on the ascending limb of loop of Henle are the most efficacious in promoting salt and water excretion because:", "options": ["Maximum percentage of salt and water is reabsorbed in this segment.", "Reabsorptive capacity of the segments distal to it is limited.", "This segment is highly permeable to both salt and water.", "This segment is responsible for creating corticomedullary osmotic gradient.", "All of the above."], "correct_index": 1, "answer_letter": "B", "explanation": "Question 643 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 644, "number": 644, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Intravenous furosemide promptly mitigates dyspnea in acute left ventricular failure by:", "options": ["Producing bronchodilatation", "Causing rapid diuresis and reducing circulating blood volume", "Increasing venous capacitance and reducing cardiac preload.", "Stimulating left ventricular contractility.", "Increases cardiac contractility"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 644 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 645, "number": 645, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Select the diuretic, which is orally active, efficacious in acidosis as well as alkalosis, causes diuresis even in renal failure and has additional carbonic anhydrase inhibitory action:", "options": ["Thiazide", "Mannitol", "Benzothiazine", "Indapamide", "Furosemide"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 645 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 646, "number": 646, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "NSAIDs and Diuretics", "question": "NSAID reduce the diuretic action of furosemide by:", "options": ["Preventing prostaglandin mediated intrarenal hemodynamic actions.", "Blocking the action in ascending limb of loop of Henle.", "Enhancing salt and water reabsorption in distal,tubule.", "Increasing aldosterone secretion.", "None of the above."], "correct_index": 0, "answer_letter": "A", "explanation": "NSAIDs block cyclooxygenase (COX), reducing renal synthesis of vasodilatory prostaglandins (PGE2, PGI2), which antagonizes the hemodynamic and diuretic actions of loop diuretics and thiazides.", "pearl": "المسكنات (NSAIDs) تلغي تأثير مدرات البول لأنها تمنع تصنيع البروستاغلاندين الموسعة لشرايين الكلى."}, {"id": 647, "number": 647, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient with congestive heart failure treated with Furosemide and Digoxin. He developed urinary tract infection. Which of the following antimicrobials should be avoided?", "options": ["Ampicillin", "Erythromycin", "Gentamicin", "Norfloxacin"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 647 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 648, "number": 648, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 69-year-old man was recently diagnosed with severe cardiac failure, and the physician started. treatment with captopril, and digoxin. Diuretic therapy was also included. Which of the following pairs of diuretics would have been most appropriate for this patient?", "options": ["Hydrochlorothiazide and acetazolamide", "Furosemide and spironolactone", "Triamterene and acetazolamide", "Hydrochlorothiazide and mannitol", "Furosemide and mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 648 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 649, "number": 649, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Potassium-sparing diuretics act primarily by:", "options": ["Enhancing aldosterone production", "Blocking sodium channels or aldosterone receptors", "Enhancing sodium reabsorption", "Inhibiting carbonic anhydrase", "Blocking Na*/K+/2Cl transporter"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 649 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 650, "number": 650, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic is most commonly associated with causing hyperkalemia?", "options": ["Furosemide", "Hydrochlorothiazide", "Spironolactone", "Acetazolamide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 650 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 651, "number": 651, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Potassium-Sparing Diuretics", "question": "Following potassium sparing diuretic inhibits action of aldosterone:", "options": ["Amiloride", "Triamterene", "Spironolactone", "Bumetanide", "Thiazide"], "correct_index": 1, "answer_letter": "B", "explanation": "Spironolactone competitively blocks intracellular aldosterone receptors in the principal cells of the late distal tubule and collecting duct.", "pearl": "سبيرونولاكتون (Spironolactone) يثبط مستقبلات الألدوستيرون، ويستخدم خصيصاً في استسقاء الكبد وفشل القلب."}, {"id": 652, "number": 652, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "If no significant increase in Aldosterone level as in Addison's disease which of the following diuretic is not effective?", "options": ["Furosemide", "Amiloride Doctor", "Hydrochlorothiazide", "Spironolactone", "Metolazone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 652 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 653, "number": 653, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient with heart failure is started on spironolactone but develops gynecomastia. Which alternative drug would be less likely to cause this side effect while still antagonizing aldosterone?", "options": ["Amiloride", "Eplerenone", "Furosemide", "Hydrochlorothiazide", "Triamterene"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 653 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 654, "number": 654, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "An alcoholic male has developed hepatic cirrhosis. To control the ascites and edema, which should be prescribed?", "options": ["Acetazolamide", "Chlorthalidone", "Furosemide", "Hydrochlorothiazide", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 654 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 655, "number": 655, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic frequently causes gynecomastia as a side effect?", "options": ["Amiloride", "Eplerenone", "Spironolactone", "Triamterene", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 655 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 650, "number": 650, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which adverse effect is avoided by using eplerenone instead of spironolactone?", "options": ["Hyperkalemia", "Gynecomastia", "Hyponatremia", "Hypotension", "Renal failure"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 650 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 657, "number": 657, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient taking spironolactone complains of breast tenderness and gynecomastia. What underlying property of the drug is responsible?", "options": ["Potassium retention", "Androgen receptor antagonism due to steroidal structure", "Aldosterone receptor blockade with no hormonal effect", "Increased sodium excretion", "Direct estrogen receptor activation"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 657 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 658, "number": 658, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which side effect is associated with spironolactone?", "options": ["Alkalosis", "Hirsutism", "Hyperkalemia", "Hyperglycemia", "Hypercalcemia"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 658 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 659, "number": 659, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Select the diuretic that can cause gynecomastia, hirsutism and menstrual disturbance as a side effect on long-term use:", "options": ["Amiloride", "Spironolactone", "Metolazone", "Acetazolamide", "Thiazide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 659 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 660, "number": 660, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Use of potassium sparing diuretics in patients receiving the following drug needs close monitoring:", "options": ["Furosemide", "Hydrochlorothiazide", "Captopril", "Verapamil", "Thiazide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 660 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 661, "number": 661, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which potassium-sparing diuretic blocks epithelial sodium channets directly in the collecting tubule?", "options": ["Spironolactone", "Amiloride", "Eplerenone", "Ammonium Chloride", "Mannitol octor"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 661 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 662, "number": 662, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Amiloride inhibits K+ excretion in the distal tubules and collecting ducts by blocking:", "options": ["Electrogenic K+ channels", "Electrogenic Na* channels", "Electrogenic Na+-Cl symport", "H+-K+ ATPase", "None of them"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 662 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 663, "number": 663, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Amiloride has the following effect on urinary cation excretion:", "options": ["Decreases both K+ and H+ ion excretion", "Decreases K+ excretion but increases H+ ion excretion", "Increases K+ but decreases Nat excretion", "Increases both Na* and K+ excretion", "Decreases both Nat and K+ excretion"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 663 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 564, "number": 564, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Amiloride is prescribed to:", "options": ["Prevent hypokalemia in patients on thiazide diuretics", "Treat hypercalcemia", "Reduce uric acid excretion", "Increase bicarbonate reabsorption", "Promote water excretion without sodium loss"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 564 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 65, "number": 65, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic is used to treat lithium-induced nephrogenic diabetes insipidus?", "options": ["Amiloride RI", "Acetazolamide", "Furosemide", "Hydrochlorothiazide", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 65 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 660, "number": 660, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 35-year-old man with bipolar disorder treated by Lithium. He to emergency room suffering from Lithium induced polyuria. W the suitable treatment in this case:", "options": ["Acetazolamide", "Amiloride", "Bumetanide", "Torsemide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 660 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 667, "number": 667, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following is effective in cystic fibrosis?", "options": ["Furosemide", "Amiloride", "Hydrochlorothiazide", "Chlorthalidone", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 667 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 668, "number": 668, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic is excreted unchanged in urine and requires no metabolic activation?", "options": ["Amiloride", "Furosemide", "Hydrochlorothiazide", "Spironolactone", "Triamterene"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 668 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 669, "number": 669, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following diuretic is poorly soluble and may pre urine causing renal stones?", "options": ["Indapamide", "Spironolactone", "Triamterene", "Acetazolamide", "Thiazide vision"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 669 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 670, "number": 670, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "In addition to counteracting potassium loss, triamterene also opposes the following consequence of thiazide/furosemide therapy:", "options": ["Hyperuricemia came", "Rise in plasma LDL-cholesterol hich is", "Magnesium loss", "Chloride loss", "Hypercalcemia"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 670 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 671, "number": 671, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following has a self-limiting diuretic action (action of the drug itself causing changes which limit further diuresis)?", "options": ["Thiazide", "Indapamide c. Spironolactone octor", "Triamterene", "Acetazolamide"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 671 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 672, "number": 672, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the followings is a self-limiting diuretic?", "options": ["Frusemide", "Spironolactone", "Acetazolamide", "Thiazide OUR", "Triamterene"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 672 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 673, "number": 673, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Inhibition of carbonic anhydrase results in:", "options": ["Decreased of NaHCO3 reabsorption in proximal tubule", "Enhanced of NaHCO: reabsorption in proximal tubule", "Enhanced NaHCO, secretion in distal tubule", "Decreased NaHCO3 secretion in distal tubule cipitate in", "None of the above"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 673 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 674, "number": 674, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A group of students plans a mountain to take to prevent mount: sickness and climbing trip. Which would be appropriate for ther", "options": ["A thiazide diuretic such as hydrochlorothiazide", "An anticholinergic such as atropine", "A carbonic anhydrase inhibitor such as acetazolamide", "A loop diuretic such as furosemide", "A B-blocker such as metoprolol Revisio"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 674 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 675, "number": 675, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic would most likely be used to treat a patient with glaucoma?", "options": ["Furosemide", "Hydrochlorothiazide", "Spironolactone", "Acetazolamide", "Mannitol"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 675 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 676, "number": 676, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Carbonic anhydrase inhibitors are mainly used to treat:", "options": ["Heart failure", "Glaucoma", "Hypertension", "Nephrotic syndrome octor", "Acute renal failure"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 676 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 677, "number": 677, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The current therapeutic indication of acetazolamide is:", "options": ["Congestive heart failure", "Renal insufficiency", "Pulmonary edema", "Cirrhosis of liver", "Glaucoma"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 677 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 678, "number": 678, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient with metabolic alkalosis is prescribed a diuretic that cause increased urinary bicarbonate excretion. Which drug is most likely responsible?", "options": ["Acetazolamide", "Amiloride", "Furosemide", "Hydrochlorothiazide", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 678 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 679, "number": 679, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic can cause metabolic acidosis due to bicarbonate los", "options": ["Acetazolamide", "Amiloride", "Furosemide", "Hydrochlorothiazide", "Spironolactone Dr l"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 679 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 680, "number": 680, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic is contraindicated in hepatic cirrhosis due to ammonia retention?", "options": ["Acetazolamide", "Amiloride", "Furosemide", "Hydrochlorothiazide", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 680 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 681, "number": 681, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 55-year-old alcoholic man admitted to the emergency department with hepatic encephalopathy. Which of the following drugs should be avoided as it elevates blood ammonia precipitating to neurological insult?", "options": ["Acetazolamide® JOCtOl", "Bumetanide", "Hydrochlorothiazide", "Timolol", "Lovastatin nOD"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 681 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 682, "number": 682, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient with hepatic cirrhosis shows worsening encephalopathy after starting a diuretic that causes ammonia retention. Which drug was likely prescribed", "options": ["Acetazolamide", "Amiloride", "Furosemide", "Hydrochlorothiazide", "Spironolactone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 682 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 683, "number": 683, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following diuretic should be avoided in chronic hepatitis as it elevates blood ammonia precipitating to neurological insult?", "options": ["Acetazolamide", "Bumetanide", "Hydrochlorothiazide", "Timolol", "Lovastatin"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 683 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 684, "number": 684, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The oral absorption of following osmotic diuretic is negligible:", "options": ["Glycerin VOOR Rev", "Mannitol", "Isosorbide", "Thiazides", "Ammonium chloride"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 684 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 685, "number": 685, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient receiving IV mannitol develops headache and signs of dehydration. What is the primary mechanism of mannitol that car to these effects?", "options": ["Inhibition of Na*/C' symport in DCT", "Carbonic anhydrase inhibition in proximal tubule", "Osmotic diuresis by increasing tubular fluid osmolarity", "Aldosterone receptor antagonism", "Potassium channel opening causing vasodilation."], "correct_index": 0, "answer_letter": "A", "explanation": "Question 685 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 686, "number": 686, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Dilutional hyponatremia can occur with initial usage of which of following diuretics?", "options": ["Mannitol", "Triamterene", "Spironolactone", "Hydrochlorothiazide", "Methazolamide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 686 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 687, "number": 687, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Select the diuretic that is most effective in acute congestive glar", "options": ["Amiloride", "Furosemide", "Indapamide.", "Mannitol", "Metolazone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 687 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 688, "number": 688, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following diuretics would be useful in treatment c cerebral edema?", "options": ["Acetazolamide", "Amiloride", "Furosemide", "Mannitol", "Thiazide sion"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 688 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 689, "number": 689, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Mannitol is primarily used to treat:", "options": ["Hypertension", "Acute glaucoma", "Edema in heart failure I lead", "Chronic renal failure", "Hyperkalemia"], "correct_index": 4, "answer_letter": "E", "explanation": "Question 689 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 690, "number": 690, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A patient presents to the emergency department with an extreme headache. After a thorough workup, the attending physician concludes that the pain is due to increased intracranial pressure. Which diuretic would work best to reduce this pressure?", "options": ["Thiazide he", "Indapamide octob", "Furosemide", "Hydrochlorothiazide", "Mannitol"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 690 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 691, "number": 691, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following diuretics would be most useful in the acute treatment of a comatose patient with brain injury & cerebral edema?", "options": ["Amiloride.", "Mannitol coma:", "Furosemide:", "Acetazolamide", "Ethacrynic acid"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 691 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 692, "number": 692, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which diuretic is used as an acidifying agent to correct alkalosis?", "options": ["Ammonium chloride", "Hydrochlorothiazide f", "Mannitol", "Spironolactone", "Triamterene"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 692 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 693, "number": 693, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "In acute gouty flare, which of the following strategies would be the LEAST likely to acutely improve gout symptoms and pain?", "options": ["Naproxen", "Colchicine", "Probenecid Dr NOO Dr NOC", "Prednisone", "All of them"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 693 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 694, "number": 694, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Colchicine relieves acute gout by:", "options": ["Inhibiting uric acid synthesis", "Stabilizing microtubules and reducing inflammation", "Blocking uric acid reabsorption", "Increasing kidney uric acid excretion", "Inhibiting xanthine oxidase"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 694 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 695, "number": 695, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 53-year-old woman recently diagnosed with gouty arth treatment with a drug that inhibits leukocyte migration a phagocytosis secondary to inhibition of tubulin polymeriz of the following drugs did the patient most likely take?", "options": ["Indomethacin", "Prednisone", "Colchicine", "Allopurinol", "Probenecid"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 695 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 696, "number": 696, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which drug is a xanthine oxidase inhibitor used in chroni management:", "options": ["Allopurinol", "Colchicine", "Probenecid", "Rashuricase", "Sulfinpyrazone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 696 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 697, "number": 697, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following drugs used in long term manager nephropathy?", "options": ["Allopurinol", "Sulfinpyrazone", "Colchicine", "Pegloticase", "Prednisolone R"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 697 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 698, "number": 698, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 62-year-old is started on allopurinol prophylaxis following hi episode of gout in the past 12 months. What is the mechanism action of allopurinol?", "options": ["Promotes excretion of uric acid", "Causes the depolymerization of intracellular microtubules", "Uric acid chelator", "Inhibits xanthine oxidase itis started a", "Xanthine oxidase activator"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 698 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 699, "number": 699, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Plasma levels of which of the following pairs of endogenous ation. Which compounds most likely increased after a few days of Allopur therapy?", "options": ["Guanine and xanthine", "Xanthine and hypoxanthine", "Inosine and guanine", "Adenine and inosine", "Adenine and hypoxanthine • gout"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 699 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 700, "number": 700, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following drugs increases urinary and decrea: uric acid?", "options": ["Probenecid", "Aspirin", "Furosemide", "Allopurino!", "Pegloticase"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 700 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 701, "number": 701, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which drug blocks uric acid reabsorption to increase uric: nent of urate excretion?", "options": ["Allopurinol", "Colchicine", "Probenecid", "Rasburicase", "Sulfinpyrazone"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 701 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 702, "number": 702, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following drugs is an uricosuric agent?", "options": ["Allopurinol", "Sulfinpyrazone Dr NOOi", "Colchicine", "Indomethacin", "Febuxostat"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 702 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 703, "number": 703, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the following drugs metabolize uric acid to allantoir", "options": ["Allopurinol", "Sulfinpyrazone", "Colchicine", "Pegloticase", "Febuxostat"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 703 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 704, "number": 704, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which agent alkalinizes urine to promote uric acid excretion", "options": ["Ammonium chloride", "Sodium bicarbonate C40U", "Triamterene", "Mannitol", "Spironolactone"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 704 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 705, "number": 705, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "The primary clinical use of hexamine (methenamine) is as a:", "options": ["Urinary antiseptic", "Diuretic", "Antihypertensive", "Antiemetic", "Antacid"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 705 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 706, "number": 706, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Nitrofurantoin is primarily useful in:", "options": ["Lower urinary tract infections", "Acute pyelonephritis", "Prophylaxis of chronic kidney disease", "Nephrotic syndrome", "Glomerulonephritis"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 706 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 707, "number": 707, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Side effects of Cyclosporine:", "options": ["Hair fall", "Hypertension", "Nephrotoxicity", "Hemorrhagic cystitis", "B & C Dele Nic"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 707 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 708, "number": 708, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "All of the following are side effects of Cyclosporine EXCEPT: ?", "options": ["Hair fall", "Hypertension", "Nephrotoxicity", "Hemorrhagic cystitis", "A &D"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 708 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 709, "number": 709, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "A 12-year-old girl presented with edema and proteinuria. She was diagnosed as a case of nephritic syndrome and treated with Cyclosporine. Which of the following is a suspected adverse reaction?", "options": ["Drowsiness.", "Peptic ulcer", "Hemorrhagic cystitis. octor", "Hyperkalemia", "Hypotension."], "correct_index": 3, "answer_letter": "D", "explanation": "Question 709 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 710, "number": 710, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which of the followings may be used in treatment of resistant cases • nephrotic syndrome?", "options": ["Aspirin", "Amiloride", "Cyclosporin JUN", "Spironolactone", "Captopril"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 710 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 711, "number": 711, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Which drugs is correctly associated with its actions in the table? Choice Drug | Urine Na Urine K+| Metabolic change", "options": ["Acetazolamide 111 Alkalosis", "Furosemide"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 711 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}, {"id": 720, "number": 720, "type": "mcq", "subject": "pharmacology", "subject_title": "Renal Pharmacology & Diuretics", "subject_ar": "فارماكولوجيا ومدرات البول", "topic": "Renal Pharmacology & Diuretics", "question": "Spironolactone", "options": ["Glaucoma", "Primary hyperaldosteronism"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 720 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.", "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."}];
+        let currentIndex = 0;
+        let isExamMode = false;
+        let isReviewMode = false;
+        let soundEnabled = true;
+        const userAnswers = {};
+        const flaggedSet = new Set();
+
+        // Web Audio API Synthesizer
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        let audioCtx = null;
+
+        function playSound(type) {
+            if (!soundEnabled) return;
+            try {
+                if (!audioCtx) audioCtx = new AudioCtx();
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                
+                const now = audioCtx.currentTime;
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+
+                if (type === 'click') {
+                    osc.frequency.setValueAtTime(600, now);
+                    gain.gain.setValueAtTime(0.05, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.05);
+                    osc.start(now);
+                    osc.stop(now + 0.05);
+                } else if (type === 'correct') {
+                    osc.type = 'triangle';
+                    osc.frequency.setValueAtTime(523.25, now); // C5
+                    osc.frequency.setValueAtTime(659.25, now + 0.08); // E5
+                    osc.frequency.setValueAtTime(783.99, now + 0.16); // G5
+                    gain.gain.setValueAtTime(0.12, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+                    osc.start(now);
+                    osc.stop(now + 0.35);
+                } else if (type === 'wrong') {
+                    osc.type = 'sawtooth';
+                    osc.frequency.setValueAtTime(220, now);
+                    osc.frequency.setValueAtTime(180, now + 0.12);
+                    gain.gain.setValueAtTime(0.1, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+                    osc.start(now);
+                    osc.stop(now + 0.3);
+                }
+            } catch(e) {}
+        }
+
+        // Render Question
+        function renderQuestion(index) {
+            const q = questions[index];
+            if (!q) return;
+
+            document.getElementById('qNumberTag').textContent = `سؤال ${q.number} (${q.topic})`;
+            document.getElementById('qStem').textContent = `${q.number}) ${q.question}`;
+            
+            const flagBtn = document.getElementById('flagBtn');
+            if (flaggedSet.has(index)) {
+                flagBtn.classList.add('flagged');
+                flagBtn.textContent = '🚩 محدد';
+            } else {
+                flagBtn.classList.remove('flagged');
+                flagBtn.textContent = '🚩 تحديد';
+            }
+
+            const optsContainer = document.getElementById('optionsList');
+            optsContainer.innerHTML = '';
+
+            const rationaleCard = document.getElementById('rationaleCard');
+            rationaleCard.style.display = 'none';
+
+            q.options.forEach((optText, optIdx) => {
+                const optEl = document.createElement('div');
+                optEl.className = 'option-item';
+                const letter = String.fromCharCode(65 + optIdx);
+                
+                optEl.innerHTML = `
+                    <div class="opt-letter">${letter}</div>
+                    <div class="opt-text">${optText}</div>
+                `;
+
+                // If already answered
+                if (userAnswers[index] !== undefined) {
+                    const chosen = userAnswers[index];
+                    if (optIdx === q.correct_index) {
+                        optEl.classList.add('correct');
+                    } else if (optIdx === chosen) {
+                        optEl.classList.add('incorrect');
+                    }
+                    showRationale(q);
+                }
+
+                optEl.onclick = () => handleOptionClick(index, optIdx);
+                optsContainer.appendChild(optEl);
+            });
+
+            updateProgress();
+        }
+
+        function handleOptionClick(qIdx, optIdx) {
+            if (userAnswers[qIdx] !== undefined && !isExamMode) return;
+            
+            const q = questions[qIdx];
+            userAnswers[qIdx] = optIdx;
+
+            const isCorrect = (optIdx === q.correct_index);
+            playSound(isCorrect ? 'correct' : 'wrong');
+
+            renderQuestion(qIdx);
+        }
+
+        function showRationale(q) {
+            const rationaleCard = document.getElementById('rationaleCard');
+            document.getElementById('rationaleText').textContent = q.explanation;
+            document.getElementById('pearlText').textContent = `💎 ${q.pearl}`;
+            rationaleCard.style.display = 'block';
+        }
+
+        function updateProgress() {
+            const pct = Math.round(((currentIndex + 1) / questions.length) * 100);
+            document.getElementById('progressFill').style.width = `${pct}%`;
+            document.getElementById('progressText').textContent = `السؤال ${currentIndex + 1} من ${questions.length} (${pct}%)`;
+            
+            let answered = Object.keys(userAnswers).length;
+            let correct = 0;
+            for (let idx in userAnswers) {
+                if (userAnswers[idx] === questions[idx].correct_index) correct++;
+            }
+            let acc = answered > 0 ? Math.round((correct / answered) * 100) : 100;
+            document.getElementById('scoreText').textContent = `تم حل: ${answered} | الدقة: ${acc}%`;
+
+            document.getElementById('prevBtn').disabled = (currentIndex === 0);
+            document.getElementById('nextBtn').textContent = (currentIndex === questions.length - 1) ? 'إنهاء المراجعة ✔' : 'التالي ▶';
+        }
+
+        // Navigation
+        document.getElementById('prevBtn').onclick = () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                playSound('click');
+                renderQuestion(currentIndex);
+            }
+        };
+
+        document.getElementById('nextBtn').onclick = () => {
+            if (currentIndex < questions.length - 1) {
+                currentIndex++;
+                playSound('click');
+                renderQuestion(currentIndex);
+            } else {
+                openPalette();
+            }
+        };
+
+        // Flagging
+        document.getElementById('flagBtn').onclick = () => {
+            if (flaggedSet.has(currentIndex)) {
+                flaggedSet.delete(currentIndex);
+            } else {
+                flaggedSet.add(currentIndex);
+            }
+            playSound('click');
+            renderQuestion(currentIndex);
+        };
+
+        // Palette
+        const paletteModal = document.getElementById('paletteModal');
+        function openPalette() {
+            const grid = document.getElementById('paletteGrid');
+            grid.innerHTML = '';
+            questions.forEach((q, idx) => {
+                const cell = document.createElement('div');
+                cell.className = 'pal-cell';
+                if (idx === currentIndex) cell.classList.add('current');
+                if (userAnswers[idx] !== undefined) {
+                    if (userAnswers[idx] === q.correct_index) cell.classList.add('correct');
+                    else cell.classList.add('incorrect');
+                }
+                if (flaggedSet.has(idx)) cell.classList.add('flagged');
+                cell.textContent = q.number;
+                cell.onclick = () => {
+                    currentIndex = idx;
+                    playSound('click');
+                    renderQuestion(currentIndex);
+                    paletteModal.style.display = 'none';
+                };
+                grid.appendChild(cell);
+            });
+            paletteModal.style.display = 'flex';
+        }
+
+        document.getElementById('paletteFabBtn').onclick = openPalette;
+        document.getElementById('closePaletteBtn').onclick = () => {
+            paletteModal.style.display = 'none';
+        };
+
+        // Review All Mode
+        const reviewModeBtn = document.getElementById('reviewModeBtn');
+        const singleView = document.getElementById('singleQuestionView');
+        const reviewView = document.getElementById('reviewAllContainer');
+
+        reviewModeBtn.onclick = () => {
+            isReviewMode = !isReviewMode;
+            if (isReviewMode) {
+                reviewModeBtn.classList.add('active-mode');
+                singleView.style.display = 'none';
+                reviewView.style.display = 'flex';
+                buildReviewAll();
+            } else {
+                reviewModeBtn.classList.remove('active-mode');
+                singleView.style.display = 'block';
+                reviewView.style.display = 'none';
+            }
+        };
+
+        function buildReviewAll() {
+            reviewView.innerHTML = '';
+            questions.forEach(q => {
+                const card = document.createElement('div');
+                card.className = 'question-card';
+                let optsHtml = '';
+                q.options.forEach((opt, oIdx) => {
+                    const isCorr = (oIdx === q.correct_index);
+                    const ltr = String.fromCharCode(65 + oIdx);
+                    optsHtml += `
+                        <div class="option-item ${isCorr ? 'correct' : ''}">
+                            <div class="opt-letter">${ltr}</div>
+                            <div class="opt-text">${opt}</div>
+                        </div>
+                    `;
+                });
+
+                card.innerHTML = `
+                    <div class="q-badge-row">
+                        <span class="q-tag">سؤال ${q.number} (${q.topic})</span>
+                    </div>
+                    <div class="q-stem">${q.number}) ${q.question}</div>
+                    <div class="options-list">${optsHtml}</div>
+                    <div class="rationale-card" style="display:block;">
+                        <div class="rationale-header">💡 التوضيح الأكاديمي:</div>
+                        <div class="rationale-content">${q.explanation}</div>
+                        <div class="pearl-box">💎 ${q.pearl}</div>
+                    </div>
+                `;
+                reviewView.appendChild(card);
+            });
+        }
+
+        // Sound Toggle
+        const soundBtn = document.getElementById('soundToggleBtn');
+        soundBtn.onclick = () => {
+            soundEnabled = !soundEnabled;
+            soundBtn.textContent = soundEnabled ? '🔊 صوت' : '🔇 صامت';
+        };
+
+        // Keyboard Shortcuts
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+                document.getElementById('nextBtn').click();
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                document.getElementById('prevBtn').click();
+            }
+        });
+
+        // Initialize First Question
+        renderQuestion(0);
+    </script>
+</body>
+</html>

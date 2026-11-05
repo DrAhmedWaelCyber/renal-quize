@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة بنك أسئلة موديول الكلى والجهاز البولي | طب الأزهر - إعداد أحمد وائل</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Amiri:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #050e18;
+            --bg-base: #091728;
+            --bg-card: #0e243d;
+            --bg-card-hover: #143357;
+            --border-card: #183a61;
+            --border-highlight: rgba(0, 229, 255, 0.4);
+            --cyan-primary: #00e5ff;
+            --teal-accent: #0d9488;
+            --gold-primary: #efd57f;
+            --gold-light: #fce494;
+            --amber-solute: #f59e0b;
+            --azhar-green: #059669;
+            --azhar-green-light: #10b981;
+            --text-main: #ffffff;
+            --text-secondary: #d1e4f7;
+            --text-muted: #8caecf;
+            --radius-lg: 20px;
+            --radius-md: 14px;
+            --shadow-card: 0 16px 36px -8px rgba(3, 9, 16, 0.75), 0 0 0 1px rgba(255, 255, 255, 0.05);
+            --shadow-glow: 0 0 25px rgba(0, 229, 255, 0.25);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(0, 229, 255, 0.1) 0%, transparent 65%),
+                radial-gradient(circle at 80% 50%, rgba(13, 148, 136, 0.06) 0%, transparent 50%),
+                linear-gradient(180deg, #050e18 0%, #091728 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 24px 18px 60px;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .hub-container {
+            width: 100%;
+            max-width: 1120px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        /* Faculty Gate Hero Card */
+        .hero-gate-card {
+            background: var(--bg-base);
+            border: 1.5px solid var(--border-card);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-card);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .hero-gate-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--teal-accent), var(--cyan-primary), var(--gold-primary));
+            z-index: 2;
+        }
+
+        .gate-banner-grid {
+            display: grid;
+            grid-template-columns: 290px 1fr;
+            align-items: stretch;
+        }
+
+        .gate-photo-wrapper {
+            position: relative;
+            overflow: hidden;
+            min-height: 270px;
+        }
+
+        .gate-photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            filter: brightness(0.92);
+        }
+
+        .gate-photo-overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(270deg, var(--bg-base) 0%, rgba(9, 23, 40, 0.3) 100%);
+        }
+
+        .gate-info {
+            padding: 24px 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .faculty-brand-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .faculty-logo-circle {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: #ffffff;
+            padding: 3px;
+            border: 2px solid var(--gold-primary);
+            box-shadow: 0 0 16px rgba(239, 213, 127, 0.4);
+            flex-shrink: 0;
+        }
+
+        .faculty-titles h2 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #ffffff;
+        }
+
+        .faculty-titles p {
+            font-size: 0.9rem;
+            color: var(--gold-light);
+            font-weight: 600;
+        }
+
+        .hero-module-title {
+            font-size: 1.85rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #ffffff 0%, var(--cyan-primary) 50%, var(--gold-primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 4px;
+            line-height: 1.3;
+        }
+
+        .hero-module-desc {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.65;
+        }
+
+        .hero-badges-row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 6px;
+        }
+
+        .author-badge {
+            background: rgba(239, 213, 127, 0.12);
+            border: 1px solid rgba(239, 213, 127, 0.35);
+            border-radius: 30px;
+            padding: 5px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--gold-light);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .kpi-badge {
+            background: rgba(0, 229, 255, 0.12);
+            border: 1px solid rgba(0, 229, 255, 0.35);
+            border-radius: 30px;
+            padding: 5px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--cyan-primary);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Stats Bar */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: var(--radius-md);
+            padding: 16px 18px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            box-shadow: var(--shadow-card);
+            transition: all 0.2s ease;
+        }
+
+        .stat-card:hover {
+            border-color: var(--cyan-primary);
+            transform: translateY(-2px);
+        }
+
+        .stat-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            background: rgba(0, 229, 255, 0.1);
+            border: 1px solid rgba(0, 229, 255, 0.25);
+            color: var(--cyan-primary);
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .stat-info h4 {
+            font-size: 1.35rem;
+            font-weight: 900;
+            color: #ffffff;
+        }
+
+        .stat-info p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* Search & Filter Bar */
+        .search-wrapper {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-card);
+            border-radius: var(--radius-md);
+            padding: 10px 18px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: var(--shadow-card);
+        }
+
+        .search-input {
+            background: transparent;
+            border: none;
+            color: #ffffff;
+            font-size: 0.95rem;
+            width: 100%;
+            outline: none;
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        /* Subject Cards Grid */
+        .subjects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+        .subject-card {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-card);
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            display: flex;
+            flex-direction: column;
+            transition: all 0.25s ease;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+        }
+
+        .subject-card:hover {
+            border-color: var(--cyan-primary);
+            box-shadow: 0 20px 40px -10px rgba(0, 229, 255, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .card-img-wrapper {
+            width: 100%;
+            height: 160px;
+            overflow: hidden;
+            position: relative;
+            background: #06111d;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .subject-card:hover .card-img {
+            transform: scale(1.05);
+        }
+
+        .card-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: rgba(6, 17, 29, 0.85);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--cyan-primary);
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            color: var(--cyan-primary);
+        }
+
+        .card-body {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            gap: 10px;
+        }
+
+        .card-header-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card-header-row h3 {
+            font-size: 1.18rem;
+            font-weight: 800;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-sub {
+            font-size: 0.82rem;
+            color: var(--cyan-primary);
+            font-weight: 600;
+            direction: ltr;
+            text-align: right;
+        }
+
+        .card-desc {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+
+        .card-cta {
+            margin-top: 8px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--cyan-primary);
+            font-size: 0.9rem;
+            font-weight: 800;
+        }
+
+        .card-cta span {
+            transition: transform 0.2s ease;
+        }
+
+        .subject-card:hover .card-cta span {
+            transform: translateX(-4px);
+        }
+
+        /* Footer */
+        .hub-footer {
+            margin-top: 20px;
+            padding: 24px;
+            text-align: center;
+            border-top: 1px solid var(--border-card);
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .hub-footer strong {
+            color: var(--gold-light);
+        }
+
+        /* Mobile Layout */
+        @media (max-width: 768px) {
+            body { padding: 12px 10px 60px; align-items: stretch; }
+            .hub-container { width: 100%; max-width: 100%; box-sizing: border-box; }
+            .gate-banner-grid { grid-template-columns: 100%; width: 100%; }
+            .gate-photo-wrapper { height: 140px; min-height: unset; width: 100%; }
+            .gate-info { padding: 16px 14px; width: 100%; box-sizing: border-box; }
+            .faculty-brand-header { gap: 10px; width: 100%; }
+            .faculty-logo-circle { width: 42px; height: 42px; }
+            .faculty-titles h2 { font-size: 1.02rem; }
+            .faculty-titles p { font-size: 0.76rem; }
+            .hero-module-title { font-size: 1.2rem; line-height: 1.35; word-wrap: break-word; }
+            .hero-module-desc { font-size: 0.84rem; line-height: 1.6; }
+            .hero-badges-row { gap: 6px; }
+            .author-badge, .kpi-badge { font-size: 0.75rem; padding: 4px 10px; }
+            .stats-grid { grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; }
+            .stat-card { padding: 10px 12px; gap: 10px; }
+            .stat-icon { width: 36px; height: 36px; font-size: 1.05rem; }
+            .stat-info h4 { font-size: 1.15rem; }
+            .stat-info p { font-size: 0.7rem; }
+            .search-wrapper { width: 100%; box-sizing: border-box; }
+            .subjects-grid { grid-template-columns: 100%; gap: 16px; width: 100%; }
+            .subject-card { width: 100%; box-sizing: border-box; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hub-container">
+
+        <!-- Faculty Gate Hero Card -->
+        <header class="hero-gate-card">
+            <div class="gate-banner-grid">
+                <div class="gate-photo-wrapper">
+                    <img src="assets/al_azhar_faculty_gate.jpg" alt="بوابة كلية الطب جامعة الأزهر" class="gate-photo">
+                    <div class="gate-photo-overlay"></div>
+                </div>
+                <div class="gate-info">
+                    <div class="faculty-brand-header">
+                        <img src="assets/al_azhar_logo.png" alt="شعار جامعة الأزهر" class="faculty-logo-circle">
+                        <div class="faculty-titles">
+                            <h2>جامعة الأزهر - كلية الطب (بنين) بالقاهرة</h2>
+                            <p>Al-Azhar Faculty of Medicine | بنك الأسئلة والمحاكاة التفاعلية</p>
+                        </div>
+                    </div>
+                    <h1 class="hero-module-title">موديول الكلى والجهاز البولي (Renal System)</h1>
+                    <p class="hero-module-desc">
+                        المنصة الشاملة المتطورة لتدريب واختبار طلاب كلية الطب على كافة أسئلة موديول الرينال (164 صفحة كاملة)، مقسمة أكاديمياً حسب المواد مع التوضيح السريري واللؤلؤة الطبية لكل سؤال.
+                    </p>
+                    <div class="hero-badges-row">
+                        <span class="author-badge">🩺 إعداد وتدقيق: أحمد وائل</span>
+                        <span class="kpi-badge">🫘 780 سؤالاً وحالة سريرية</span>
+                        <span class="kpi-badge">⚡ بنك شامل لكل الأقسام</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Stats Bar -->
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">🫘</div>
+                <div class="stat-info">
+                    <h4>780</h4>
+                    <p>إجمالي الأسئلة والحالات</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📚</div>
+                <div class="stat-info">
+                    <h4>6 + 1</h4>
+                    <p>أقسام أكاديمية وسريرية</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">💎</div>
+                <div class="stat-info">
+                    <h4>100%</h4>
+                    <p>باللؤلؤة الطبية والتعليل</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🎯</div>
+                <div class="stat-info">
+                    <h4>164</h4>
+                    <p>صفحة موديول مغطاة</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Bar -->
+        <div class="search-wrapper">
+            <span style="font-size:1.1rem; color:var(--cyan-primary);">🔍</span>
+            <input type="text" id="subjectSearch" class="search-input" placeholder="ابحث عن أي مادة أو موضوع (مثل: Physiology, Furosemide, Glomerulonephritis, Schistosoma, Stones)...">
+        </div>
+
+        <!-- Subject Cards Grid -->
+        <section class="subjects-grid" id="subjectsGrid">
+
+            <a href="physiology_renal_interactive_quiz.html" class="subject-card" data-keywords="فسيولوجيا الكلى والجهاز البولي Renal Physiology وظائف الكبيبة الكلوية، معدل الترشيح GFR، آليات التدفق بالتيار المعاكس Countercurrent، إعادة امتصاص الصوديوم والماء، وتنظيم التوازن الحمضي القاعدي.">
+                <div class="card-img-wrapper">
+                    <img src="assets/physiology_banner.jpg" alt="فسيولوجيا الكلى والجهاز البولي" class="card-img">
+                    <div class="card-badge">107 MCQs + 25 Cases</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-header-row">
+                        <h3>⚡ فسيولوجيا الكلى والجهاز البولي</h3>
+                    </div>
+                    <div class="card-sub">Renal Physiology</div>
+                    <p class="card-desc">وظائف الكبيبة الكلوية، معدل الترشيح GFR، آليات التدفق بالتيار المعاكس Countercurrent، إعادة امتصاص الصوديوم والماء، وتنظيم التوازن الحمضي القاعدي.</p>
+                    <div class="card-cta">
+                        <span>بدء بنك الأسئلة والتدريب</span>
+                        <span>◀</span>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="pharmacology_renal_interactive_quiz.html" class="subject-card" data-keywords="فارماكولوجيا الكلى ومدرات البول Renal Pharmacology & Diuretics مدرات العروة (Furosemide)، الثيازايد، موفرات البوتاسيوم (Spironolactone)، مثبطات الأنهيدراز، آليات النقل، التداخلات الدوائية، وأسئلة علل الشهيرة.">
+                <div class="card-img-wrapper">
+                    <img src="assets/pharmacology_banner.jpg" alt="فارماكولوجيا الكلى ومدرات البول" class="card-img">
+                    <div class="card-badge">126 MCQs + 56 Reasons</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-header-row">
+                        <h3>💊 فارماكولوجيا الكلى ومدرات البول</h3>
+                    </div>
+                    <div class="card-sub">Renal Pharmacology & Diuretics</div>
+                    <p class="card-desc">مدرات العروة (Furosemide)، الثيازايد، موفرات البوتاسيوم (Spironolactone)، مثبطات الأنهيدراز، آليات النقل، التداخلات الدوائية، وأسئلة علل الشهيرة.</p>
+                    <div class="card-cta">
+                        <span>بدء بنك الأسئلة والتدريب</span>
+                        <span>◀</span>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="pathology_renal_interactive_quiz.html" class="subject-card" data-keywords="باثولوجيا وأمراض الكلى والمسالك Renal Pathology أمراض الكبيبات (Nephrotic vs Nephritic)، التهاب الكبيبات سريع الترقي RPGN، داء التبدل الطفيف، اعتلال الكلى الغشائي، النخر الأنبوبي الحاد ATN، وأورام الكلى RCC.">
+                <div class="card-img-wrapper">
+                    <img src="assets/pathology_banner.jpg" alt="باثولوجيا وأمراض الكلى والمسالك" class="card-img">
+                    <div class="card-badge">157 MCQs + 47 Cases</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-header-row">
+                        <h3>🩺 باثولوجيا وأمراض الكلى والمسالك</h3>
+                    </div>
+                    <div class="card-sub">Renal Pathology</div>
+                    <p class="card-desc">أمراض الكبيبات (Nephrotic vs Nephritic)، التهاب الكبيبات سريع الترقي RPGN، داء التبدل الطفيف، اعتلال الكلى الغشائي، النخر الأنبوبي الحاد ATN، وأورام الكلى RCC.</p>
+                    <div class="card-cta">
+                        <span>بدء بنك الأسئلة والتدريب</span>
+                        <span>◀</span>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="microbiology_renal_interactive_quiz.html" class="subject-card" data-keywords="ميكروبيولوجيا وطفيليات المسالك Renal Microbiology & Parasitology عدوى المسالك البولية UTI و CAUTI، بكتيريا E. coli و Proteus mirabilis، تكون حصوات الستروفايت، زراعة البول، وطفيليات البلهارسيا البولية Schistosoma.">
+                <div class="card-img-wrapper">
+                    <img src="assets/microbiology_banner.jpg" alt="ميكروبيولوجيا وطفيليات المسالك" class="card-img">
+                    <div class="card-badge">67 MCQs + 12 Cases</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-header-row">
+                        <h3>🧫 ميكروبيولوجيا وطفيليات المسالك</h3>
+                    </div>
+                    <div class="card-sub">Renal Microbiology & Parasitology</div>
+                    <p class="card-desc">عدوى المسالك البولية UTI و CAUTI، بكتيريا E. coli و Proteus mirabilis، تكون حصوات الستروفايت، زراعة البول، وطفيليات البلهارسيا البولية Schistosoma.</p>
+                    <div class="card-cta">
+                        <span>بدء بنك الأسئلة والتدريب</span>
+                        <span>◀</span>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="histology_anatomy_renal_interactive_quiz.html" class="subject-card" data-keywords="تشريح ونسيجيات الكلى والمسالك Renal Histology & Anatomy حاجز الترشيح الكبيبي، الخلايا الرجلاء Podocytes، جهاز مجاورات الكبيبة JGA، ظهارة الحالب والمثانة Urothelium، مجاورات الكلى وعلم الأجنة.">
+                <div class="card-img-wrapper">
+                    <img src="assets/histology_anatomy_banner.jpg" alt="تشريح ونسيجيات الكلى والمسالك" class="card-img">
+                    <div class="card-badge">88 MCQs + 8 Cases</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-header-row">
+                        <h3>🔬 تشريح ونسيجيات الكلى والمسالك</h3>
+                    </div>
+                    <div class="card-sub">Renal Histology & Anatomy</div>
+                    <p class="card-desc">حاجز الترشيح الكبيبي، الخلايا الرجلاء Podocytes، جهاز مجاورات الكبيبة JGA، ظهارة الحالب والمثانة Urothelium، مجاورات الكلى وعلم الأجنة.</p>
+                    <div class="card-cta">
+                        <span>بدء بنك الأسئلة والتدريب</span>
+                        <span>◀</span>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="biochemistry_renal_interactive_quiz.html" class="subject-card" data-keywords="كيمياء حيوية وحصوات الكلى Renal Biochemistry & Calculi أيض وتكسير البيورينات، حمض اليوريك، النقرس Gout، متلازمة Lesch-Nyhan، التركيب الكيميائي لحصوات الكلى والبلورات وتوازن الأيونات.">
+                <div class="card-img-wrapper">
+                    <img src="assets/biochemistry_banner.jpg" alt="كيمياء حيوية وحصوات الكلى" class="card-img">
+                    <div class="card-badge">61 MCQs + 26 Cases</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-header-row">
+                        <h3>🧬 كيمياء حيوية وحصوات الكلى</h3>
+                    </div>
+                    <div class="card-sub">Renal Biochemistry & Calculi</div>
+                    <p class="card-desc">أيض وتكسير البيورينات، حمض اليوريك، النقرس Gout، متلازمة Lesch-Nyhan، التركيب الكيميائي لحصوات الكلى والبلورات وتوازن الأيونات.</p>
+                    <div class="card-cta">
+                        <span>بدء بنك الأسئلة والتدريب</span>
+                        <span>◀</span>
+                    </div>
+                </div>
+            </a>
+    
+            <a href="clinical_cases_renal_interactive_quiz.html" class="subject-card" data-keywords="بنك الحالات السريرية والتعليلات الشاملة Clinical Cases & Give Reason Bank قسم خاص يجمع كافة الحالات السريرية وسيناريوهات البلهارسيا والنقرس، والأسئلة المقالية وأسئلة "علل" مع الإجابات النموذجية ولآلئ الامتحانات.">
+                <div class="card-img-wrapper">
+                    <img src="assets/clinical_cases_banner.jpg" alt="بنك الحالات السريرية والتعليلات الشاملة" class="card-img">
+                    <div class="card-badge">174 High-Yield Cases</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-header-row">
+                        <h3>📋 بنك الحالات السريرية والتعليلات الشاملة</h3>
+                    </div>
+                    <div class="card-sub">Clinical Cases & Give Reason Bank</div>
+                    <p class="card-desc">قسم خاص يجمع كافة الحالات السريرية وسيناريوهات البلهارسيا والنقرس، والأسئلة المقالية وأسئلة "علل" مع الإجابات النموذجية ولآلئ الامتحانات.</p>
+                    <div class="card-cta">
+                        <span>بدء بنك الأسئلة والتدريب</span>
+                        <span>◀</span>
+                    </div>
+                </div>
+            </a>
+    
+        </section>
+
+        <!-- Footer -->
+        <footer class="hub-footer">
+            <p><strong>جامعة الأزهر - كلية الطب (بنين) بالقاهرة</strong> | موديول الكلى والجهاز البولي (Renal System Module)</p>
+            <p>إعداد وتدقيق وتنظيم: <strong>د. أحمد وائل (Ahmed Wael)</strong> | منصة تعليمية غير ربحية لخدمة طلاب الطب</p>
+            <p style="font-size:0.8rem; margin-top:4px;">اللهم انفعنا بما علمتنا وعلمنا ما ينفعنا وزدنا علماً 🤲</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Real-time Search Filter
+        const searchInput = document.getElementById('subjectSearch');
+        const cards = document.querySelectorAll('.subject-card');
+
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase().trim();
+            cards.forEach(card => {
+                const kw = card.getAttribute('data-keywords').toLowerCase();
+                if (!term || kw.includes(term)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
