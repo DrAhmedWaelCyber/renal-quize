@@ -15,8 +15,8 @@
       "Adenosine monophosphate",
       "Guanosine triphosphate"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Adenine and Guanine are purine nitrogenous bases. Uracil, Thymine, and Cytosine are pyrimidines.",
     "pearl": "القواعد البيورينية حلقتان (Adenine, Guanine)، بينما البيريميدين حلقة واحدة (Cytosine, Uracil, Thymine)."
   },
@@ -36,8 +36,8 @@
       "Adenosine triphosphate",
       "Guanosine triphosphate"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Adenine and Guanine are purine nitrogenous bases. Uracil, Thymine, and Cytosine are pyrimidines.",
     "pearl": "القواعد البيورينية حلقتان (Adenine, Guanine)، بينما البيريميدين حلقة واحدة (Cytosine, Uracil, Thymine)."
   },
@@ -57,8 +57,8 @@
       "Adenosine monophosphate",
       "Guanosine triphosphate"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Guanine is a purine base. Adenosine is a nucleoside, and nucleotides contain phosphate groups.",
     "pearl": "النيوكليوزيد = قاعدة نيتروجينية + سكر. النيوكليوتيد = قاعدة + سكر + فوسفات."
   },
@@ -99,8 +99,8 @@
       "Adenine",
       "Uracil."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 139 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -120,8 +120,8 @@
       "digest nucleotides into carbon dioxide, nitrogen and oxygen.",
       "digest nucleotides into carbon, nitrogermand oxygen."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 140 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -141,8 +141,8 @@
       "Aspartate.",
       "Glycine."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Item 141 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -162,8 +162,8 @@
       "Aspartate.",
       "Glycine."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 142 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -183,8 +183,8 @@
       "Carbon dioxide.",
       "Aspartate."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 143 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -204,8 +204,8 @@
       "Aspartate",
       "Carbon dioxide"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 144 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -266,8 +266,8 @@
       "GMP Ribose-5-P",
       "HGPRTaseR"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 147 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -287,8 +287,8 @@
       "GMP",
       "HGPRTase. C"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 148 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -308,8 +308,8 @@
       "GMP. ENOOR",
       "HGPRTase. About purine salvage pathway, state which of the following statements are true T) and which are false (F)?"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Item 149 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -329,8 +329,8 @@
       "Uric acid. nucleos ide",
       "Adenine."
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Item 156 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -434,8 +434,8 @@
       "Deficiency of glutaminase",
       "Deficiency of arginase."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 161 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -475,8 +475,8 @@
       "Fumarate",
       "Glutamine"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Item 163 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -517,8 +517,8 @@
       "Renal tubular acidosis",
       "Porphyria"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Item 165 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -537,8 +537,8 @@
       "6-mercaptopurine",
       "Methotrexate"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Item 166 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -558,8 +558,8 @@
       "Deficiency of vitamin B",
       "Deficiency of vitamin E"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 167 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -579,8 +579,8 @@
       "Cystine stone",
       "Silicate stone 59155 elle not slap c"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 168 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -641,8 +641,8 @@
       "Adenosine deaminase used for this purpose?",
       "Xanthine Oxidase"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Item 171 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -721,8 +721,8 @@
       "Certain enzymes such as hexokinase require K+ as cofactor.",
       "Transmission of nerve impulses."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Item 181 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -742,8 +742,8 @@
       "Sodium acts as substrate tor Na*/K+ ATPase enzyme (Na*/K+ pump).",
       "Maintain of osmotic pressure and volume of plasma and extracellular fluid."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 182 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -763,8 +763,8 @@
       "Calcium",
       "Manganese"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 183 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -804,8 +804,8 @@
       "Malabsorption",
       "Insulin overdose"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 185 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -825,8 +825,8 @@
       "Malabsorption",
       "Insulin overdose"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 186 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -846,8 +846,8 @@
       "Hypernatremia",
       "Hypokalemia lenal system Module"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 187 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -867,8 +867,8 @@
       "Diabetes insipidus.",
       "Drugs as cortisone."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 188 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -930,8 +930,8 @@
       "Increase in extracellular fluid (ECF) volume.",
       "Decrease in extracellular fluid (ECF) osmolality."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 191 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -951,8 +951,8 @@
       "Decrease in ECF osmolality.",
       "Increase in urine volume."
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Gout is characterized by hyperuricemia (>6.8 mg/dL), negatively birefringent needle-shaped monosodium urate crystals, and elevated inflammatory markers during acute attacks.",
     "pearl": "بلورات النقرس (Monosodium urate) إبرية الشكل وسالبة الانكسار الضوئي المستقطب (Negatively birefringent)."
   },
@@ -971,8 +971,8 @@
       "Decrease in plasma proteins.",
       "Decrease in ECF osmolality. About biochemical findings in water excess, state which of the following statements are true (T) and which of them are false (F):"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 193 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -992,8 +992,8 @@
       "Osmosis.",
       "Absorption. I system Module"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 200 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1013,8 +1013,8 @@
       "Osmosis.",
       "Absorption."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Item 201 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1034,8 +1034,8 @@
       "Cerebrospinal fluid formation",
       "Formation and reabsorption of interstitial fluid"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 202 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1055,8 +1055,8 @@
       "Osmosis.",
       "Dialysis."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Item 203 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1076,8 +1076,8 @@
       "Osmosis",
       "Absorption annA"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 204 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1097,8 +1097,8 @@
       "Less than one nanometer.",
       "More than ten nanometer."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Crystalloids are true solutions containing small particles (<1 nm) that readily pass through semipermeable membranes.",
     "pearl": "البلورانيات (Crystalloids) حجم جزيئاتها أقل من 1 نانومتر وتمر بحرية عبر الأغشية شبه المنفذة."
   },
@@ -1118,8 +1118,8 @@
       "Water Doctor",
       "HCO3 Each of the following conditions is related to functions of plasma proteins. For each condition select the single most appropriate answer. Each option may be used once, more than once or not at all."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Item 206 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1137,8 +1137,8 @@
       "Albumin",
       "LDH"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 207 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1152,12 +1152,15 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "One of the important functions of the blood is",
     "options": [
-      "ALT-AST defense against infection by the white blood",
-      "Casein cells (lymphocytes) and circulating antibodies. F. Globulin Which type of plasma protein is used as antibodies? G.Cysteine H.Lipase"
+      "Albumin",
+      "Fibrinogen",
+      "Transferrin",
+      "Gamma-Globulins (Immunoglobulins)",
+      "Alpha-1-antitrypsin"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
-    "explanation": "Item 208 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
+    "correct_index": 3,
+    "answer_letter": "D",
+    "explanation": "Gamma-globulins (immunoglobulins/antibodies) synthesized by plasma cells are the plasma proteins primarily responsible for humoral immune defense against pathogens.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
   {
@@ -1176,8 +1179,8 @@
       "Magnesium",
       "Bicarbonate InAD"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Item 213 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1197,8 +1200,8 @@
       "Bowman's capsule.",
       "Collecting duct"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 214 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1218,8 +1221,8 @@
       "Secretion of sulfate and hydrogen ions as sulfuric acid.",
       "Secretion of sodium in the expense of potassium."
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Item 215 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1239,8 +1242,8 @@
       "Secretion of erythropoietin.",
       "All are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Item 216 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },

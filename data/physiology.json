@@ -15,8 +15,8 @@
       "Increased activity in the renal sympathetic nerves results in increased blood flow to thekidneys.",
       "All of the above."
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Renal blood flow (RBF) is tightly autoregulated between 80-180 mmHg mean arterial pressure. Normal RBF is 20-25% of resting cardiac output (not 10%), exercise decreases RBF via sympathetic vasoconstriction, and sympathetic stimulation decreases RBF.",
     "pearl": "التدفق الدموي الكلوي (RBF) يخضع للتنظيم الذاتي (Autoregulation) بين ضغط 80 و 180 مم زئبق."
   },
@@ -57,8 +57,8 @@
       "The glomerular filtrate has the same composition as plasma.",
       "All of the above."
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Inulin clearance is the gold standard for measuring GFR because inulin is freely filtered through glomerular capillaries and is neither reabsorbed nor secreted by the renal tubules.",
     "pearl": "استخلاص الإينولين (Inulin Clearance) يساوي تماماً معدل الترشيح الكبيبي (GFR) لانعدام الامتصاص والإفراز الأنبوبي."
   },
@@ -99,8 +99,8 @@
       "Inulin.",
       "NaCI."
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Plasma proteins (albumin) are repelled by negatively charged polyanionic glycoproteins (heparan sulfate) in the glomerular basement membrane and slit diaphragms.",
     "pearl": "حاجز الترشيح الكبيبي يمتلك شحنة سالبة قوية تتنافر كهربائياً مع بروتينات البلازما فتمنع مرورها في البول."
   },
@@ -229,8 +229,8 @@
       "A & Care correct.",
       "All the above."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 11 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -271,8 +271,8 @@
       "Ureteric obstruction.",
       "None of the above."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 14 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -292,8 +292,8 @@
       "A and Care correct.",
       "All are correct"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 15 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -313,8 +313,8 @@
       "A and C are correct.",
       "All are correct"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 16 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -334,8 +334,8 @@
       "Its main function is to regulate glucose concentration in the plasma.",
       "It is concerned mainly with regulation of acid secretion by the nephron."
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 17 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -376,8 +376,8 @@
       "Where the distal tubule ends and collecting duct begins.",
       "In the collecting duct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 19 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -397,8 +397,8 @@
       "Afferent arterioles octor",
       "Beginning of distal convoluted tubules"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 20 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -418,8 +418,8 @@
       "A & C are correct.",
       "All of the above."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 21 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -439,8 +439,8 @@
       "None of the above is correct.",
       "All of them."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 22 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -460,8 +460,8 @@
       "is the ratio between FR and total renal blood flow (RBF).",
       "A and Care correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 23 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -481,8 +481,8 @@
       "GFR / RBF.",
       "RBF / RPF."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 24 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -500,8 +500,8 @@
       "20%",
       "40% NOOD"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 25 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -521,8 +521,8 @@
       "A and C are correct. •",
       "All are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 26 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -541,8 +541,8 @@
       "90 mg/ml.",
       "900 mg/ml."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 27 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -561,8 +561,8 @@
       "reabsorb and secrete a substance.",
       "exchange bicarbonate ions with chloride."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 28 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -582,8 +582,8 @@
       "is partly reabsorbed in the collecting duct",
       "is partly reabsorbed in the proximal tubule"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 29 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -603,8 +603,8 @@
       "Secreted into the tubular fluid by the proximal tubular cells",
       "Secreted into the tubular fluid by the distal tubular cells"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 30 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -624,8 +624,8 @@
       "Inulin.",
       "Glucose."
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 31 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -645,8 +645,8 @@
       "Inulin.",
       "Creatinine."
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 32 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -666,8 +666,8 @@
       "Tm for PAHA",
       ". None of the above"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 33 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -687,8 +687,8 @@
       "Tm for PAHA",
       "None of the above"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 34 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -729,8 +729,8 @@
       "Greater than the clearance of inulin",
       "Equal to clearance of urea"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 36 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -770,8 +770,8 @@
       "200 mg/min",
       "300 mg/min UUR"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 38 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -791,8 +791,8 @@
       "1200",
       "2100"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 39 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -804,15 +804,15 @@
     "subject_title": "Renal Physiology",
     "subject_ar": "فسيولوجيا الكلى والجهاز البولي",
     "topic": "Renal Physiology & Homeostasis",
-    "question": "The renal fraction is the ratio between glomerular filtration rate (GFR & renal plasma flow (RPF).",
+    "question": "The renal fraction is the ratio between glomerular filtration rate (GFR) and renal plasma flow (RPF).",
     "options": [
       "True",
-      "False Ne 9 69 ="
+      "False"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
-    "explanation": "Question 40 explores renal physiological mechanisms and tubular electrolyte handling.",
-    "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
+    "correct_index": 1,
+    "answer_letter": "B",
+    "explanation": "False. The ratio of GFR to RPF is the Filtration Fraction (FF ≈ 20%). The Renal Fraction is the percentage of total Cardiac Output delivered to the kidneys (RBF / CO ≈ 20-25%).",
+    "pearl": "لؤلؤة الامتحان: كسر الترشيح (Filtration Fraction) = GFR / RPF (~20%). أما الكسر الكلوي (Renal Fraction) = RBF / Cardiac Output (~20-25%)."
   },
   {
     "id": 47,
@@ -830,8 +830,8 @@
       "The only site for glucose reabsorption.",
       "All of the above."
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 47 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -871,8 +871,8 @@
       "Anti-diuretic hormone increases water reabsorption mainly in the distal convolutedtubules and collecting ducts.",
       "The renal blood flow is decreased in dehydration."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 49 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -892,8 +892,8 @@
       "H+ is mostly secreted by 1\" active counter transport with Na*.",
       "A and Care correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 50 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -913,8 +913,8 @@
       "Passive diffusion of water.",
       "Osmosis of urea."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 51 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -934,8 +934,8 @@
       "Carbohydrate.",
       "Hydrogen ions. DOR"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 52 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -954,8 +954,8 @@
       "It occurs only in both the PCTs & Late DCTS.",
       "A & C are incorrect."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 53 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -975,8 +975,8 @@
       "Is inhibited by increased arterial C02 tension.",
       "All of the above. anal system Module"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 54 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -996,8 +996,8 @@
       "A & C are correct.",
       "All the above is correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 55 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1017,8 +1017,8 @@
       "A and Care correct.",
       "All are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 56 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1059,8 +1059,8 @@
       "Most of sodium ion reabsorption occurs in the proximal tubules.",
       "Sodium transport by the thick ascending limb of the loop of Henle occurs by secondary active cotransport."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 58 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1079,8 +1079,8 @@
       "Glucose transport by the renal tubules is linked to sodium transport.",
       "At the basal border of the tubular cell is by 2ry active cotransport."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 59 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1099,8 +1099,8 @@
       "PTH-stimulated calcium reabsorption,",
       "Aldosterone-stimulated Nat secretion."
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 60 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1120,8 +1120,8 @@
       "Na* reabsorption.",
       "C and Dare correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 61 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1162,8 +1162,8 @@
       "A and Care correct.",
       "All the above are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 63 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1183,8 +1183,8 @@
       "Sodium transport by the thick ascending limb of the loop of Henle occurs by the samemechanism as that of the proximal tubule.",
       "All the above are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 64 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1225,8 +1225,8 @@
       "TmG is reached at blood glucose level of about 300 mg %.",
       "The amount of a substance secreted per. minute."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 66 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1245,8 +1245,8 @@
       "For diodrast, it measures the maximum absorptive capacity.",
       "All the above are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 67 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1266,8 +1266,8 @@
       "High renal threshold of glucose.",
       "All the above are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 68 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1308,8 +1308,8 @@
       "is filtered by the glomeruli and actively reabsorbed.",
       "All the above are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 70 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1329,8 +1329,8 @@
       "Thiazide diuretic.",
       "All the above are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 71 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1347,8 +1347,8 @@
       "True.",
       "False. Loop of Henle function:"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 72 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1368,8 +1368,8 @@
       "Late DCT & conical CD.",
       "Renal corpuscles."
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "The thick ascending limb of the loop of Henle and early distal convoluted tubule are impermeable to water while actively reabsorbing electrolytes (Na+, K+, 2Cl-), thereby diluting the tubular fluid.",
     "pearl": "الجزء المخفف للبول (Diluting segment) يشمل الطرف الصاعد الثخين لالتواء هنلي والأنبوب الملتوي البعيد لنفاذيته للأملاح دون الماء."
   },
@@ -1389,8 +1389,8 @@
       "A and Care correct.",
       "All are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 74 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1410,8 +1410,8 @@
       "Establishment of an osmotic gradient in renal medulla.",
       "All are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 75 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1431,8 +1431,8 @@
       "The loop of Henle.",
       "The vasa recta."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 76 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1469,12 +1469,13 @@
     "options": [
       "The ascending limb of LH.",
       "The descending limb of LH.",
-      "The distal convoluted tubule",
-      "The collecting duct."
+      "The distal convoluted tubule.",
+      "The collecting duct.",
+      "Thick ascending limb of loop of Henle (All impermeable parts)"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
-    "explanation": "Question 78 explores renal physiological mechanisms and tubular electrolyte handling.",
+    "correct_index": 4,
+    "answer_letter": "E",
+    "explanation": "The ascending limb (especially thick ascending limb) of the loop of Henle is completely impermeable to water, playing a crucial role in the countercurrent multiplier mechanism.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
   {
@@ -1493,8 +1494,8 @@
       "contains hyperosmotic fluid in the region of the inner medulla.",
       "All of the above."
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 79 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1514,8 +1515,8 @@
       "Water is actively pumped out of the ascending limb of loop of Henle.",
       "Urea is actively reabsorbed into the collecting ducts."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 80 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1535,8 +1536,8 @@
       "Urea is actively secreted.",
       "ADH has its main action. Revisior"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 81 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1556,8 +1557,8 @@
       "Water permeability under the influence of antidiuretic hormone",
       "Counter current flow."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 82 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1577,8 +1578,8 @@
       "Distal tubules",
       "Collecting ducts"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 83 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1598,8 +1599,8 @@
       "Creation of an osmotic gradient in renal medullary interstitium.",
       "Acidification of urine."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 84 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1619,8 +1620,8 @@
       "Efferent arteriole of juxtamedullary nephron.",
       "Interlobular arteries of juxtamedullary nephron."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 85 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1640,8 +1641,8 @@
       "Renin secretion.",
       "All of the above. Dr NOO"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 86 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1663,8 +1664,8 @@
       "Thiazide diuretic.",
       "Osmotic diuretic."
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 87 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1696,12 +1697,14 @@
     "topic": "Renal Physiology & Homeostasis",
     "question": "The juxtamedullary nephrons",
     "options": [
-      "1.0% constitute about:",
-      "Production of"
+      "Constitute about 85% of nephrons",
+      "Have short loops of Henle",
+      "Constitute about 15% of all nephrons and have long loops of Henle dipping deep into the medulla",
+      "Lack vasa recta"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
-    "explanation": "Question 91 explores renal physiological mechanisms and tubular electrolyte handling.",
+    "correct_index": 2,
+    "answer_letter": "C",
+    "explanation": "Juxtamedullary nephrons constitute approximately 15% of all nephrons (cortical nephrons are ~85%). They have long loops of Henle that extend deep into the renal medulla with associated vasa recta, essential for concentrating urine.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
   {
@@ -1714,12 +1717,14 @@
     "topic": "Renal Physiology & Homeostasis",
     "question": "The glomerular capillary pressure",
     "options": [
-      "15% is the highest one in the body",
-      "The slightly wider diameter of mainly due to: the afferent arteriole than"
+      "Is normally around 10-15 mmHg",
+      "Decreases when afferent arteriole dilates",
+      "Is equal to peritubular capillary pressure",
+      "Is relatively high (around 60 mmHg) due to the afferent arteriole being wider than the efferent arteriole"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
-    "explanation": "Question 93 explores renal physiological mechanisms and tubular electrolyte handling.",
+    "correct_index": 3,
+    "answer_letter": "D",
+    "explanation": "Glomerular capillary hydrostatic pressure is uniquely high (~60 mmHg) compared to typical systemic capillaries, maintained by the high resistance of the efferent arteriole.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
   {
@@ -1737,8 +1742,8 @@
       "A thirst center is present in the anterior hypothalamic nuclei.",
       "ADH acts on the P cells of the collecting ducts to increase their permeability to water."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 97 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1757,8 +1762,8 @@
       "Less than that of the plasma.",
       "None of the above is correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 98 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1778,8 +1783,8 @@
       "Distal convoluted tubules",
       "Collecting duct"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 99 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1820,8 +1825,8 @@
       "Ca2+ reabsorption.",
       "Bicarbonate ion reabsorption."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 101 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1841,8 +1846,8 @@
       "CO2 deficiency. octor",
       "Bicarbonate deficiency."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 102 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1862,8 +1867,8 @@
       "Remain as free H+",
       "All of the above. JUR"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 103 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1883,8 +1888,8 @@
       "Increases Na+ ions excretion",
       "Increases K+ ion excretion"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 104 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1904,8 +1909,8 @@
       "Combined acid (HCO3) is increased.",
       "Both B and Care true."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 105 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -1920,13 +1925,14 @@
     "question": "Hyperventilation causes all the following, EXCEPT:",
     "options": [
       "An alkaline urine.",
-      "A fall in the plasma carbon dioxide partial pressure. c. A fall in the plasma bicarbonate concentration.",
+      "A fall in the plasma carbon dioxide partial pressure (pCO2).",
+      "A fall in the plasma bicarbonate concentration.",
       "Increased cardiac output.",
       "Increased free serum calcium ions."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
-    "explanation": "Question 106 explores renal physiological mechanisms and tubular electrolyte handling.",
+    "correct_index": 4,
+    "answer_letter": "E",
+    "explanation": "Hyperventilation washes out CO2 leading to respiratory alkalosis. Alkalosis increases the negative charge on plasma proteins (albumin), increasing Ca2+ binding and therefore DECREASING free ionized serum calcium (which can trigger tetany).",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
   {
@@ -1985,8 +1991,8 @@
       "Cushing's disease.",
       "Excessive vomiting."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 109 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -2006,8 +2012,8 @@
       "Apathy, mental confusion and tetany occur.",
       "All of the above. ADOO"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 110 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -2029,8 +2035,8 @@
       "True.",
       "False."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 111 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -2050,8 +2056,8 @@
       "It is initiated and maintained by stimulation of stretch receptors present in the bladder wall.",
       "B & D are correct."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 118 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -2071,8 +2077,8 @@
       "Is stimulated by parasympathetic impulses.",
       "Normally a feeling of urgency (desire) is experienced when the bladder contains 90 ml of urine."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 119 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -2092,8 +2098,8 @@
       "Increased sodium reabsorption.",
       "Decreased phosphate reabsorption."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 121 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -2174,8 +2180,8 @@
       "True.",
       "False."
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 126 explores renal physiological mechanisms and tubular electrolyte handling.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
@@ -2189,12 +2195,14 @@
     "topic": "Renal Physiology & Homeostasis",
     "question": "The kidney has the ability to produce erythropoietin, angiotensin ll and a1-hydroxylase.",
     "options": [
-      "True.",
-      "False. Doctor"
+      "The kidney produces only erythropoietin",
+      "The kidney produces only renin and angiotensin",
+      "The kidney produces erythropoietin, renin (activating angiotensin), and 1-alpha-hydroxylase (activating Vitamin D)",
+      "The kidney has no endocrine metabolic function"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
-    "explanation": "Question 127 explores renal physiological mechanisms and tubular electrolyte handling.",
+    "correct_index": 2,
+    "answer_letter": "C",
+    "explanation": "The kidneys possess endocrine functions including secretion of Erythropoietin (EPO), Renin, and conversion of 25-hydroxycholecalciferol to 1,25-dihydroxycholecalciferol (calcitriol) via 1-alpha-hydroxylase.",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   },
   {
@@ -2207,12 +2215,15 @@
     "topic": "Renal Physiology & Homeostasis",
     "question": "Intercalated cells (I-cells)",
     "options": [
-      "TmG is reached at blood glucose in the collecting duct are level of about 300 mg %. concerned with:",
-      "Is stimulated by parasympathetic"
+      "Glucose transport maximum (TmG)",
+      "Sodium reabsorption in proximal tubule",
+      "Renal threshold for glucose",
+      "Urea recycling",
+      "Acid-base regulation via H+ secretion (Type A) or HCO3- secretion (Type B) in the late distal tubule and collecting duct"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
-    "explanation": "Question 128 explores renal physiological mechanisms and tubular electrolyte handling.",
+    "correct_index": 4,
+    "answer_letter": "E",
+    "explanation": "Intercalated cells (I-cells) in the late distal tubule and collecting duct are vital for acid-base homeostasis: Type A cells secrete H+ and reabsorb HCO3- (acidosis), while Type B cells secrete HCO3- and reabsorb H+ (alkalosis).",
     "pearl": "لؤلؤة الامتحان: ركز على الهرمونات المنظمة للكلى مثل ADH و Aldosterone و ANP."
   }
 ]
