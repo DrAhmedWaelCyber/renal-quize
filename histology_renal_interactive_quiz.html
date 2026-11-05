@@ -55,10 +55,8 @@
             background: linear-gradient(180deg, #091829 0%, var(--bg-secondary) 100%);
             border-bottom: 1.5px solid var(--border-card);
             padding: 16px 20px;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(12px);
+            position: relative;
+            z-index: 10;
         }
 
         .header-content {
@@ -614,11 +612,52 @@
 
         /* Mobile Adjustments */
         @media (max-width: 640px) {
-            .quiz-header { padding: 12px 14px; }
-            .brand-titles h1 { font-size: 0.98rem; }
-            .hero-banner-img { height: 130px; }
-            .question-card { padding: 18px 14px; }
-            .q-stem { font-size: 1.02rem; }
+            .quiz-header {
+                padding: 12px 14px;
+                position: relative;
+            }
+            .header-content {
+                gap: 10px;
+            }
+            .brand-left {
+                gap: 8px;
+            }
+            .faculty-logo-mini {
+                width: 36px;
+                height: 36px;
+            }
+            .brand-titles h1 {
+                font-size: 0.96rem;
+            }
+            .brand-titles p {
+                font-size: 0.74rem;
+            }
+            .header-actions {
+                width: 100%;
+                display: flex;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                gap: 6px;
+                padding: 2px 0 6px;
+                -webkit-overflow-scrolling: touch;
+            }
+            .btn-action {
+                padding: 6px 12px;
+                font-size: 0.78rem;
+                white-space: nowrap;
+                flex-shrink: 0;
+                border-radius: 8px;
+            }
+            .quiz-container {
+                margin: 14px auto;
+                padding: 0 10px;
+                gap: 14px;
+            }
+            .hero-banner-img { height: 120px; }
+            .hero-overlay { padding: 12px 14px; }
+            .question-card { padding: 16px 14px; border-radius: 14px; }
+            .q-stem { font-size: 0.98rem; }
+            .option-btn { padding: 12px 14px; font-size: 0.9rem; }
             .btn-nav { padding: 10px 16px; font-size: 0.88rem; }
             .palette-fab { bottom: 16px; left: 16px; padding: 10px 16px; font-size: 0.82rem; }
         }
