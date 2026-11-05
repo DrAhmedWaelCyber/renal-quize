@@ -12,7 +12,7 @@
       "Renal corpuscles",
       "Proximal tubule",
       "Ascending limb of loop of Henle",
-      "Cortical diluting segment drome).",
+      "Cortical diluting segment drome)",
       "Collecting ducts"
     ],
     "correct_index": 3,
@@ -118,7 +118,7 @@
       "Calcium",
       "Magnesium",
       "Bicarbonate",
-      "Potassium Doctor"
+      "Potassium"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -307,7 +307,7 @@
       "Calcium",
       "Magnesium",
       "Bicarbonate",
-      "Potassium Doctor"
+      "Potassium"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -370,7 +370,7 @@
       "Hyperuricemia",
       "Hypercalcemia",
       "Increase in blood pressure",
-      "Hypoglycemia in diabetics Dr NOC"
+      "Hypoglycemia in diabetics"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -555,10 +555,10 @@
     "topic": "Renal Pharmacology & Diuretics",
     "question": "Contraindications for the use of thiazide diuretics include all of the following EXCEPT:",
     "options": [
-      "Hepatic cirrhosis.",
+      "Hepatic cirrhosis",
       "Renal insufficiency",
-      "Hepatic encephalopathy.",
-      "Nephrogenic Diabetes Insipidus. E: Hypokalemia (digitalis-interaction)."
+      "Hepatic encephalopathy",
+      "Nephrogenic Diabetes Insipidus. E: Hypokalemia (digitalis-interaction)"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -680,11 +680,11 @@
     "topic": "Loop Diuretics Mechanism",
     "question": "Which of the following is the primary mechanism of action of loop diuretics like furosemide?",
     "options": [
-      "Inhibition of sodium-potassium-chloride cotransporter in the distal convoluted tubule.",
+      "Inhibition of sodium-potassium-chloride cotransporter in the distal convoluted tubule",
       "Inhibition of sodium-potassium-chloride cotransporter in the loop of Henle",
-      "Inhibition of sodium-chloride symporter in the proximal tubule.",
-      "Inhibition of carbonic anhydrase in the proximal tubule.",
-      "Inhibition of sodium-potassium ATPase in the collecting duct."
+      "Inhibition of sodium-chloride symporter in the proximal tubule",
+      "Inhibition of carbonic anhydrase in the proximal tubule",
+      "Inhibition of sodium-potassium ATPase in the collecting duct"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -768,7 +768,7 @@
       "Ammonium Chloride",
       "Frusemide",
       "Indapamide",
-      "Metolazone Dr NOC"
+      "Metolazone"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -848,11 +848,11 @@
     "topic": "Renal Pharmacology & Diuretics",
     "question": "Loop diuretics cause hypokalemia by which of the following mechanisms:",
     "options": [
-      "Inhibiting K+ recycling in loop of Henel.",
+      "Inhibiting K+ recycling in loop of Henel",
       "Inhibiting Carbonic Anhydrase enzyme",
-      "Increasing Na* load in late distal convoluted tubules.",
-      "Promoting PGE release.",
-      "Producing metabolic alkalosis."
+      "Increasing Na* load in late distal convoluted tubules",
+      "Promoting PGE release",
+      "Producing metabolic alkalosis"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -869,11 +869,11 @@
     "topic": "Renal Pharmacology & Diuretics",
     "question": "A diuretic that increases (urine volume, urinary Ca*? & plasma pH) and decreases (serum K+) probably:",
     "options": [
-      "Acts as an osmotic diuretic.",
-      "Blocks aldosterone receptors in the CT.",
-      "Inhibits carbonic anhydrase in the PCT.",
-      "Blocks the NaCl cotransporter in the DCT.",
-      "Inhibits the Na*/K+/2Cl cotransporter in the TAL."
+      "Acts as an osmotic diuretic",
+      "Blocks aldosterone receptors in the CT",
+      "Inhibits carbonic anhydrase in the PCT",
+      "Blocks the NaCl cotransporter in the DCT",
+      "Inhibits the Na*/K+/2Cl cotransporter in the TAL"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -960,7 +960,7 @@
       "Triamterene"
     ],
     "correct_index": 1,
-    "answer_letter": "F",
+    "answer_letter": "B",
     "explanation": "Question 632 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.",
     "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."
   },
@@ -1021,8 +1021,8 @@
       "Acetazolamide",
       "Mannitol"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 535 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.",
     "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."
   },
@@ -1040,10 +1040,10 @@
       "Amiloride",
       "Mannitol",
       "Epinephrine",
-      "Furosemide Revisior"
+      "Furosemide"
     ],
-    "correct_index": 1,
-    "answer_letter": "F",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 536 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.",
     "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."
   },
@@ -1183,11 +1183,11 @@
     "topic": "Renal Pharmacology & Diuretics",
     "question": "Diuretics acting on the ascending limb of loop of Henle are the most efficacious in promoting salt and water excretion because:",
     "options": [
-      "Maximum percentage of salt and water is reabsorbed in this segment.",
-      "Reabsorptive capacity of the segments distal to it is limited.",
-      "This segment is highly permeable to both salt and water.",
-      "This segment is responsible for creating corticomedullary osmotic gradient.",
-      "All of the above."
+      "Maximum percentage of salt and water is reabsorbed in this segment",
+      "Reabsorptive capacity of the segments distal to it is limited",
+      "This segment is highly permeable to both salt and water",
+      "This segment is responsible for creating corticomedullary osmotic gradient",
+      "All of the above"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -1206,8 +1206,8 @@
     "options": [
       "Producing bronchodilatation",
       "Causing rapid diuresis and reducing circulating blood volume",
-      "Increasing venous capacitance and reducing cardiac preload.",
-      "Stimulating left ventricular contractility.",
+      "Increasing venous capacitance and reducing cardiac preload",
+      "Stimulating left ventricular contractility",
       "Increases cardiac contractility"
     ],
     "correct_index": 2,
@@ -1246,11 +1246,11 @@
     "topic": "NSAIDs and Diuretics",
     "question": "NSAID reduce the diuretic action of furosemide by:",
     "options": [
-      "Preventing prostaglandin mediated intrarenal hemodynamic actions.",
-      "Blocking the action in ascending limb of loop of Henle.",
-      "Enhancing salt and water reabsorption in distal,tubule.",
-      "Increasing aldosterone secretion.",
-      "None of the above."
+      "Preventing prostaglandin mediated intrarenal hemodynamic actions",
+      "Blocking the action in ascending limb of loop of Henle",
+      "Enhancing salt and water reabsorption in distal,tubule",
+      "Increasing aldosterone secretion",
+      "None of the above"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -1373,7 +1373,7 @@
     "question": "If no significant increase in Aldosterone level as in Addison's disease which of the following diuretic is not effective?",
     "options": [
       "Furosemide",
-      "Amiloride Doctor",
+      "Amiloride",
       "Hydrochlorothiazide",
       "Spironolactone",
       "Metolazone"
@@ -1630,8 +1630,8 @@
       "Increase bicarbonate reabsorption",
       "Promote water excretion without sodium loss"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 564 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.",
     "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."
   },
@@ -1837,7 +1837,7 @@
       "An anticholinergic such as atropine",
       "A carbonic anhydrase inhibitor such as acetazolamide",
       "A loop diuretic such as furosemide",
-      "A B-blocker such as metoprolol Revisio"
+      "A B-blocker such as metoprolol"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -1942,7 +1942,7 @@
       "Amiloride",
       "Furosemide",
       "Hydrochlorothiazide",
-      "Spironolactone Dr l"
+      "Spironolactone"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -2068,7 +2068,7 @@
       "Carbonic anhydrase inhibition in proximal tubule",
       "Osmotic diuresis by increasing tubular fluid osmolarity",
       "Aldosterone receptor antagonism",
-      "Potassium channel opening causing vasodilation."
+      "Potassium channel opening causing vasodilation"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -2108,7 +2108,7 @@
     "options": [
       "Amiloride",
       "Furosemide",
-      "Indapamide.",
+      "Indapamide",
       "Mannitol",
       "Metolazone"
     ],
@@ -2190,7 +2190,7 @@
     "topic": "Renal Pharmacology & Diuretics",
     "question": "Which of the following diuretics would be most useful in the acute treatment of a comatose patient with brain injury & cerebral edema?",
     "options": [
-      "Amiloride.",
+      "Amiloride",
       "Mannitol coma:",
       "Furosemide:",
       "Acetazolamide",
@@ -2234,7 +2234,7 @@
     "options": [
       "Naproxen",
       "Colchicine",
-      "Probenecid Dr NOO Dr NOC",
+      "Probenecid",
       "Prednisone",
       "All of them"
     ],
@@ -2422,7 +2422,7 @@
     "question": "Which of the following drugs is an uricosuric agent?",
     "options": [
       "Allopurinol",
-      "Sulfinpyrazone Dr NOOi",
+      "Sulfinpyrazone",
       "Colchicine",
       "Indomethacin",
       "Febuxostat"
@@ -2568,11 +2568,11 @@
     "topic": "Renal Pharmacology & Diuretics",
     "question": "A 12-year-old girl presented with edema and proteinuria. She was diagnosed as a case of nephritic syndrome and treated with Cyclosporine. Which of the following is a suspected adverse reaction?",
     "options": [
-      "Drowsiness.",
+      "Drowsiness",
       "Peptic ulcer",
       "Hemorrhagic cystitis. octor",
       "Hyperkalemia",
-      "Hypotension."
+      "Hypotension"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -2634,7 +2634,7 @@
       "Primary hyperaldosteronism"
     ],
     "correct_index": 1,
-    "answer_letter": "F",
+    "answer_letter": "B",
     "explanation": "Question 720 investigates diuretic pharmacology, tubular transporter targets, or clinical indications and side effects.",
     "pearl": "لؤلؤة الامتحان: أسيتازولاميد (Acetazolamide) يثبط إنزيم Carbonic anhydrase في الأنبوب القريب لعلاج الجلوكوما وداء المرتفعات."
   }

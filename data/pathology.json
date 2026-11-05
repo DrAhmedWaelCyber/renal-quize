@@ -114,9 +114,9 @@
     "question": "In nephrotic syndrome, which is true?",
     "options": [
       "Albumin is lost, other globulins unaffected",
-      "Hypertension present.",
-      "Alteration to serum lipid levels.",
-      "Sodium and water excretion. E: Acute tubular necrosis."
+      "Hypertension present",
+      "Alteration to serum lipid levels",
+      "Sodium and water excretion. E: Acute tubular necrosis"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -133,11 +133,11 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Which one of the following is NOT a feature of nephritic syndrome?",
     "options": [
-      "Heavy Proteinuria.",
+      "Heavy Proteinuria",
       "Hypertension:",
-      "Microscopic hematuria.",
-      "Oliguria.",
-      "Azotemia (increased BUN)."
+      "Microscopic hematuria",
+      "Oliguria",
+      "Azotemia (increased BUN)"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -155,10 +155,10 @@
     "question": "The acute nephritic syndrome has all of the following EXCEPT:",
     "options": [
       "Proteinuria",
-      "Hematuria.",
-      "Hypertension.",
-      "Hyaline casts.",
-      "Oliguria."
+      "Hematuria",
+      "Hypertension",
+      "Hyaline casts",
+      "Oliguria"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -196,11 +196,11 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Which ONE of the following is characteristically found in acute diffuse proliferative glomerulonephritis?",
     "options": [
-      "Endothelial and mesangial cell hyperplasia. Dr NOO",
-      "Fibrinoid necrosis of glomerular capillaries.",
-      "Focal sclerosis of glomerular tufts.",
-      "Hyalinization of arcuate arteries.",
-      "Severe basement membrane thickening."
+      "Endothelial and mesangial cell hyperplasia",
+      "Fibrinoid necrosis of glomerular capillaries",
+      "Focal sclerosis of glomerular tufts",
+      "Hyalinization of arcuate arteries",
+      "Severe basement membrane thickening"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -280,9 +280,9 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Post streptococcal glomerulonephritis is:",
     "options": [
-      "Caused by streptococcus viridians.",
+      "Caused by streptococcus viridians",
       "A form of type 3 hypersensitivity",
-      "Transmitted parenterally.",
+      "Transmitted parenterally",
       "A form of type 4 hypersensitivity",
       "Pyogenic disease"
     ],
@@ -427,11 +427,11 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Rapidly progressive glomerulonephritis is best characterized morphologically by which ONE of the following?",
     "options": [
-      "Basement membrane thickening.",
-      "Crescent formation.",
-      "Fibrinoid necrosis of the afferent arteriole.",
-      "Interstitial fibrosis.",
-      "Mesangial cell proliferation."
+      "Basement membrane thickening",
+      "Crescent formation",
+      "Fibrinoid necrosis of the afferent arteriole",
+      "Interstitial fibrosis",
+      "Mesangial cell proliferation"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -641,7 +641,7 @@
       "Acute GN",
       "Membranous GN",
       "Goodpasture's disease",
-      "MPGN r NOOR Dr Revisior"
+      "MPGN r"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -725,11 +725,11 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "The most common form of primary glomerular disease in children is:",
     "options": [
-      "Minimal change disease.",
-      "Acute glomerulonephritis.",
-      "Membranous GN.",
-      "Membranoproliferative GN.",
-      "Focal segmental glomerulosclerosis. Dr NO"
+      "Minimal change disease",
+      "Acute glomerulonephritis",
+      "Membranous GN",
+      "Membranoproliferative GN",
+      "Focal segmental glomerulosclerosis"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -749,8 +749,8 @@
       "Reduction of negative charge on GBM",
       "Extensive damage to the GBM",
       "Deposits of IgG and C3 on GBM",
-      "Increased mesangial matrix in the glomeruli.",
-      "Mesangial hypercellularity."
+      "Increased mesangial matrix in the glomeruli",
+      "Mesangial hypercellularity"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -833,7 +833,7 @@
       "edema",
       "massive albuminuria",
       "hypertension",
-      "hyperlipemia OR Dr NC R"
+      "hyperlipemia OR R"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -896,7 +896,7 @@
       "Destruction of the basement membrane",
       "Destruction of the glomerulus",
       "Hemosiderin laden macrophages in the kidney",
-      "None of the above evision Revis can be"
+      "None of the above"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -935,7 +935,7 @@
     "question": "Membranoproliferative glomerulonephritis is characterized by lot proliferation of: ma, and lis",
     "options": [
       "Epithelial cells",
-      "Endothelial cells ease.",
+      "Endothelial cells ease",
       "Mesangial cells octor",
       "Leucocytes. but no",
       "Erythrocytes ing is the"
@@ -1039,7 +1039,7 @@
     "question": "HIV infection commonly produces the following type of glomer lesions:",
     "options": [
       "RPGN",
-      "Focal GN Doctor",
+      "Focal GN",
       "Membranous GN",
       "Membranoproliferative GN",
       "Focal segmental glomerulosclerosis"
@@ -1128,7 +1128,7 @@
     "options": [
       "Tumor!",
       "Infection",
-      "Immune complex mediated.",
+      "Immune complex mediated",
       "None of the above",
       "All of the above"
     ],
@@ -1171,7 +1171,7 @@
       "Focal proliferative glomerulonephritis Rev",
       "Diffuse membranous glomerulonephritis",
       "Diffuse proliferative glomerulonephritis",
-      "Minimal change disease (lipoid nephrosis).",
+      "Minimal change disease (lipoid nephrosis)",
       "Mesangial proliferative glomerulonephritis"
     ],
     "correct_index": 3,
@@ -1189,10 +1189,10 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "The most common and most severe form of lupus nephritis show following lesions:",
     "options": [
-      "Mesangial lupus nephritis.",
-      "Focal segmental lupus nephritis.",
-      "Diffuse proliferative lupus nephritis.",
-      "Membranous lupus nephritis.",
+      "Mesangial lupus nephritis",
+      "Focal segmental lupus nephritis",
+      "Diffuse proliferative lupus nephritis",
+      "Membranous lupus nephritis",
       "Minimal change disease. ctor"
     ],
     "correct_index": 3,
@@ -1252,14 +1252,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Which one of the following is NOT a feature of diabetic kidney?",
     "options": [
-      "Crystals in the collecting tubules.",
-      "Hyaline nodules at the periphery of the glomerular tuft.",
+      "Crystals in the collecting tubules",
+      "Hyaline nodules at the periphery of the glomerular tuft",
       "Hyaline thickening of the glomerular capillary basement men зіладця неі ision",
-      "Ischemic glomerular change.",
-      "Papillary necrosis."
+      "Ischemic glomerular change",
+      "Papillary necrosis"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 460 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1279,8 +1279,8 @@
       "Armanni-Ebstein lesions",
       "Minimal change disease"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 461 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1300,8 +1300,8 @@
       "subepithelial glomerular deposits",
       "thickened basement membrane"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 462 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1321,8 +1321,8 @@
       "splitting of basement membrane",
       "nodular glomerulosclerosis"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 463 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1358,15 +1358,15 @@
     "question": "Nodular glomerulosclerosis is characteristic of:",
     "options": [
       "arteriolar nephrosclerosis",
-      "diabetes mellitus brane.",
+      "diabetes mellitus brane",
       "minimal change disease well spiels so in Revi",
       "Diffuse membranous glomerulonephritis",
       "Diffuse proliferative glomerulonephritis",
       "Minimal change disease (lipoid nephrosis",
       "Mesangial proliferative glomerulonephritis"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 465 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1380,10 +1380,10 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "The most common and most severe form of lupus nephritis show: following lesions:",
     "options": [
-      "Mesangial lupus nephritis.",
-      "Focal segmental lupus nephritis.",
-      "Diffuse proliferative lupus nephritis.",
-      "Membranous lupus nephritis.",
+      "Mesangial lupus nephritis",
+      "Focal segmental lupus nephritis",
+      "Diffuse proliferative lupus nephritis",
+      "Membranous lupus nephritis",
       "Minimal change disease. cTOr"
     ],
     "correct_index": 3,
@@ -1443,14 +1443,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Which one of the following is NOT a feature of diabetic kidney?",
     "options": [
-      "Crystals in the collecting tubules.",
-      "Hyaline nodules at the periphery of the glomerular tuft.",
+      "Crystals in the collecting tubules",
+      "Hyaline nodules at the periphery of the glomerular tuft",
       "Hyaline thickening of the glomerular capillary basement mem sion",
-      "Ischemic glomerular change.",
-      "Papillary necrosis."
+      "Ischemic glomerular change",
+      "Papillary necrosis"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 460 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1470,8 +1470,8 @@
       "Armanni-Ebstein lesions",
       "Minimal change disease"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 461 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1491,8 +1491,8 @@
       "subepithelial glomerular deposits",
       "thickened basement membrane"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 462 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1512,8 +1512,8 @@
       "splitting of basement membrane",
       "nodular glomerulosclerosis"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 463 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1549,13 +1549,13 @@
     "question": "Nodular glomerulosclerosis is characteristic of:",
     "options": [
       "arteriolar nephrosclerosis",
-      "diabetes mellitus brane.",
-      "minimal change disease Dr Revisior",
+      "diabetes mellitus brane",
+      "minimal change disease",
       "lupus erythematosus",
       "pyelonephritis"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 465 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1595,8 +1595,8 @@
       "diabetic nephropathy",
       "rapidly progressive glomerulonephritis"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 467 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1616,8 +1616,8 @@
       "Ten",
       "Twelve"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 468 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1637,8 +1637,8 @@
       "Serum creatinine",
       "Serum BUN"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 469 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1653,13 +1653,13 @@
     "question": "In end-stage kidney disease, GFR is:",
     "options": [
       "5% of normal",
-      "10% of normal Paqe 110 Dr NC",
+      "10% of normal",
       "15% of normal",
       "20% of normal",
       "25% of normal"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 470 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1679,8 +1679,8 @@
       "Malignant nephrocalcinosis",
       "Benign nephrosclerosis"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 471 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1700,8 +1700,8 @@
       "renal tubular adenocarcinoma",
       "all of them"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 472 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1721,8 +1721,8 @@
       "vesicular diverticula",
       "none of the above"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 473 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1736,14 +1736,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "The following is a cause of acute renal failure:",
     "options": [
-      "Polycystic kidney.",
-      "Amyloidosis.",
-      "Nephroblastoma.",
-      "Systemic lupus erythematosus SLE.",
-      "Acute tubular necrosis."
+      "Polycystic kidney",
+      "Amyloidosis",
+      "Nephroblastoma",
+      "Systemic lupus erythematosus SLE",
+      "Acute tubular necrosis"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 474 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1763,8 +1763,8 @@
       "Chronic glomerulonephritis",
       "None of the above"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 475 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1784,8 +1784,8 @@
       "hydronephrosis and pyelonephritis",
       "malignant hypertension"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 476 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1805,8 +1805,8 @@
       "Tubular lumina contain casts",
       "None of them"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 477 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1826,8 +1826,8 @@
       "Crescentic glomerulonephritis",
       "Renal cell carcinoma"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 478 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1841,14 +1841,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "A black male 45 yo that is diabetic, initially has no organ failure, and his arterioles seem to have undergone hyaline deposition. As time progresses, his diastolic blood pressure ends up being over 120, his organs start to fail, which proteinuria, nausea, vomiting, MI (myocardial infarction), and blurry eyes. What is a key morphological feature of his conditions?",
     "options": [
-      "Fibrinoid necrosis and thrombus formation.",
-      "Hyaline deposition continues.",
-      "Atherosclerosis.",
-      "Embolism formation.",
-      "None of the above."
+      "Fibrinoid necrosis and thrombus formation",
+      "Hyaline deposition continues",
+      "Atherosclerosis",
+      "Embolism formation",
+      "None of the above"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 479 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1868,8 +1868,8 @@
       "Red blood cell casts",
       "White blood cell casts"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 480 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1910,8 +1910,8 @@
       "Prostatic hyperplasia",
       "Transplant rejection"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 482 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1929,10 +1929,10 @@
       "Depressed cortical areas overlying necrotic papillae of varying stag",
       "Multiple small petechial hemorrhages on the surface (flea-beaten kidney)",
       "Multiple small white areas on the surface",
-      "V-shaped pale cortical scars Pana 113 Revisio"
+      "V-shaped pale cortical scars"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 483 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1972,8 +1972,8 @@
       "Sickle cell nephropathy",
       "Nephritic syndrome"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 485 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -1992,8 +1992,8 @@
       "hyalinization of afferent arterioles. with ischemic atrophy of nephrons",
       "diffuse thickening of the glomerular capillary basement membranes leadin to glomerulosclerosis"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 486 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2029,13 +2029,13 @@
     "question": "Renal cortical petechiae are a common finding in:",
     "options": [
       "benign nephrosclerosis",
-      "malignant nephrosclerosis Dr NOC",
+      "malignant nephrosclerosis",
       "MPGN",
       "MCD",
       "All of them"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 488 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2055,8 +2055,8 @@
       "130-149/90-95 mm Hg",
       "140-159/95-99mm Hg"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 489 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2071,13 +2071,13 @@
     "question": "The substance produced by the kidney that raises systemic bicod pressure is:",
     "options": [
       "Platelet activating factor CrOr",
-      "Kininogen.",
+      "Kininogen",
       "Prostaglandin",
       "Renin",
       "Aldosterone"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 490 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2097,8 +2097,8 @@
       "Chronic pyelonephritis d",
       "Renal vasculitis"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 491 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2118,8 +2118,8 @@
       "Eclampsia",
       "Hydronephrosis"
     ],
-    "correct_index": 0,
-    "answer_letter": "T",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 492 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2131,13 +2131,15 @@
     "subject_title": "Renal Pathology",
     "subject_ar": "باثولوجيا وأمراض الكلى",
     "topic": "Renal Pathology & Glomerulopathies",
-    "question": "Dense deposits in outer part",
+    "question": "Dense deposits in outer part of basement membrane:",
     "options": [
-      "Membranous glomerulonephritis. of basement membrane.",
-      "Mesangiocapillary glomerulonephritis."
+      "Membranous glomerulonephritis",
+      "Mesangiocapillary glomerulonephritis",
+      "Minimal change glomerulonephritis",
+      "Acute diffuse glomerulonephritis"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 501 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2149,15 +2151,37 @@
     "subject_title": "Renal Pathology",
     "subject_ar": "باثولوجيا وأمراض الكلى",
     "topic": "Renal Pathology & Glomerulopathies",
-    "question": "Fusion of epithelial cell foot",
+    "question": "Fusion of epithelial cell foot processes (podocyte effacement):",
     "options": [
-      "Minimal change glomerulonephritis. processes.",
+      "Membranous glomerulonephritis",
+      "Mesangiocapillary glomerulonephritis",
+      "Minimal change glomerulonephritis",
       "Acute diffuse glomerulonephritis"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 502 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
+  },
+  {
+    "id": 503,
+    "number": 503,
+    "type": "mcq",
+    "subject": "pathology",
+    "subject_title": "Renal Pathology",
+    "subject_ar": "باثولوجيا وأمراض الكلى والمسالك",
+    "topic": "Glomerular Diseases",
+    "question": "Dense sub-epithelial deposits (humps):",
+    "options": [
+      "Membranous glomerulonephritis",
+      "Mesangiocapillary glomerulonephritis",
+      "Minimal change glomerulonephritis",
+      "Acute diffuse glomerulonephritis"
+    ],
+    "correct_index": 3,
+    "answer_letter": "D",
+    "explanation": "Acute diffuse (post-streptococcal) glomerulonephritis shows characteristic large dome-shaped subepithelial electron-dense deposits (humps) on electron microscopy.",
+    "pearl": "Subepithelial humps on EM = APSGN (Acute post-streptococcal glomerulonephritis)."
   },
   {
     "id": 509,
@@ -2175,8 +2199,8 @@
       "Hematogenous infection",
       "Sexual intercourse"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 509 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2196,8 +2220,8 @@
       "hyalinized glomeruli",
       "all of the above"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 510 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2253,7 +2277,7 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "An irritable female infant, age 2 years, has a fever of 104\" F and bloor urine. Microscopic examination of the urine reveals red blood cells ai neutrophils but no casts. The most likely diagnosis is:",
     "options": [
-      "sarcoma botryoides OOR Dr N",
+      "sarcoma botryoides OOR",
       "acute cystitis",
       "urinary stone",
       "acute glomerulonephritis",
@@ -2337,10 +2361,10 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Which of the following pathological change is most likely to k acute pyelonephritis:",
     "options": [
-      "Cortical atrophy Revisia Renol system Module",
+      "Cortical atrophy",
       "Papillary necrosis",
       "Polycystic change",
-      "Renal cell carcinoma accident.",
+      "Renal cell carcinoma accident",
       "Antigen-antibody complexes pressions"
     ],
     "correct_index": 1,
@@ -2511,8 +2535,8 @@
       "hydrocele",
       "cystitis"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 525 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2532,8 +2556,8 @@
       "No casts",
       "All of them"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 526 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2553,8 +2577,8 @@
       "Calcium phosphate",
       "Cholesterol stones ator"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 527 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2574,8 +2598,8 @@
       "Cystine",
       "Cholesterol stones"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 528 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2595,8 +2619,8 @@
       "hypoparathyroidism niasis?",
       "hypertension"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 529 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2613,11 +2637,11 @@
       "cystine and oxalate",
       "cystine and phosphate",
       "oxalate and phosphate",
-      "oxalate and urate langle scess.",
+      "oxalate and urate langle scess",
       "phosphate and urate"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 530 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2631,7 +2655,7 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Renal calculi:",
     "options": [
-      "may be the result of gout Dr N Revisic",
+      "may be the result of gout",
       "occur as a complication of hyperparathyroidism",
       "are more apt to form in an alkaline urine",
       "most frequently contain calcium, oxalate and phosphate",
@@ -2652,14 +2676,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "A 45-year-old man presented by severe left flank pain radiating to the left lower quadrant. His blood pressure was 140/93, pulse rate was 7 b/m, respiratory rate was 23 b/m and temperature was 37° C. By urin analysis: revealed a moderate increase in specific gravity (1.030) and significant hematuria (4+). The pain was decreased after administratic of analgesics. The condition diagnosed as kidney stones. The commor chemical composition of urinary calculi is:",
     "options": [
-      "Calcium oxalate.",
-      "Calcium phosphate.",
-      "Calcium sulfate.",
-      "Calcium carbonate.",
+      "Calcium oxalate",
+      "Calcium phosphate",
+      "Calcium sulfate",
+      "Calcium carbonate",
       "Magnesium ammonium phosphates"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 532 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2679,8 +2703,8 @@
       "associated with hematuria",
       "may lead to hydronephrosis"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 533 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2699,8 +2723,8 @@
       "spermatocele",
       "benign prostatic hypertrophy"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 534 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2715,13 +2739,13 @@
     "question": "Metabolic diseases leading to excessive excretion of materials whic may form calculi in the urinary tract include all of the following EXC",
     "options": [
       "hyperparathyroidism",
-      "nephrotic syndrome Dr N",
+      "nephrotic syndrome",
       "cystinuria",
       "oxalosis",
       "gout"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 535 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2741,8 +2765,8 @@
       "Cytoplasm",
       "Peroxisomes"
     ],
-    "correct_index": 1,
-    "answer_letter": "F",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 536 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2756,10 +2780,10 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Unilateral hydronephrosis.",
     "options": [
-      "Narrowing at pelvic-ureteric junction.",
-      "Urethral obstruction (e.g. posterior urethral valves or stricture).",
-      "Unilateral causes such as pelvic-ureteric junction obstruction, calculus in one ureter, or accidental ureteric ligation.",
-      "Systemic neurogenic bladder."
+      "Narrowing at pelvic-ureteric junction",
+      "Urethral obstruction (e.g. posterior urethral valves or stricture)",
+      "Unilateral causes such as pelvic-ureteric junction obstruction, calculus in one ureter, or accidental ureteric ligation",
+      "Systemic neurogenic bladder"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -2780,7 +2804,7 @@
       "Angiomyolipoma",
       "Reninoma",
       "Multicystic nephroma",
-      "Mesoblastic nephroma."
+      "Mesoblastic nephroma"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -2798,12 +2822,13 @@
     "question": "Hypernephroma arises from which of the following tissues:",
     "options": [
       "Glomeruli",
+      "Renal interstitium",
       "Lymphatics",
       "Renal papillae",
       "Renal tubules"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 555 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2817,14 +2842,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "ONE of the following is NOT a feature of clear cell carcinoma of the kidney:",
     "options": [
-      "Bony secondaries.",
+      "Bony secondaries",
       "Childhood tumor.?",
       "Hematuria. UUN",
-      "May appear encapsulated.",
-      "Renal vein invasion."
+      "May appear encapsulated",
+      "Renal vein invasion"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 556 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2844,8 +2869,8 @@
       "Fabry's disease",
       "Fanconi syndrome"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 557 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2860,13 +2885,13 @@
     "question": "Out of various histologic types of renal cell carcinoma, the followir type has worst prognosis:",
     "options": [
       "Clear cell type",
-      "Granular cell type Dr sion Revisi",
+      "Granular cell type",
       "Sarcomatoid type",
       "Papillary type",
       "None of them"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 558 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2907,8 +2932,8 @@
       "Metastatic renal cell carcinoma",
       "Transitional cell carcinoma"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 560 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2928,8 +2953,8 @@
       "hydronephrosis",
       "renal adenocarcinoma"
     ],
-    "correct_index": 0,
-    "answer_letter": "A",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 561 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2949,8 +2974,8 @@
       "Germ tissue",
       "Neuroendocrine tissue"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 0,
+    "answer_letter": "A",
     "explanation": "Question 562 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -2965,13 +2990,13 @@
     "question": "The commonest urinary tract malignant tumor in children is:",
     "options": [
       "Transitional cell carcinoma",
-      "Leiomyosarcoma NOOR Dr NC Revis",
+      "Leiomyosarcoma",
       "Rhabdomyosarcoma",
       "Wilms' tumor",
       "Liposarcoma"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 563 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3027,14 +3052,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "Which of the following is the commonest type of bladder carcinoma?",
     "options": [
-      "Adenocarcinoma.",
+      "Adenocarcinoma",
       "transitional cell carcinoma",
-      "small cell carcinoma.",
-      "Squamous carcinoma.",
-      "Transitional cell papilloma."
+      "small cell carcinoma",
+      "Squamous carcinoma",
+      "Transitional cell papilloma"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 566 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3052,10 +3077,10 @@
       "Acute pyelonephritis",
       "Bladder calculi",
       "Carcinoma of the bladder",
-      "Prostatic carcinoma Dr NO on"
+      "Prostatic carcinoma on"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 567 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3075,8 +3100,8 @@
       "Squamous cell carcinoma",
       "Transitional cell carcinoma"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 568 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3096,8 +3121,8 @@
       "Adenoacanthoma",
       "Melanoma"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 569 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3117,8 +3142,8 @@
       "Papillary hyperplasia",
       "Chronic inflammation"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 570 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3138,8 +3163,8 @@
       "Adenoacanthoma",
       "Melanoma"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Question 571 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3155,12 +3180,12 @@
     "options": [
       "It has autosomal recessive inheritance",
       "It is invariably bilateral",
-      "The condition often manifests in adults OR Dr N",
+      "The condition often manifests in adults OR",
       "The condition is frequently associated with multiple hepatic cysts",
       "None of them"
     ],
-    "correct_index": 4,
-    "answer_letter": "E",
+    "correct_index": 2,
+    "answer_letter": "C",
     "explanation": "Question 572 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3180,8 +3205,8 @@
       "Associated liver cysts",
       "All of the above"
     ],
-    "correct_index": 1,
-    "answer_letter": "B",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 573 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3201,8 +3226,8 @@
       "renal failure late in course",
       "all of the above"
     ],
-    "correct_index": 0,
-    "answer_letter": "T",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 574 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3216,14 +3241,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "In adult polycystic disease, each of the following is true EXCEPT:",
     "options": [
-      "The disease is familial,",
-      "The renal involvement is occasionally unilateral.",
-      "The disease is generally asymptomatic until early adult or middle life.",
-      "Hematuria, hypertension and palpable abdominal masses are frequent clinical findings in symptomatic patients.",
+      "The disease is familial",
+      "The renal involvement is occasionally unilateral",
+      "The disease is generally asymptomatic until early adult or middle life",
+      "Hematuria, hypertension and palpable abdominal masses are frequent clinical findings in symptomatic patients",
       "None of them"
     ],
     "correct_index": 1,
-    "answer_letter": "F",
+    "answer_letter": "B",
     "explanation": "Question 575 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3243,8 +3268,8 @@
       "cysts in the liver",
       "all of the above"
     ],
-    "correct_index": 0,
-    "answer_letter": "T",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 576 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3258,14 +3283,14 @@
     "topic": "Renal Pathology & Glomerulopathies",
     "question": "In adult polycystic disease of the kidney:",
     "options": [
-      "the disease is generally asymptomatic until early adult and middle life.",
+      "the disease is generally asymptomatic until early adult and middle life",
       "hematuria and hypertension are frequent clinical findings",
       "palpable abdominal masses",
       "all of the above",
       "neither"
     ],
-    "correct_index": 0,
-    "answer_letter": "T",
+    "correct_index": 3,
+    "answer_letter": "D",
     "explanation": "Question 577 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   },
@@ -3285,8 +3310,8 @@
       "both",
       "neither"
     ],
-    "correct_index": 0,
-    "answer_letter": "T",
+    "correct_index": 4,
+    "answer_letter": "E",
     "explanation": "Question 578 tests renal pathology patterns (nephritic vs nephrotic, glomerulonephritis, pyelonephritis, or renal tumors).",
     "pearl": "لؤلؤة الامتحان: الهلاليات النسيجية (Crescents) هي العلامة المميزة لالتهاب الكبيبات سريع الترقي (RPGN)."
   }

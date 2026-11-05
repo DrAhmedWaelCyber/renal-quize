@@ -72,9 +72,9 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Look at illustrate, this formula is:",
     "options": [
-      "Cytosine.",
+      "Cytosine",
       "Uracil NH2",
-      "Thymine.",
+      "Thymine",
       "Adenine",
       "Methy/ thymine. H"
     ],
@@ -93,11 +93,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Look at illustrate, this formula is:",
     "options": [
-      "Cytosine.",
+      "Cytosine",
       "Methyl cytosine НзС NH",
-      "Thymine.",
+      "Thymine",
       "Adenine",
-      "Uracil."
+      "Uracil"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -114,11 +114,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "In the stomach, gastric HCI separates the proteins from nucleic acids. Proteins are digested by proteolytic enzymes; The action of intestinal nucleotidases is to:",
     "options": [
-      "remove sugar from nucleotides.",
-      "remove nitrogen from nucleotides.",
+      "remove sugar from nucleotides",
+      "remove nitrogen from nucleotides",
       "remove phosphates from nucleotides. *tor",
-      "digest nucleotides into carbon dioxide, nitrogen and oxygen.",
-      "digest nucleotides into carbon, nitrogermand oxygen."
+      "digest nucleotides into carbon dioxide, nitrogen and oxygen",
+      "digest nucleotides into carbon, nitrogermand oxygen"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -135,11 +135,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Look at illustrate (the source of purine base), the symbol (A) is:",
     "options": [
-      "Glutamate.",
-      "Glutamine.",
+      "Glutamate",
+      "Glutamine",
       "Carbon dioxide: UUM",
-      "Aspartate.",
-      "Glycine."
+      "Aspartate",
+      "Glycine"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -157,10 +157,10 @@
     "question": "Look at illustrate (the source of purine base), the symbol (C) is:",
     "options": [
       "Formate",
-      "Glutamate.",
-      "Glutamine.",
-      "Aspartate.",
-      "Glycine."
+      "Glutamate",
+      "Glutamine",
+      "Aspartate",
+      "Glycine"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -177,11 +177,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Look at illustrate (the source of purine base), the symbol (E) is:",
     "options": [
-      "Glutamate.",
-      "Glycine.",
-      "Glutamine.",
-      "Carbon dioxide.",
-      "Aspartate."
+      "Glutamate",
+      "Glycine",
+      "Glutamine",
+      "Carbon dioxide",
+      "Aspartate"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -219,11 +219,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Synthesis of purine nucleotides de novo occurs in:",
     "options": [
-      "Cytoplasm.",
-      "Mitochondria.",
-      "Endoplasmic reticulum.",
-      "Ribosome.",
-      "Nucleus."
+      "Cytoplasm",
+      "Mitochondria",
+      "Endoplasmic reticulum",
+      "Ribosome",
+      "Nucleus"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -241,7 +241,7 @@
     "question": "Phosphoribosyl-1-Pyrophsophate (PRPP)",
     "options": [
       "Fumarate",
-      "H2O.",
+      "H2O",
       "5-phosphoribosylamine .) C",
       "Aspartate. B"
     ],
@@ -260,7 +260,7 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Look at illustrate (salvage pathway of purine base synthesis), the symbol (C) is:",
     "options": [
-      "Adenine. NH, NH,",
+      "Adenine. NH, NH",
       "APRTase",
       "IMP. C",
       "GMP Ribose-5-P",
@@ -281,8 +281,8 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Look at illustrate (salvage pathway of purine base synthesis), the symbol (B) is:",
     "options": [
-      "Adenine.",
-      "Guanine.",
+      "Adenine",
+      "Guanine",
       "IMP. B Rb0se-S.P",
       "GMP",
       "HGPRTase. C"
@@ -302,10 +302,10 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "The symbol (E) is:",
     "options": [
-      "Adenine.",
+      "Adenine",
       "Guanine. E Ribose-S.p",
-      "IMP. Doctor",
-      "GMP. ENOOR",
+      "IMP",
+      "GMP",
       "HGPRTase. About purine salvage pathway, state which of the following statements are true T) and which are false (F)?"
     ],
     "correct_index": 3,
@@ -327,7 +327,7 @@
       "Xanthine Oxidase. nucleotidases",
       "Guanine. NH$ • Adenosine",
       "Uric acid. nucleos ide",
-      "Adenine."
+      "Adenine"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -346,8 +346,8 @@
     "options": [
       "Xanthine. E",
       "Xanthine Oxidase. NHA",
-      "Guanine.",
-      "Uric acid.",
+      "Guanine",
+      "Uric acid",
       "Adenine. H202 H"
     ],
     "correct_index": 1,
@@ -410,7 +410,7 @@
       "Xanthine oxidase",
       "Hypoxanthine guanine phosphoribosyl transferase",
       "Adenyl succinate synthase",
-      "Adenosine deaminase.",
+      "Adenosine deaminase",
       "Guaninase"
     ],
     "correct_index": 0,
@@ -428,11 +428,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Primary Gout is due to genetic defect in one or more enzymes that are participating in purine catabolism. Which one of the following is cause of primary gout?",
     "options": [
-      "Deficiency of Alanine transaminase.",
-      "Deficiency of Phospho-ribosyl-pyrophosphate synthetase.",
-      "Deficiency of cabomyl phosphate synthase II.",
+      "Deficiency of Alanine transaminase",
+      "Deficiency of Phospho-ribosyl-pyrophosphate synthetase",
+      "Deficiency of cabomyl phosphate synthase II",
       "Deficiency of glutaminase",
-      "Deficiency of arginase."
+      "Deficiency of arginase"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -517,8 +517,8 @@
       "Renal tubular acidosis",
       "Porphyria"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 165 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -579,8 +579,8 @@
       "Cystine stone",
       "Silicate stone 59155 elle not slap c"
     ],
-    "correct_index": 2,
-    "answer_letter": "C",
+    "correct_index": 1,
+    "answer_letter": "B",
     "explanation": "Item 168 addresses purine synthesis, degradation to uric acid, or crystal composition of urinary calculi.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -615,11 +615,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Which one of the following urine contents is NOT a protective factor against formation of renal stones?",
     "options": [
-      "Magnesium.",
-      "Uric acid.",
-      "Citrate. Doctor",
-      "Pyrophosphate.",
-      "Enzymes. Each of the following conditions is related to metabolism of Purines and Pyrimidines. For each condition select the single most appropriate answer. Each option may be used once, more than once or not at all."
+      "Magnesium",
+      "Uric acid",
+      "Citrate",
+      "Pyrophosphate",
+      "Enzymes. Each of the following conditions is related to metabolism of Purines and Pyrimidines. For each condition select the single most appropriate answer. Each option may be used once, more than once or not at all"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -636,7 +636,7 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Both the salvage and de novo synthesis Option list: pathways of purine and pyrimidine",
     "options": [
-      "5 Phosphoribosyl 1 biosynthesis lead to the production of pyrophosphate nucleoside-5'-phosphates through the utilization of an activated sugar.",
+      "5 Phosphoribosyl 1 biosynthesis lead to the production of pyrophosphate nucleoside-5'-phosphates through the utilization of an activated sugar",
       "Ribosyl pyrophosphate Which activated sugar intermediate",
       "Adenosine deaminase used for this purpose?",
       "Xanthine Oxidase"
@@ -656,9 +656,9 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "A 45-year-old man presented by severe left flank pain radiating to the left lower quadrant. His blood pressure was 140/93, pulse rate was 75 b/m, respiratory rate was 23 b/m and temperature was 37° C. By urine analysis: revealed a moderate increase in specific gravity (1.030) and significant hematuria (4+). The pain was decreased after administration of analgesics. The condition diagnosed as kidney stones.",
     "options": [
-      "Enumerate the 4 most common chemical compositions of urinary calculi.",
-      "Enumerate only 4 causes of urinary stones.",
-      "Enumerate only 4 protective factors against urinary stones."
+      "Enumerate the 4 most common chemical compositions of urinary calculi",
+      "Enumerate only 4 causes of urinary stones",
+      "Enumerate only 4 protective factors against urinary stones"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -677,7 +677,7 @@
     "options": [
       "What is the most likely diagnosis for this patient's condition?",
       "What is the key enzyme defect associated with such condition?",
-      "Enumerate the causes of formation of renal stones? Henal system Module Metabolism of water & electrolytes:"
+      "Enumerate the causes of formation of renal stones"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -715,11 +715,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Potassium is the major intracellular cation. About 98% of potassium is in cells, only 2% is in ECF. Total body potassium in an adult male is about 50 mEq/kg of body weight and is influenced by age, sex and muscle mass, since most of the body's potassium is found in muscles. The functions of potassium all of the following EXCEPT:",
     "options": [
-      "Potassium acts as substrate tor sodium potassium pump.",
-      "Potassium influences the muscular activity.",
-      "It has an important role in cardiac function.",
-      "Certain enzymes such as hexokinase require K+ as cofactor.",
-      "Transmission of nerve impulses."
+      "Potassium acts as substrate tor sodium potassium pump",
+      "Potassium influences the muscular activity",
+      "It has an important role in cardiac function",
+      "Certain enzymes such as hexokinase require K+ as cofactor",
+      "Transmission of nerve impulses"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -736,11 +736,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Sodium plays a key role in the regulation of blood volume, blood pressure, osmotic balance and maintains a constant pH. Which of the following not present in biological importance of sodium?",
     "options": [
-      "Contraction of the muscles.",
-      "Regulation of calcium.",
-      "Transmission of nerve impulses.",
-      "Sodium acts as substrate tor Na*/K+ ATPase enzyme (Na*/K+ pump).",
-      "Maintain of osmotic pressure and volume of plasma and extracellular fluid."
+      "Contraction of the muscles",
+      "Regulation of calcium",
+      "Transmission of nerve impulses",
+      "Sodium acts as substrate tor Na*/K+ ATPase enzyme (Na*/K+ pump)",
+      "Maintain of osmotic pressure and volume of plasma and extracellular fluid"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -782,7 +782,7 @@
       "Potassium",
       "Chloride",
       "Calcium",
-      "Magnesium Doctor"
+      "Magnesium"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -844,7 +844,7 @@
       "Hyponatremia",
       "Hyperkalemia",
       "Hypernatremia",
-      "Hypokalemia lenal system Module"
+      "Hypokalemia"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -861,11 +861,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Hypernatremia (excess plasma sodium) occurs due to all of the following EXCEPT:",
     "options": [
-      "Cushing syndrome.",
-      "Conn's disease.",
-      "Diabetes mellitus.",
-      "Diabetes insipidus.",
-      "Drugs as cortisone."
+      "Cushing syndrome",
+      "Conn's disease",
+      "Diabetes mellitus",
+      "Diabetes insipidus",
+      "Drugs as cortisone"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -903,11 +903,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Which one of the following is considered a regulator for thirst center in hypothalamus?",
     "options": [
-      "Osmolality of the blood.",
-      "Temperature of the blood.",
-      "Dialysis of the blood.",
-      "Diffusion of the blood.",
-      "Blood Nickel."
+      "Osmolality of the blood",
+      "Temperature of the blood",
+      "Dialysis of the blood",
+      "Diffusion of the blood",
+      "Blood Nickel"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -925,10 +925,10 @@
     "question": "Water is very important to life. There is balanced between water gain and water loss. Excess water gain may lead to over hydration or water intoxication and lead to nausea, vomiting, headache, muscular weakness, confusion, convulsion, coma and may be death. Which of the following isn't present in biochemical findings in water overhydration?",
     "options": [
       "Increase in urine volume",
-      "Increase in plasma sodium.",
-      "Decrease in plasma proteins.",
-      "Increase in extracellular fluid (ECF) volume.",
-      "Decrease in extracellular fluid (ECF) osmolality."
+      "Increase in plasma sodium",
+      "Decrease in plasma proteins",
+      "Increase in extracellular fluid (ECF) volume",
+      "Decrease in extracellular fluid (ECF) osmolality"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -945,11 +945,11 @@
     "topic": "Biochemistry of Gout",
     "question": "All of the following statements are true about biochemical findings in water excess EXCEPT:",
     "options": [
-      "Decrease in plasma sodium.",
-      "Increase in ECF (Extracellular fluid) volume.",
-      "Increase in plasma proteins.",
-      "Decrease in ECF osmolality.",
-      "Increase in urine volume."
+      "Decrease in plasma sodium",
+      "Increase in ECF (Extracellular fluid) volume",
+      "Increase in plasma proteins",
+      "Decrease in ECF osmolality",
+      "Increase in urine volume"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -966,9 +966,9 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Which one of the following is NOT a Biochemical finding in water intoxication?",
     "options": [
-      "Increase in ECF volume.",
-      "Decrease in urine volume.",
-      "Decrease in plasma proteins.",
+      "Increase in ECF volume",
+      "Decrease in urine volume",
+      "Decrease in plasma proteins",
       "Decrease in ECF osmolality. About biochemical findings in water excess, state which of the following statements are true (T) and which of them are false (F):"
     ],
     "correct_index": 2,
@@ -986,11 +986,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Which one of the following is defined as separating colloids from crystalloids by the difference in their rates of diffusion through a semipermeable membrane?",
     "options": [
-      "Adsorption.",
-      "Diffusion.",
-      "Dialysis.",
-      "Osmosis.",
-      "Absorption. I system Module"
+      "Adsorption",
+      "Diffusion",
+      "Dialysis",
+      "Osmosis",
+      "Absorption. I"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -1007,11 +1007,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Which one of the following is defined as the movement of solvent molecules from the region of lower concentration to the region of higher concentration through a semipermeable membrane?",
     "options": [
-      "Adsorption.",
-      "Diffusion.",
-      "Dialysis.",
-      "Osmosis.",
-      "Absorption."
+      "Adsorption",
+      "Diffusion",
+      "Dialysis",
+      "Osmosis",
+      "Absorption"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -1050,10 +1050,10 @@
     "question": "Which of following is the definition of separation of colloids from crystalloid by using semipermeable membrane?",
     "options": [
       "Adsorption",
-      "Absorption.",
-      "Electrophoresis.",
-      "Osmosis.",
-      "Dialysis."
+      "Absorption",
+      "Electrophoresis",
+      "Osmosis",
+      "Dialysis"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -1091,11 +1091,11 @@
     "topic": "Crystalloids vs Colloids",
     "question": "Crystalloids are solutions in which the size of particles is:",
     "options": [
-      "Less than ten nanometer.",
-      "More than one nanometer.",
-      "Less than ten nanometer.",
-      "Less than one nanometer.",
-      "More than ten nanometer."
+      "Less than ten nanometer",
+      "More than one nanometer",
+      "Less than ten nanometer",
+      "Less than one nanometer",
+      "More than ten nanometer"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -1115,8 +1115,8 @@
       "Na*",
       "K+",
       "Cl",
-      "Water Doctor",
-      "HCO3 Each of the following conditions is related to functions of plasma proteins. For each condition select the single most appropriate answer. Each option may be used once, more than once or not at all."
+      "Water",
+      "HCO3 Each of the following conditions is related to functions of plasma proteins. For each condition select the single most appropriate answer. Each option may be used once, more than once or not at all"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -1152,14 +1152,19 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "One of the important functions of the blood is",
     "options": [
+      "Peptone",
       "Albumin",
-      "Fibrinogen",
-      "Transferrin",
-      "Gamma-Globulins (Immunoglobulins)",
-      "Alpha-1-antitrypsin"
+      "LDH",
+      "ALT-AST",
+      "Casein",
+      "Globulin",
+      "Cysteine",
+      "Lipase",
+      "Gamma globulin",
+      "Beta Globulin"
     ],
-    "correct_index": 3,
-    "answer_letter": "D",
+    "correct_index": 8,
+    "answer_letter": "I",
     "explanation": "Gamma-globulins (immunoglobulins/antibodies) synthesized by plasma cells are the plasma proteins primarily responsible for humoral immune defense against pathogens.",
     "pearl": "لؤلؤة الامتحان: دواء Allopurinol يثبط إنزيم Xanthine oxidase لعلاج فرط حمض اليوريك وحصوات الكلى."
   },
@@ -1194,10 +1199,10 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Which one of following parts of the nephron is responsible for reabsorption of 85% of filtered Bicarbonate (HCOз)?",
     "options": [
-      "Descending limb of Loop of Henle.",
-      "Ascending limb of Loop of Henie.",
-      "Proximal convoluted tubule.",
-      "Bowman's capsule.",
+      "Descending limb of Loop of Henle",
+      "Ascending limb of Loop of Henie",
+      "Proximal convoluted tubule",
+      "Bowman's capsule",
       "Collecting duct"
     ],
     "correct_index": 2,
@@ -1215,11 +1220,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "Which of the following mechanisms is important in the renal excretion of hydrogen ion?",
     "options": [
-      "Combining of hydrogen ion with chloride ion to form hydrochloric acid.",
-      "Combining of hydrogen ion and bicarbonate via the enzyme carbonic anhydrase.",
-      "Trapping of hydrogen ion by ammonia to form ammonium ion.",
-      "Secretion of sulfate and hydrogen ions as sulfuric acid.",
-      "Secretion of sodium in the expense of potassium."
+      "Combining of hydrogen ion with chloride ion to form hydrochloric acid",
+      "Combining of hydrogen ion and bicarbonate via the enzyme carbonic anhydrase",
+      "Trapping of hydrogen ion by ammonia to form ammonium ion",
+      "Secretion of sulfate and hydrogen ions as sulfuric acid",
+      "Secretion of sodium in the expense of potassium"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -1236,11 +1241,11 @@
     "topic": "Renal Biochemistry & Purine Metabolism",
     "question": "The role of the kidney in homeostasis may include which of the following?",
     "options": [
-      "Secretion and regulation of certain hormones, such as angiotensin I, prostaglandins, and kinins in the regulation of blood pressure.",
-      "Regulation of extracellular fluid composition.",
-      "Regulation of red blood cell formation.",
-      "Secretion of erythropoietin.",
-      "All are correct."
+      "Secretion and regulation of certain hormones, such as angiotensin I, prostaglandins, and kinins in the regulation of blood pressure",
+      "Regulation of extracellular fluid composition",
+      "Regulation of red blood cell formation",
+      "Secretion of erythropoietin",
+      "All are correct"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -1260,7 +1265,7 @@
       "Osmolality",
       "Diffusion",
       "Dialysis Dortor",
-      "Osmosis NOOR"
+      "Osmosis"
     ],
     "correct_index": 0,
     "answer_letter": "A",

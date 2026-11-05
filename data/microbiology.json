@@ -11,7 +11,7 @@
     "options": [
       "What is your suggestive diagnosis? -",
       "How can you confirm your diagnosis?",
-      "Mention the complications of this parasitic infection."
+      "Mention the complications of this parasitic infection"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -47,11 +47,11 @@
     "topic": "UTI Prevention",
     "question": "Which one of the following statements is CORRECT?",
     "options": [
-      "The posterior urethra may be inhabited by consistent normal flora.",
-      "Urine is normally non-sterile.",
-      "Honeymoon cystitis in sexually active young women is usually due to Staph aureus.",
-      "Wiping of the anus from front to back is recommended.",
-      "Microorganisms may appear in normal voided urine in numbers of 105 CFU/mL."
+      "The posterior urethra may be inhabited by consistent normal flora",
+      "Urine is normally non-sterile",
+      "Honeymoon cystitis in sexually active young women is usually due to Staph aureus",
+      "Wiping of the anus from front to back is recommended",
+      "Microorganisms may appear in normal voided urine in numbers of 105 CFU/mL"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -68,11 +68,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Which of the following statements is INCORRECT?",
     "options": [
-      "Urine in the bladder is normally sterile.",
-      "The anterior urethra may be inhabited by consistent normal flora.",
-      "Staphylococcus epidermidis and Enterococcus faecalis may be normal flora of the anterior urethra.",
-      "These organisms may appear in normal voided urine in small numbers.",
-      "Clean-catch midstream urine normally contains >10^5 CFU/ml of bacteria."
+      "Urine in the bladder is normally sterile",
+      "The anterior urethra may be inhabited by consistent normal flora",
+      "Staphylococcus epidermidis and Enterococcus faecalis may be normal flora of the anterior urethra",
+      "These organisms may appear in normal voided urine in small numbers",
+      "Clean-catch midstream urine normally contains >10^5 CFU/ml of bacteria"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -89,11 +89,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Which of the following statements is INCORRECT?",
     "options": [
-      "Urine is normally sterile.",
-      "The anterior urethra may be inhabited by consistent normal flora.",
-      "Staphylococcus epidermidis may be normal flora of anterior urethra.",
-      "These organisms may appear in normal voided urine in numbers of 105 CFU/mL.",
-      "Some young women with acute dysuria suggesting cystitis have negative urine cultures for bacteria."
+      "Urine is normally sterile",
+      "The anterior urethra may be inhabited by consistent normal flora",
+      "Staphylococcus epidermidis may be normal flora of anterior urethra",
+      "These organisms may appear in normal voided urine in numbers of 105 CFU/mL",
+      "Some young women with acute dysuria suggesting cystitis have negative urine cultures for bacteria"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -110,11 +110,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Which of the following statements is FALSE about asymptomatic bacteriuria?",
     "options": [
-      "frequent instrumentation of the urinary tract is thought to increase the likelihood of asymptomatic bacteriuria.",
-      "Asymptomatic bacteriuria has no signs or symptoms of a urinary tract infection.",
-      "Most patients will develop symptomatic urinary tract infections later.",
-      "Most patients don't benefit from treatment.",
-      "Pregnant woman with asymptomatic bacteriuria should be treated."
+      "frequent instrumentation of the urinary tract is thought to increase the likelihood of asymptomatic bacteriuria",
+      "Asymptomatic bacteriuria has no signs or symptoms of a urinary tract infection",
+      "Most patients will develop symptomatic urinary tract infections later",
+      "Most patients don't benefit from treatment",
+      "Pregnant woman with asymptomatic bacteriuria should be treated"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -131,11 +131,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Which of the following statements is False about asymptomatic bacteriuria?",
     "options": [
-      "Asymptomatic bacteriuria is very common in clinical practice.",
+      "Asymptomatic bacteriuria is very common in clinical practice",
       "Most patients with asymptomatic bacteriuria will never develop symptomatic urinary tract infections",
       "Most patients will have no adverse consequences from asymptomatic bacteriuria",
-      "Most patients with asymptomatic bacteriuria benefit from treatment.",
-      "Obstructive uropathy is thought to increase the likelihood of asymptomatic bacteriuria."
+      "Most patients with asymptomatic bacteriuria benefit from treatment",
+      "Obstructive uropathy is thought to increase the likelihood of asymptomatic bacteriuria"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -152,11 +152,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "All of the followings are risk factors of UTI, EXCEPT:",
     "options": [
-      "Males are more likely to get urinary tract infections, due to the closeness of urethra to the anal opening.",
-      "Sexually active women.",
-      "Honeymoon cystitis during early marriage.",
-      "Senile prostatic hypertrophy.",
-      "People who have diabetes mellitus and pregnant women."
+      "Males are more likely to get urinary tract infections, due to the closeness of urethra to the anal opening",
+      "Sexually active women",
+      "Honeymoon cystitis during early marriage",
+      "Senile prostatic hypertrophy",
+      "People who have diabetes mellitus and pregnant women"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -194,9 +194,9 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "All of the following are correct regarding CAUTI, EXCEPT:",
     "options": [
-      "CAUTI are the most common infections in health care facilities. Dr NOX",
-      "The placement of a urinary catheter into the bladder disrupts the natural host defense mechanisms.",
-      "The urinary catheter helps the complete elimination of bladder urine without a residual pool of stagnant urine.",
+      "CAUTI are the most common infections in health care facilities",
+      "The placement of a urinary catheter into the bladder disrupts the natural host defense mechanisms",
+      "The urinary catheter helps the complete elimination of bladder urine without a residual pool of stagnant urine",
       "causative bacteria of CAUTI can be from the patient's own skin and urogenital flora",
       "The biofilm also acts to protect the bacteria from the host immune system"
     ],
@@ -216,8 +216,8 @@
     "question": "All of the followings are correct regarding CAUTI, EXCEPT:",
     "options": [
       "CAUl are the most common infections in health care facilities",
-      "The placement of a urinary catheter into the bladder protects the natural host defense mechanisms.",
-      "The urinary catheter causes incomplete elimination of bladder urine with a residual pool of stagnant urine.",
+      "The placement of a urinary catheter into the bladder protects the natural host defense mechanisms",
+      "The urinary catheter causes incomplete elimination of bladder urine with a residual pool of stagnant urine",
       "Causative bacteria of CAUTI can be from the patient's own skin and urogenital flora",
       "The biofilm also acts to protect the bacteria from the host immune system"
     ],
@@ -236,10 +236,10 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "All of the following statements are true regarding diagnosis of UTI,",
     "options": [
-      "It is generally accepted that 103 CFU/mL of urine is significant bacteriuria.",
-      "Some young women with acute dysuria suggesting cystitis have negative urine cultures for bacteria.",
-      "Urine analysis, looking for the presence of urinary nitrites, pus cells.",
-      "Urine analysis, looking for the presence of leukocyte esterase, presence of red blood cells, or bacteria.",
+      "It is generally accepted that 103 CFU/mL of urine is significant bacteriuria",
+      "Some young women with acute dysuria suggesting cystitis have negative urine cultures for bacteria",
+      "Urine analysis, looking for the presence of urinary nitrites, pus cells",
+      "Urine analysis, looking for the presence of leukocyte esterase, presence of red blood cells, or bacteria",
       "Culture and sensitivity of urine"
     ],
     "correct_index": 0,
@@ -278,11 +278,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "A sudden urge to evacuate the urinary bladder means:",
     "options": [
-      "Dysuria.",
-      "Frequency.",
-      "Hematuria.",
-      "Urgency.",
-      "Dysentery."
+      "Dysuria",
+      "Frequency",
+      "Hematuria",
+      "Urgency",
+      "Dysentery"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -302,10 +302,10 @@
       "Frequency",
       "Hematuria more tor",
       "Dysuria",
-      "Occurs in 90% of streptococcal infections.",
-      "A form of type Ill hypersensitivity.",
-      "Transmitted sexually.",
-      "Almost associated with renal failure."
+      "Occurs in 90% of streptococcal infections",
+      "A form of type Ill hypersensitivity",
+      "Transmitted sexually",
+      "Almost associated with renal failure"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -343,9 +343,9 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Poststreptococcal acute glomerulonephritis represents which type of hypersensitivity reaction?",
     "options": [
-      "Ig E mediated.",
+      "Ig E mediated",
       "Cytotoxic",
-      "Antigen-antibody complex mediated.",
+      "Antigen-antibody complex mediated",
       "Delayed hypersensitivity",
       "Anaphylaxis"
     ],
@@ -364,10 +364,10 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "The nephritogenic strains that lead to acute glomerulonephritis are frequently streptococci which cause:",
     "options": [
-      "Scarlet fever.",
-      "Wound infection.",
+      "Scarlet fever",
+      "Wound infection",
       "Impetigo. octor",
-      "Post-partum infection F. Gastroenteritis."
+      "Post-partum infection F. Gastroenteritis"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -384,11 +384,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "The nephritogenic strains that lead to acute glomerulonephritis are frequently streptococci which cause:",
     "options": [
-      "Urinary tract infection.",
-      "Scarlet fever.",
+      "Urinary tract infection",
+      "Scarlet fever",
       "Rheumatic fever. VIN",
-      "Post-partum infection.",
-      "None of above."
+      "Post-partum infection",
+      "None of above"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -508,11 +508,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Which of the following statements is INCORRECT?",
     "options": [
-      "Pseudomonas causes honeymoon cystitis.",
-      "Urinary tract infection can result in bacteremia with clinical signs of sepsis.",
-      "E.coli is the most common cause of urinary tract infection.",
+      "Pseudomonas causes honeymoon cystitis",
+      "Urinary tract infection can result in bacteremia with clinical signs of sepsis",
+      "E.coli is the most common cause of urinary tract infection",
       "Uropathogenic E.coli trains produce hemolysin, which facilitates tissue invasion. CarSoner Wannal",
-      "In urinary tract infections with Proteus, the urine becomes alkaline, promoting stone formation."
+      "In urinary tract infections with Proteus, the urine becomes alkaline, promoting stone formation"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -529,10 +529,10 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Male patient with recurrent dysuria, his urine analysis reveals pus cell over 100, the best management:",
     "options": [
-      "A sample of urine for culture and sensitivity and wait without treatment until result appear.",
-      "Give antimicrobial combination without culture and sensitivity.",
-      "Give PenicillinG to kili the suspected bacteria.",
-      "A sample of urine for culture and sensitivity and give empirical antibiotic until result appear.",
+      "A sample of urine for culture and sensitivity and wait without treatment until result appear",
+      "Give antimicrobial combination without culture and sensitivity",
+      "Give PenicillinG to kili the suspected bacteria",
+      "A sample of urine for culture and sensitivity and give empirical antibiotic until result appear",
       "Give metronidazole oraliy for 7 days"
     ],
     "correct_index": 3,
@@ -593,7 +593,7 @@
     "question": "A 34-year-old woman presents with a 3-day history of hematuria, dysuria, and increased urinary frequency. She has had no fever, chills, or back pain. Her temperature is 37.5° C. There is no loin (costovertebral angle) tenderness. What is the most likely diagnosis?",
     "options": [
       "Berger disease (immunoglobulin A nephropathy)",
-      "acute cystitis aall = діся Revisia",
+      "acute cystitis",
       "acute hemorrhagic urethritis",
       "acute glomerulonephritis",
       "acute pyelonephritis"
@@ -635,10 +635,10 @@
     "question": "A hospitalized man with suspected Escherichia coli urosepsis, which culture medium would allow selective growth of this microorganism?",
     "options": [
       "Blood agar",
-      "MacConkey agar.",
-      "Thayer-Martin agar.",
+      "MacConkey agar",
+      "Thayer-Martin agar",
       "Sabaraud dextrose agar. JUN",
-      "Chocolate agar."
+      "Chocolate agar"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -659,7 +659,7 @@
       "MacConkey agar",
       "Sabaraud dextrose agar",
       "Blood agar",
-      "Thyer-Martin agar."
+      "Thyer-Martin agar"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -677,7 +677,7 @@
     "question": "Which of the following organisms cause hemolysis on blood agar?",
     "options": [
       "Proteus mirabilis",
-      "Mycoplasma genitalium Dr NC",
+      "Mycoplasma genitalium",
       "Chlamydia trachomatis",
       "E. coli",
       "Mycobacteria"
@@ -697,11 +697,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "K antigen of Escherichia coli is mostly common with the strains causing:",
     "options": [
-      "Cystitis.",
-      "Pyuria.",
-      "Prostatitis.",
-      "Pyelonephritis.",
-      "Diarrhea. A 27-year-old woman presents to the emergency department with a 4-day history of fever, chills, and bilateral costovertebral angle (CA) pain. She has an indwelling urinary catheter. On examination, her temperature is 40° C. She has intermittent shaking rigors. She has CVA tenderness bilaterally."
+      "Cystitis",
+      "Pyuria",
+      "Prostatitis",
+      "Pyelonephritis",
+      "Diarrhea. A 27-year-old woman presents to the emergency department with a 4-day history of fever, chills, and bilateral costovertebral angle (CA) pain. She has an indwelling urinary catheter. On examination, her temperature is 40° C. She has intermittent shaking rigors. She has CVA tenderness bilaterally"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -848,7 +848,7 @@
       "Staphylococcus",
       "Pseudomonas",
       "Proteus",
-      "Escherichia coli Dr N"
+      "Escherichia coli"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -865,11 +865,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "A young woman presents with recurrent urinary tract infections caused by the same Proteus mirabilis strain. What is the major concern?",
     "options": [
-      "She does not take her medication.",
-      "She is pregnant because pregnant patients are more susceptible to UTIs.",
-      "She has a bladder or kidney stone.",
-      "Her partner is infected.",
-      "She has occult diabetes and should have a glucose tolerance test A 58-year-old hospitalized male with an indwelling catheter develops a new onset of fever. The urine sample has an alkaline pH. The bacterium isolated from the urine is a urease-producing, highly motile, Gram-negative bacillus."
+      "She does not take her medication",
+      "She is pregnant because pregnant patients are more susceptible to UTIs",
+      "She has a bladder or kidney stone",
+      "Her partner is infected",
+      "She has occult diabetes and should have a glucose tolerance test A 58-year-old hospitalized male with an indwelling catheter develops a new onset of fever. The urine sample has an alkaline pH. The bacterium isolated from the urine is a urease-producing, highly motile, Gram-negative bacillus"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -928,11 +928,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "All statements are true regarding Proteus species, EXECT;",
     "options": [
-      "Proteus Vulgaris is an important nosocomial pathogen.",
+      "Proteus Vulgaris is an important nosocomial pathogen",
       "Proteus species produce urease",
       "In UTI with Proteus species, stone formation is promoted",
-      "Proteus species are non-motile.",
-      "proteus species produce bacteremia, pneumonia, and focal lesions in debilitated patients."
+      "Proteus species are non-motile",
+      "proteus species produce bacteremia, pneumonia, and focal lesions in debilitated patients"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -970,11 +970,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "All of the following statements are true regarding Klebsiella, EXCEPT:",
     "options": [
-      "Klebsiella are gram-negative bacilli which are thick and short.",
-      "They are non-motile and tend to produce large capsules on primary isolation.",
-      "This organism grows well on ordinary nutrient media.",
-      "Colonies are large raised, moist and non-mucoid.",
-      "They give rise to pink colored colonies."
+      "Klebsiella are gram-negative bacilli which are thick and short",
+      "They are non-motile and tend to produce large capsules on primary isolation",
+      "This organism grows well on ordinary nutrient media",
+      "Colonies are large raised, moist and non-mucoid",
+      "They give rise to pink colored colonies"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -1054,11 +1054,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Friedlander's bacilli causing UTI is:",
     "options": [
-      "Klebsiella.",
-      "TB.",
-      "Staphylococcus. Doctor",
-      "Pseudomonas.",
-      "Proteus."
+      "Klebsiella",
+      "TB",
+      "Staphylococcus",
+      "Pseudomonas",
+      "Proteus"
     ],
     "correct_index": 0,
     "answer_letter": "A",
@@ -1100,7 +1100,7 @@
       "Bacitracin sensitivity",
       "Coagulase positivity",
       "Lactose fermentation",
-      "Urea hydrolysis Dr N Glogi sion"
+      "Urea hydrolysis Glogi sion"
     ],
     "correct_index": 2,
     "answer_letter": "C",
@@ -1117,11 +1117,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Honeymoon cystitis is caused by:",
     "options": [
-      "Staphylococcus epidermidis.",
-      "Streptococcus pyogenes.",
-      "Proteus vulgaris.",
-      "Klebsiella pneumonia.",
-      "Staphylococcus saprophyticus."
+      "Staphylococcus epidermidis",
+      "Streptococcus pyogenes",
+      "Proteus vulgaris",
+      "Klebsiella pneumonia",
+      "Staphylococcus saprophyticus"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -1142,7 +1142,7 @@
       "P. aeruginosa",
       "Staphylococcus aureus",
       "Staphylococcus epidermidis actor",
-      "Staphylococcus saprophyticus."
+      "Staphylococcus saprophyticus"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -1159,10 +1159,10 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "A 22-year-old woman develops dysuria, pyuria, and fever suggestive of ith urinary tract infection. Urine cultures show G+ve bacteria in clusters that are coagulase positive. Which of the following would be the most likely cause of the cystitis?",
     "options": [
-      "Staphylococcus saprophyticus.",
-      "E.coli.",
-      "Staphylococcus aureus.",
-      "Staphylococcus epidermidis.",
+      "Staphylococcus saprophyticus",
+      "E.coli",
+      "Staphylococcus aureus",
+      "Staphylococcus epidermidis",
       "Enterococci. ris"
     ],
     "correct_index": 2,
@@ -1222,11 +1222,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Which of the following statements is FALSE as regarding leptospirosis?",
     "options": [
-      "Leptospirae are actively motile, which is best seen using a dark-field microscope.",
-      "Leptospirae grow best under anaerobic conditions at 28-30°C in semisolid medium.",
-      "Dark-field examination of centrifuged urine may also be positive.",
-      "The diagnosis of leptospirosis in most cases is confirmed serologically.",
-      "Rats, dogs, and cattle are the principal sources of human infection."
+      "Leptospirae are actively motile, which is best seen using a dark-field microscope",
+      "Leptospirae grow best under anaerobic conditions at 28-30°C in semisolid medium",
+      "Dark-field examination of centrifuged urine may also be positive",
+      "The diagnosis of leptospirosis in most cases is confirmed serologically",
+      "Rats, dogs, and cattle are the principal sources of human infection"
     ],
     "correct_index": 1,
     "answer_letter": "B",
@@ -1307,9 +1307,9 @@
     "options": [
       "Leptospirosis is a zoonosis of worldwide distribution",
       "Leptospira are tightly coiled, thin, flexible spirochetes 5-15 um long",
-      "Dark-field examination of centrifuged urine may also be positive.",
+      "Dark-field examination of centrifuged urine may also be positive",
       "The diagnosis of leptospirosis in most cases is confirmed by tissue culture",
-      "Rats, dogs, swine, and cattle are the principal sources of human infection."
+      "Rats, dogs, swine, and cattle are the principal sources of human infection"
     ],
     "correct_index": 3,
     "answer_letter": "D",
@@ -1326,11 +1326,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Which of the following statements is INCORRECT?",
     "options": [
-      "Enterobacter may cause a broad range of hospital-acquired infections.",
-      "Staph. saprophyticus is typically nonpigmented, novobiocin resistant, and nonhemolytic.",
-      "Staph. saprophyticus is a common cause of honeymoon cystitis in young sexually active females.",
-      "Renal involvement in TB can be part of disseminated infection or localized genitourinary disease.",
-      "Urogenital TB is an extremely rare presentation that never causes sterile pyuria."
+      "Enterobacter may cause a broad range of hospital-acquired infections",
+      "Staph. saprophyticus is typically nonpigmented, novobiocin resistant, and nonhemolytic",
+      "Staph. saprophyticus is a common cause of honeymoon cystitis in young sexually active females",
+      "Renal involvement in TB can be part of disseminated infection or localized genitourinary disease",
+      "Urogenital TB is an extremely rare presentation that never causes sterile pyuria"
     ],
     "correct_index": 4,
     "answer_letter": "E",
@@ -1368,11 +1368,11 @@
     "topic": "Urinary Microbiology & Parasitology",
     "question": "Hemorrhagic cystitis is associated with the infection by:",
     "options": [
-      "Pseudomonas.",
-      "Adenovirus.",
-      "Yellow fever virus.",
-      "Coronavirus.",
-      "HIV. Revisi"
+      "Pseudomonas",
+      "Adenovirus",
+      "Yellow fever virus",
+      "Coronavirus",
+      "HIV"
     ],
     "correct_index": 1,
     "answer_letter": "B",
