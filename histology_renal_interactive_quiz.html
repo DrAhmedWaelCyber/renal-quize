@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نسيجيات الكلى والمسالك | موديول الكلى - طب الأزهر بنين بالقاهرة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Amiri:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #06111d;
+            --bg-secondary: #0a1b2e;
+            --bg-card: #0f2742;
+            --bg-card-hover: #16365c;
+            --border-card: #1d3e66;
+            --cyan-glow: #00e5ff;
+            --teal-accent: #0d9488;
+            --gold-azhar: #efd57f;
+            --gold-light: #fce494;
+            --amber-solute: #f59e0b;
+            --azhar-green: #059669;
+            --azhar-green-light: #10b981;
+            --crimson: #ef4444;
+            --text-main: #ffffff;
+            --text-secondary: #cde1f5;
+            --text-muted: #8aa9c7;
+            --shadow-card: 0 16px 36px -8px rgba(3, 9, 16, 0.75), 0 0 0 1px rgba(0, 229, 255, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(0, 229, 255, 0.08) 0%, transparent 70%),
+                linear-gradient(180deg, #06111d 0%, #0a1b2e 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding-bottom: 90px;
+            line-height: 1.6;
+        }
+
+        /* Header Bar */
+        .quiz-header {
+            background: linear-gradient(180deg, #091829 0%, var(--bg-secondary) 100%);
+            border-bottom: 1.5px solid var(--border-card);
+            padding: 16px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .brand-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .faculty-logo-mini {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 2px solid var(--gold-azhar);
+            background: #ffffff;
+            padding: 2px;
+            object-fit: contain;
+            box-shadow: 0 0 14px rgba(239, 213, 127, 0.3);
+        }
+
+        .brand-titles h1 {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .brand-titles p {
+            font-size: 0.8rem;
+            color: var(--cyan-glow);
+            font-weight: 600;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-action {
+            background: rgba(15, 39, 66, 0.8);
+            border: 1px solid var(--border-card);
+            color: var(--text-secondary);
+            border-radius: 10px;
+            padding: 7px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .btn-action:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--cyan-glow);
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .btn-action.active-mode {
+            background: var(--cyan-glow);
+            color: #06111d;
+            border-color: var(--cyan-glow);
+            box-shadow: 0 0 14px rgba(0, 229, 255, 0.4);
+        }
+
+        /* Main Container */
+        .quiz-container {
+            max-width: 900px;
+            margin: 24px auto;
+            padding: 0 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Banner Card */
+        .subject-hero-card {
+            background: var(--bg-secondary);
+            border: 1.5px solid var(--border-card);
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            position: relative;
+        }
+
+        .hero-banner-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+            border-bottom: 2px solid var(--cyan-glow);
+        }
+
+        .hero-overlay {
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(180deg, rgba(10, 27, 46, 0.8) 0%, var(--bg-secondary) 100%);
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .hero-meta h2 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hero-meta p {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        .hero-kpis {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .kpi-pill {
+            background: rgba(0, 229, 255, 0.12);
+            border: 1px solid rgba(0, 229, 255, 0.3);
+            border-radius: 30px;
+            padding: 5px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--cyan-glow);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Progress Bar */
+        .progress-wrapper {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-card);
+            border-radius: 14px;
+            padding: 12px 18px;
+            box-shadow: var(--shadow-card);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .progress-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+        }
+
+        .progress-track {
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--teal-accent), var(--cyan-glow));
+            width: 0%;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        /* Active Question Card */
+        .question-card {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-card);
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: var(--shadow-card);
+            position: relative;
+            transition: all 0.25s ease;
+        }
+
+        .q-badge-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .q-tag {
+            background: rgba(0, 229, 255, 0.15);
+            color: var(--cyan-glow);
+            border: 1px solid rgba(0, 229, 255, 0.35);
+            font-size: 0.8rem;
+            font-weight: 800;
+            border-radius: 20px;
+            padding: 4px 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .flag-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 700;
+            transition: color 0.2s;
+        }
+
+        .flag-btn.flagged {
+            color: var(--amber-solute);
+        }
+
+        .q-stem {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.75;
+            margin-bottom: 22px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        /* Options Grid */
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            direction: ltr;
+        }
+
+        .option-item {
+            background: rgba(10, 27, 46, 0.6);
+            border: 1.5px solid var(--border-card);
+            border-radius: 14px;
+            padding: 14px 18px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+            user-select: none;
+        }
+
+        .option-item:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--cyan-glow);
+            transform: translateX(4px);
+        }
+
+        .opt-letter {
+            width: 34px;
+            height: 34px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--border-card);
+            color: var(--cyan-glow);
+            font-weight: 800;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all 0.2s ease;
+        }
+
+        .opt-text {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        /* Option States */
+        .option-item.selected {
+            border-color: var(--cyan-glow);
+            background: rgba(0, 229, 255, 0.12);
+        }
+
+        .option-item.selected .opt-letter {
+            background: var(--cyan-glow);
+            color: #06111d;
+        }
+
+        .option-item.correct {
+            border-color: var(--azhar-green-light) !important;
+            background: rgba(16, 185, 129, 0.15) !important;
+            color: #ffffff;
+        }
+
+        .option-item.correct .opt-letter {
+            background: var(--azhar-green);
+            color: #ffffff;
+            border-color: var(--azhar-green-light);
+        }
+
+        .option-item.incorrect {
+            border-color: var(--crimson) !important;
+            background: rgba(239, 68, 68, 0.15) !important;
+            color: #ffffff;
+        }
+
+        .option-item.incorrect .opt-letter {
+            background: var(--crimson);
+            color: #ffffff;
+            border-color: var(--crimson);
+        }
+
+        /* Medical Pearl & Rationale Card */
+        .rationale-card {
+            margin-top: 22px;
+            background: linear-gradient(135deg, rgba(13, 148, 136, 0.15) 0%, rgba(10, 27, 46, 0.85) 100%);
+            border: 1.5px solid var(--teal-accent);
+            border-right: 5px solid var(--gold-azhar);
+            border-radius: 16px;
+            padding: 18px 20px;
+            display: none;
+            direction: rtl;
+            text-align: right;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .rationale-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--gold-light);
+            font-size: 0.95rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .pearl-box {
+            background: rgba(239, 213, 127, 0.1);
+            border: 1px solid rgba(239, 213, 127, 0.35);
+            border-radius: 12px;
+            padding: 12px 14px;
+            margin-top: 12px;
+            color: #fef08a;
+            font-size: 0.92rem;
+            line-height: 1.7;
+            font-weight: 600;
+        }
+
+        .rationale-content {
+            font-size: 0.96rem;
+            color: #e2e8f0;
+            line-height: 1.7;
+            direction: ltr;
+            text-align: left;
+            margin-top: 8px;
+        }
+
+        /* Bottom Controls Bar */
+        .controls-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .btn-nav {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border-card);
+            color: #ffffff;
+            border-radius: 14px;
+            padding: 12px 24px;
+            font-size: 0.95rem;
+            font-weight: 800;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .btn-nav:hover:not(:disabled) {
+            background: var(--bg-card-hover);
+            border-color: var(--cyan-glow);
+            transform: translateY(-2px);
+            color: var(--cyan-glow);
+        }
+
+        .btn-nav:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .btn-nav.btn-primary {
+            background: var(--cyan-glow);
+            color: #06111d;
+            border-color: var(--cyan-glow);
+        }
+
+        .btn-nav.btn-primary:hover {
+            background: #4ef0ff;
+            color: #000000;
+            box-shadow: 0 0 18px rgba(0, 229, 255, 0.5);
+        }
+
+        /* Floating Palette FAB */
+        .palette-fab {
+            position: fixed;
+            bottom: 24px;
+            left: 24px;
+            background: var(--teal-accent);
+            color: #ffffff;
+            border: 2px solid var(--cyan-glow);
+            border-radius: 30px;
+            padding: 12px 20px;
+            font-size: 0.92rem;
+            font-weight: 800;
+            cursor: pointer;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+            z-index: 99;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+
+        .palette-fab:hover {
+            background: #0f766e;
+            transform: scale(1.05);
+        }
+
+        /* Palette Modal */
+        .palette-modal {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(6px);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+
+        .palette-window {
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-card);
+            border-radius: 20px;
+            max-width: 800px;
+            width: 100%;
+            max-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+        }
+
+        .palette-header {
+            padding: 16px 20px;
+            border-bottom: 1.5px solid var(--border-card);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--bg-card);
+        }
+
+        .palette-grid {
+            padding: 20px;
+            overflow-y: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+            gap: 10px;
+        }
+
+        .pal-cell {
+            aspect-ratio: 1;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-card);
+            color: var(--text-secondary);
+            font-weight: 800;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .pal-cell:hover {
+            border-color: var(--cyan-glow);
+            transform: scale(1.1);
+        }
+
+        .pal-cell.current {
+            border-color: var(--cyan-glow);
+            box-shadow: 0 0 10px var(--cyan-glow);
+        }
+
+        .pal-cell.correct {
+            background: var(--azhar-green);
+            color: #ffffff;
+            border-color: var(--azhar-green-light);
+        }
+
+        .pal-cell.incorrect {
+            background: var(--crimson);
+            color: #ffffff;
+            border-color: #f87171;
+        }
+
+        .pal-cell.flagged::after {
+            content: '•';
+            position: absolute;
+            top: 2px;
+            right: 4px;
+            color: var(--amber-solute);
+            font-size: 1.2rem;
+        }
+
+        /* Review All Mode Container */
+        .review-mode-list {
+            display: none;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 640px) {
+            .quiz-header { padding: 12px 14px; }
+            .brand-titles h1 { font-size: 0.98rem; }
+            .hero-banner-img { height: 130px; }
+            .question-card { padding: 18px 14px; }
+            .q-stem { font-size: 1.02rem; }
+            .btn-nav { padding: 10px 16px; font-size: 0.88rem; }
+            .palette-fab { bottom: 16px; left: 16px; padding: 10px 16px; font-size: 0.82rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="quiz-header">
+        <div class="header-content">
+            <div class="brand-left">
+                <img src="assets/al_azhar_logo.png" alt="شعار الأزهر" class="faculty-logo-mini">
+                <div class="brand-titles">
+                    <h1>🔬 نسيجيات الكلى والمسالك</h1>
+                    <p>موديول الكلى والجهاز البولي | إعداد وتدقيق: د. أحمد وائل</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="index.html" class="btn-action">🏠 الرئيسية</a>
+                <button id="modeToggleBtn" class="btn-action active-mode">💡 نمط التدريب</button>
+                <button id="reviewModeBtn" class="btn-action">📋 استعراض الكل</button>
+                <button id="soundToggleBtn" class="btn-action">🔊 صوت</button>
+                <button id="resetProgressBtn" class="btn-action" title="مسح إجابات هذا القسم والبدء من جديد">🔄 مسح التقدم</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quiz Main View -->
+    <main class="quiz-container">
+        
+        <!-- Hero Subject Card -->
+        <section class="subject-hero-card">
+            <img src="assets/histology_banner.jpg" alt="نسيجيات الكلى والمسالك" class="hero-banner-img">
+            <div class="hero-overlay">
+                <div class="hero-meta">
+                    <h2>نسيجيات الكلى والمسالك (Renal Histology Question Bank)</h2>
+                    <p>حاجز الترشيح الكبيبي، الخلايا الرجلاء Podocytes، جهاز مجاورات الكبيبة JGA، ظهارة الأنابيب البولية، وخلايا الظهارة الانتقالية Facet cells.</p>
+                </div>
+                <div class="hero-kpis">
+                    <span class="kpi-pill">📊 33 سؤال</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Tracker -->
+        <div class="progress-wrapper">
+            <div class="progress-header">
+                <span id="progressText">السؤال 1 من 33</span>
+                <span id="scoreText">الدقة: 100%</span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <!-- Question View -->
+        <div id="singleQuestionView">
+            <div class="question-card" id="questionCard">
+                <div class="q-badge-row">
+                    <span class="q-tag" id="qNumberTag">سؤال 1</span>
+                    <button class="flag-btn" id="flagBtn" title="تحديد للمراجعة">🚩 تحديد</button>
+                </div>
+                <div class="q-stem" id="qStem">Question text loading...</div>
+                <div class="options-list" id="optionsList"></div>
+
+                <!-- Explanation & Medical Pearl -->
+                <div class="rationale-card" id="rationaleCard">
+                    <div class="rationale-header">
+                        <span>💡 الشرح والتوضيح:</span>
+                    </div>
+                    <div class="rationale-content" id="rationaleText"></div>
+                    <div class="pearl-box" id="pearlText"></div>
+                </div>
+            </div>
+
+            <!-- Bottom Navigation -->
+            <div class="controls-card">
+                <button class="btn-nav" id="prevBtn">السابق ◀</button>
+                <button class="btn-nav btn-primary" id="nextBtn">التالي ▶</button>
+            </div>
+        </div>
+
+        <!-- Review All Mode Container -->
+        <div class="review-mode-list" id="reviewAllContainer"></div>
+
+    </main>
+
+    <!-- Floating Palette FAB -->
+    <button class="palette-fab" id="paletteFabBtn">📑 فهرس الأسئلة</button>
+
+    <!-- Palette Modal -->
+    <div class="palette-modal" id="paletteModal">
+        <div class="palette-window">
+            <div class="palette-header">
+                <h3>لوحة التنقل السريع بين الأسئلة</h3>
+                <button class="btn-action" id="closePaletteBtn">✕ إغلاق</button>
+            </div>
+            <div class="palette-grid" id="paletteGrid"></div>
+        </div>
+    </div>
+
+    <!-- Embedded Question Dataset & JavaScript Engine -->
+    <script>
+        const subjectKey = 'histology';
+        const storageKey = 'renal_quiz_state_' + subjectKey;
+        const questions = [{"id": 222, "number": 222, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "It is not a part of nephron:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 3, "answer_letter": "D", "explanation": "The collecting tubules and ducts are embryologically derived from the ureteric bud, whereas the true nephron (Bowman's capsule, PCT, Henle loop, DCT) develops from the metanephric blastema.", "pearl": "الأنابيب الجامعة (Collecting tubules) لا تتبع النيفرون وظيفياً ولا جنينياً؛ حيث تنشأ من برعم الحالب (Ureteric bud)."}, {"id": 223, "number": 223, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The most important part of nephron is:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle ctor", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 0, "answer_letter": "A", "explanation": "The renal corpuscle (glomerulus and Bowman's capsule) is the primary filtration unit.", "pearl": "الجسيم الكلوي هو بداية النيفرون ويقع دائماً في القشرة الكلوية."}, {"id": 224, "number": 224, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The only part of nephron absent in the cortex is:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules JUR", "Distal convoluted tubules"], "correct_index": 2, "answer_letter": "C", "explanation": "The loop of Henle descends deep into the renal medulla, whereas corpuscles and convoluted tubules reside exclusively in the renal cortex.", "pearl": "التواء هنلي هو الجزء المتوغل في نخاع الكلى لتكوين التدرج الأسموزي المعاكس."}, {"id": 225, "number": 225, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The filtration part of nephron is:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 225 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 226, "number": 226, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Bowman's capsule is not characterized by:", "options": ["visceral layer", "parietal layer", "capsular space", "two poles", "two layers are continuous at urinary pole"], "correct_index": 4, "answer_letter": "E", "explanation": "Question 226 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 227, "number": 227, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Podocytes are not characterized by:", "options": ["kidney shaped", "modified epithelial Cells", "have primary process", "have secondary process", "the processes invest capillaries"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 227 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 228, "number": 228, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Podocytes are present in:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules octor", "Distal convoluted tubules"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 228 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 230, "number": 230, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Blood-Renal Barrier is not characterized by:", "options": ["surround the whole circumference of capillaries endothelial cells", "contain fenestrated", "contain fused basement membrane", "contain filtration slit", "contain filtration slit diaphragm"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 230 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 231, "number": 231, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The mesangial cells is present in:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 231 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 232, "number": 232, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "As regard podocytes, which of the following statements is true?", "options": ["They act as supporting and phagocytic cells", "They represent parietal layer of Bowman's capsule", "They share in blood renal barrier", "They secrete renin hormone", "They have actin & myosin (contractile cells)"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 232 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 233, "number": 233, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "\"They are modified cells from lining of distal convoluted tubules in juxtaglomerular apparatus that act as osmoreceptors\" identifies:", "options": ["Bertin's cells", "Juxtaglomerular cells", "Lacis cells", "Macula densa cells. octor", "Podocytes"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 233 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 234, "number": 234, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "\"They are modified cells from smooth muscles of afferent arteriole in juxtaglomerular apparatus that act as mechanoreceptors\" identifies:", "options": ["Bertin's cells", "Juxtaglomerular cells", "Lacis cells", "Macula densa cells", "Podocytes. JUN"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 234 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 235, "number": 235, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "\"It is a pericyte like cell present between and outside the capillary loops of renal corpuscle in non podocytic areas\" identifies:", "options": ["Bertin medullary cells", "Bowman's interstitial cells", "Extraglomerular mesangial cells", "Facet or dome cells", "Intraglomerular mesangial cells"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 235 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 236, "number": 236, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Macula densa in Juxtaglomerular apparatus is a modification of which of the following structures", "options": ["Collecting tubules", "Distal convoluted tubules", "Parietal layer of Bowman capsule", "Proximal convoluted tubules", "Visceral layer of Bowman capsule. •"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 236 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 237, "number": 237, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Intraglomerular mesangial cells are not characterized by:", "options": ["stellate shaped", "inbetween capillaries", "secrete matrix", "no phagocytic function", "contractile function"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 237 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 238, "number": 238, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "It is a part of juxta-glomerular apparatus:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules octor", "Distal convoluted tubules"], "correct_index": 4, "answer_letter": "E", "explanation": "Question 238 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 239, "number": 239, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Juxta glomerular apparatus is not formed of:", "options": ["Juxta glomerular cells", "macula densa", "Intraglomerular mesangial cells", "extraglomerular mesangial cells", "Lacis cells UR"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 239 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 240, "number": 240, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Microvilli are more present in:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 240 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 241, "number": 241, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The apical canaliculi are present in:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules • mortars alill coloras: se"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 241 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 242, "number": 242, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The brush border is more present in:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 242 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 243, "number": 243, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Proximal convoluted tubules are not characterized by:", "options": ["microvilli", "brush border", "lateral interdigitation", "apical canaliculi"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 243 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 244, "number": 244, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Basal infoldings are more present in:", "options": ["Renal corpuscles", "Proximal convoluted tu", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules JOR"], "correct_index": 4, "answer_letter": "E", "explanation": "Question 244 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 245, "number": 245, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The lumen is narrowest in:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 245 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 246, "number": 246, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "A tubule is lined by simple squamous epithellum:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 246 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 247, "number": 247, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The nuclei protrude into the lumen in:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules", "Distal convoluted tubules"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 247 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 248, "number": 248, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "The last part of nephron empty urine in:", "options": ["Renal corpuscles", "Proximal convoluted tubules", "Loop of Henle", "Collecting tubules octor", "Distal convoluted tubules ZOOR"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 248 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 250, "number": 250, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Papillary ducts empty urine in:", "options": ["collecting tubules", "collecting ducts", "minor calyces", "major calyces", "kidney pelvis"], "correct_index": 2, "answer_letter": "C", "explanation": "Question 250 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 251, "number": 251, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Transitional epithelium is not present in:", "options": ["Duct of Bellini", "Minor calyces", "Major calyces", "Kidney pelvis", "Ureter"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 251 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 252, "number": 252, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Transitional epithelium lines one of the following:", "options": ["Proximal convoluted tubule", "Distal convoluted tubule:", "Collecting tubule", "Ureter", "Membranous urethra"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 252 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 253, "number": 253, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Transitional epithelium lines all the following EXCEPT:", "options": ["Calyces of the kidney", "Pelvis of the kidney", "Ureter", "Gall bladder. Joctor", "Prostatic urethra"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 253 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 254, "number": 254, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Define:", "options": ["Uriniferous tubule", "Nephron OOR", "Renal corpuscles", "Podocytes", "Blood renal barrier"], "correct_index": 3, "answer_letter": "D", "explanation": "Question 254 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 255, "number": 255, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Enumerate:", "options": ["Parts of the uriniferous tubule", "Parts of the nephron", "Parts of renal corpuscles", "Types of mesangial cells", "Parts of Juxta-glomerular complex"], "correct_index": 0, "answer_letter": "A", "explanation": "Question 255 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}, {"id": 256, "number": 256, "type": "mcq", "subject": "histology", "subject_title": "Renal Histology", "subject_ar": "نسيجيات الكلى والمسالك", "topic": "أنسجة الكلى والنفرون (Renal Histology)", "question": "Give reasons:", "options": ["The fenestration of endothelial cells", "The density of Macula densa", "Absence of internal elastic lamina of afferent arteriole", "More microvilli in PCT", "More basal infoldings in DCT. Microscopic structure of the urinary tract:"], "correct_index": 1, "answer_letter": "B", "explanation": "Question 256 covers microscopic features of nephron segments or gross anatomy and embryology of the urinary system.", "pearl": "ملاحظة: الخلايا الرجلاء (Podocytes) تحتوي على Pedicels وأغشية الشقوق (Slit diaphragms) المكونة من بروتين Nephrin."}];
+        let currentIndex = 0;
+        let isExamMode = false;
+        let isReviewMode = false;
+        let soundEnabled = true;
+        let userAnswers = {};
+        let flaggedSet = new Set();
+
+        function saveProgress() {
+            try {
+                const payload = {
+                    answers: userAnswers,
+                    flagged: Array.from(flaggedSet),
+                    currentIndex: currentIndex
+                };
+                localStorage.setItem(storageKey, JSON.stringify(payload));
+            } catch(e) {}
+        }
+
+        function loadProgress() {
+            try {
+                const raw = localStorage.getItem(storageKey);
+                if (raw) {
+                    const data = JSON.parse(raw);
+                    if (data.answers && typeof data.answers === 'object') {
+                        userAnswers = data.answers;
+                    }
+                    if (Array.isArray(data.flagged)) {
+                        flaggedSet = new Set(data.flagged);
+                    }
+                    if (typeof data.currentIndex === 'number' && data.currentIndex >= 0 && data.currentIndex < questions.length) {
+                        currentIndex = data.currentIndex;
+                    }
+                }
+            } catch(e) {}
+        }
+
+        // Web Audio API Synthesizer
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        let audioCtx = null;
+
+        function playSound(type) {
+            if (!soundEnabled) return;
+            try {
+                if (!audioCtx) audioCtx = new AudioCtx();
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                
+                const now = audioCtx.currentTime;
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+
+                if (type === 'click') {
+                    osc.frequency.setValueAtTime(600, now);
+                    gain.gain.setValueAtTime(0.05, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.05);
+                    osc.start(now);
+                    osc.stop(now + 0.05);
+                } else if (type === 'correct') {
+                    osc.type = 'triangle';
+                    osc.frequency.setValueAtTime(523.25, now); // C5
+                    osc.frequency.setValueAtTime(659.25, now + 0.08); // E5
+                    osc.frequency.setValueAtTime(783.99, now + 0.16); // G5
+                    gain.gain.setValueAtTime(0.12, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+                    osc.start(now);
+                    osc.stop(now + 0.35);
+                } else if (type === 'wrong') {
+                    osc.type = 'sawtooth';
+                    osc.frequency.setValueAtTime(220, now);
+                    osc.frequency.setValueAtTime(180, now + 0.12);
+                    gain.gain.setValueAtTime(0.1, now);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+                    osc.start(now);
+                    osc.stop(now + 0.3);
+                }
+            } catch(e) {}
+        }
+
+        // Render Question
+        function renderQuestion(index) {
+            const q = questions[index];
+            if (!q) return;
+
+            document.getElementById('qNumberTag').textContent = `سؤال ${q.number} (${q.topic})`;
+            document.getElementById('qStem').textContent = `${q.number}) ${q.question}`;
+            
+            const flagBtn = document.getElementById('flagBtn');
+            if (flaggedSet.has(index)) {
+                flagBtn.classList.add('flagged');
+                flagBtn.textContent = '🚩 محدد';
+            } else {
+                flagBtn.classList.remove('flagged');
+                flagBtn.textContent = '🚩 تحديد';
+            }
+
+            const optsContainer = document.getElementById('optionsList');
+            optsContainer.innerHTML = '';
+
+            const rationaleCard = document.getElementById('rationaleCard');
+            rationaleCard.style.display = 'none';
+
+            q.options.forEach((optText, optIdx) => {
+                const optEl = document.createElement('div');
+                optEl.className = 'option-item';
+                const letter = String.fromCharCode(65 + optIdx);
+                
+                optEl.innerHTML = `
+                    <div class="opt-letter">${letter}</div>
+                    <div class="opt-text">${optText}</div>
+                `;
+
+                // If already answered
+                if (userAnswers[index] !== undefined) {
+                    const chosen = userAnswers[index];
+                    if (optIdx === q.correct_index) {
+                        optEl.classList.add('correct');
+                    } else if (optIdx === chosen) {
+                        optEl.classList.add('incorrect');
+                    }
+                    showRationale(q);
+                }
+
+                optEl.onclick = () => handleOptionClick(index, optIdx);
+                optsContainer.appendChild(optEl);
+            });
+
+            updateProgress();
+        }
+
+        function handleOptionClick(qIdx, optIdx) {
+            if (userAnswers[qIdx] !== undefined && !isExamMode) return;
+            
+            const q = questions[qIdx];
+            userAnswers[qIdx] = optIdx;
+
+            const isCorrect = (optIdx === q.correct_index);
+            playSound(isCorrect ? 'correct' : 'wrong');
+
+            saveProgress();
+            renderQuestion(qIdx);
+        }
+
+        function showRationale(q) {
+            const rationaleCard = document.getElementById('rationaleCard');
+            document.getElementById('rationaleText').textContent = q.explanation;
+            document.getElementById('pearlText').textContent = `📌 ${q.pearl}`;
+            rationaleCard.style.display = 'block';
+        }
+
+        function updateProgress() {
+            const pct = Math.round(((currentIndex + 1) / questions.length) * 100);
+            document.getElementById('progressFill').style.width = `${pct}%`;
+            document.getElementById('progressText').textContent = `السؤال ${currentIndex + 1} من ${questions.length} (${pct}%)`;
+            
+            let answered = Object.keys(userAnswers).length;
+            let correct = 0;
+            for (let idx in userAnswers) {
+                if (userAnswers[idx] === questions[idx].correct_index) correct++;
+            }
+            let acc = answered > 0 ? Math.round((correct / answered) * 100) : 100;
+            document.getElementById('scoreText').textContent = `تم حل: ${answered} | الدقة: ${acc}%`;
+
+            document.getElementById('prevBtn').disabled = (currentIndex === 0);
+            document.getElementById('nextBtn').textContent = (currentIndex === questions.length - 1) ? 'إنهاء المراجعة ✔' : 'التالي ▶';
+        }
+
+        // Navigation
+        document.getElementById('prevBtn').onclick = () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                playSound('click');
+                saveProgress();
+                renderQuestion(currentIndex);
+            }
+        };
+
+        document.getElementById('nextBtn').onclick = () => {
+            if (currentIndex < questions.length - 1) {
+                currentIndex++;
+                playSound('click');
+                saveProgress();
+                renderQuestion(currentIndex);
+            } else {
+                openPalette();
+            }
+        };
+
+        // Flagging
+        document.getElementById('flagBtn').onclick = () => {
+            if (flaggedSet.has(currentIndex)) {
+                flaggedSet.delete(currentIndex);
+            } else {
+                flaggedSet.add(currentIndex);
+            }
+            playSound('click');
+            saveProgress();
+            renderQuestion(currentIndex);
+        };
+
+        // Palette
+        const paletteModal = document.getElementById('paletteModal');
+        function openPalette() {
+            const grid = document.getElementById('paletteGrid');
+            grid.innerHTML = '';
+            questions.forEach((q, idx) => {
+                const cell = document.createElement('div');
+                cell.className = 'pal-cell';
+                if (idx === currentIndex) cell.classList.add('current');
+                if (userAnswers[idx] !== undefined) {
+                    if (userAnswers[idx] === q.correct_index) cell.classList.add('correct');
+                    else cell.classList.add('incorrect');
+                }
+                if (flaggedSet.has(idx)) cell.classList.add('flagged');
+                cell.textContent = q.number;
+                cell.onclick = () => {
+                    currentIndex = idx;
+                    playSound('click');
+                    saveProgress();
+                    renderQuestion(currentIndex);
+                    paletteModal.style.display = 'none';
+                };
+                grid.appendChild(cell);
+            });
+            paletteModal.style.display = 'flex';
+        }
+
+        document.getElementById('paletteFabBtn').onclick = openPalette;
+        document.getElementById('closePaletteBtn').onclick = () => {
+            paletteModal.style.display = 'none';
+        };
+
+        // Review All Mode
+        const reviewModeBtn = document.getElementById('reviewModeBtn');
+        const singleView = document.getElementById('singleQuestionView');
+        const reviewView = document.getElementById('reviewAllContainer');
+
+        reviewModeBtn.onclick = () => {
+            isReviewMode = !isReviewMode;
+            if (isReviewMode) {
+                reviewModeBtn.classList.add('active-mode');
+                singleView.style.display = 'none';
+                reviewView.style.display = 'flex';
+                buildReviewAll();
+            } else {
+                reviewModeBtn.classList.remove('active-mode');
+                singleView.style.display = 'block';
+                reviewView.style.display = 'none';
+            }
+        };
+
+        function buildReviewAll() {
+            reviewView.innerHTML = '';
+            questions.forEach(q => {
+                const card = document.createElement('div');
+                card.className = 'question-card';
+                let optsHtml = '';
+                q.options.forEach((opt, oIdx) => {
+                    const isCorr = (oIdx === q.correct_index);
+                    const ltr = String.fromCharCode(65 + oIdx);
+                    optsHtml += `
+                        <div class="option-item ${isCorr ? 'correct' : ''}">
+                            <div class="opt-letter">${ltr}</div>
+                            <div class="opt-text">${opt}</div>
+                        </div>
+                    `;
+                });
+
+                card.innerHTML = `
+                    <div class="q-badge-row">
+                        <span class="q-tag">سؤال ${q.number} (${q.topic})</span>
+                    </div>
+                    <div class="q-stem">${q.number}) ${q.question}</div>
+                    <div class="options-list">${optsHtml}</div>
+                    <div class="rationale-card" style="display:block;">
+                        <div class="rationale-header">💡 الشرح والتوضيح:</div>
+                        <div class="rationale-content">${q.explanation}</div>
+                        <div class="pearl-box">📌 ${q.pearl}</div>
+                    </div>
+                `;
+                reviewView.appendChild(card);
+            });
+        }
+
+        // Sound Toggle
+        const soundBtn = document.getElementById('soundToggleBtn');
+        soundBtn.onclick = () => {
+            soundEnabled = !soundEnabled;
+            soundBtn.textContent = soundEnabled ? '🔊 صوت' : '🔇 صامت';
+        };
+
+        // Keyboard Shortcuts
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+                document.getElementById('nextBtn').click();
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                document.getElementById('prevBtn').click();
+            }
+        });
+
+        // Reset Progress
+        document.getElementById('resetProgressBtn').onclick = () => {
+            if (confirm('هل ترغب في مسح إجابات هذا القسم والبدء من جديد؟')) {
+                try {
+                    localStorage.removeItem(storageKey);
+                } catch(e) {}
+                userAnswers = {};
+                flaggedSet.clear();
+                currentIndex = 0;
+                playSound('click');
+                renderQuestion(0);
+                updateProgress();
+            }
+        };
+
+        // Initialize from Stored State
+        loadProgress();
+        renderQuestion(currentIndex);
+    </script>
+</body>
+</html>

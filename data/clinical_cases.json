@@ -1891,9 +1891,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Thiazide should be cautiously used in Digitalis-induced Dysrhythmias. Thiazide increases Digitalis toxicity, but Spironolactone decreases it.",
-    "model_answer": "Thiazide vs. Spironolactone in Digitalis Dysrhythmias:\n• Thiazides cause Hypokalemia and Hypomagnesemia: Low extracellular K+ facilitates binding of Digitalis (Digoxin) to myocardial membrane Na+/K+-ATPase, markedly increasing digitalis toxicity and provoking life-threatening cardiac arrhythmias (PVCs, ventricular tachycardia, junctional tachycardia).\n• Spironolactone causes Hyperkalemia: Sparing potassium elevates extracellular K+, which directly competes with Digoxin for binding sites on the Na+/K+-ATPase pump, counteracting and decreasing Digitalis action and toxicity.",
-    "pearl": "Key Note: In heart failure patients receiving Digoxin and Loop/Thiazide diuretics, adding low-dose Spironolactone prevents hypokalemia and protects against digitalis toxicity."
+    "question": "Thiazide should be cautiously used in Digitalis-induced dysrhythmias (Thiazide increases Digitalis toxicity while Spironolactone decreases it).",
+    "model_answer": "Thiazide vs. Spironolactone in Digitalis Dysrhythmias:\n• Thiazides cause Hypokalemia: Low extracellular K+ facilitates the binding of Digitalis to myocardial Na+/K+-ATPase, markedly increasing Digitalis toxicity and precipitating life-threatening ventricular arrhythmias.\n• Spironolactone causes Hyperkalemia: High extracellular K+ competes with Digitalis for Na+/K+-ATPase binding sites, decreasing Digitalis action and protecting against digitalis toxicity.",
+    "pearl": "ملاحظة: نقص البوتاسيوم (Hypokalemia) يضاعف سمية الديجيتاليس، بينما فرط البوتاسيوم (Hyperkalemia) يقلل من ارتباطه بعضلة القلب."
   },
   {
     "id": 752,
@@ -1903,9 +1903,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Hepatic encephalopathy may occur with Thiazide in liver disease.",
-    "model_answer": "Why Diuretics Precipitate Hepatic Encephalopathy in Cirrhosis:\nOverly aggressive diuresis with Loop or Thiazide diuretics causes:\n1. Hypovolemia: Leads to prerenal azotemia and reduced renal clearance of nitrogenous wastes.\n2. Hypokalemic Metabolic Alkalosis:\n   • In alkalosis, ionized ammonium (NH4+) in blood is converted into non-ionized, lipid-soluble Ammonia (NH3):\n     NH4+ + OH- ⇌ NH3 + H2O.\n   • Non-ionized NH3 freely crosses the blood-brain barrier into the central nervous system.\n   • In cirrhotic patients with impaired hepatic urea synthesis, elevated cerebral ammonia impairs astrocyte glutamate metabolism, precipitating Hepatic Encephalopathy and coma.",
-    "pearl": "Key Note: Treat diuretic-induced hepatic encephalopathy by stopping the diuretic, correcting hypokalemia, and administering Lactulose to trap ammonia in the gut as NH4+."
+    "question": "Why hepatic encephalopathy may occur with Thiazides / Loop diuretics in liver cirrhosis?",
+    "model_answer": "Why Diuretics Precipitate Hepatic Encephalopathy in Cirrhosis:\nDiuretic-induced complications:\n1. Decreased (↓) Plasma Volume: Causes hemoconcentration and prerenal azotemia.\n2. Hypokalemia: Enhances renal synthesis of ammonia (NH3).\n3. Metabolic Alkalosis: Converts ionized ammonium (NH4+) into non-ionized lipid-soluble ammonia (NH3), which freely diffuses across the blood-brain barrier into cerebral tissue, triggering hepatic coma.",
+    "pearl": "ملاحظة: القلاء الأيضي ونقص البوتاسيوم يحولان أيون الأمونيوم غير القابل للنفاذ إلى غاز الأمونيا السام الذي يعبر حاجز الدم في الدماغ بسهولة."
   },
   {
     "id": 753,
@@ -1916,8 +1916,8 @@
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
     "question": "Vasodilator effect of Indapamide and Diazoxide.",
-    "model_answer": "Vasodilator Actions of Indapamide and Diazoxide:\n• Indapamide: A non-thiazide chlorobenzene sulfonamide. In subdiuretic low doses, it acts directly as a Calcium Channel Blocker (CCB) in vascular smooth muscle and stimulates vasodilator prostaglandin (PGI2) synthesis, reducing total peripheral resistance without causing major electrolyte disturbances.\n• Diazoxide: A non-diuretic thiazide congener. Acts as a potent ATP-sensitive Potassium Channel (K_ATP) Opener in arteriolar vascular smooth muscle. Opening K+ channels causes membrane hyperpolarization, closing voltage-gated Ca2+ channels and producing rapid, profound arteriolar vasodilation (used IV in hypertensive emergencies).",
-    "pearl": "Key Note: Diazoxide also opens K_ATP channels in pancreatic beta cells, inhibiting insulin release; hence it is used orally to treat severe hypoglycemia in Insulinoma."
+    "model_answer": "Vasodilator Actions of Indapamide and Diazoxide:\n• Indapamide: In subdiuretic doses, it directly acts as a Calcium Channel Blocker (CCB) on vascular smooth muscle, decreasing vascular resistance.\n• Diazoxide: Acts as an ATP-sensitive K+ channel opener, causing hyperpolarization of arteriolar smooth muscle cells and profound arteriolar vasodilation.",
+    "pearl": "ملاحظة: Indapamide يعمل كـ CCB بجرعات منخفضة، بينما Diazoxide يفتح قنوات البوتاسيوم الحساسة لـ ATP."
   },
   {
     "id": 754,
@@ -1927,9 +1927,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Hypocalcemia occurring with Furosemide.",
-    "model_answer": "Why Furosemide Causes Hypocalcemia / Hypercalciuria:\nIn the thick ascending limb of the loop of Henle, the Na+-K+-2Cl- cotransporter (NKCC2) brings K+ into cells, which then back-leaks into the tubular lumen via apical ROMK channels.\n1. This back-leak normally generates a positive luminal electrical potential (+8 to +10 mV).\n2. The lumen-positive potential repels and drives paracellular passive reabsorption of divalent cations (Ca2+ and Mg2+).\n3. Furosemide inhibits NKCC2, abolishing the lumen-positive driving force.\n4. Paracellular reabsorption of Ca2+ and Mg2+ ceases, resulting in marked urinary calcium excretion (hypercalciuria) and secondary hypocalcemia.",
-    "pearl": "Key Note: Furosemide is therapeutically administered with normal saline to manage severe, life-threatening Acute Hypercalcemia (e.g. malignancy-associated)."
+    "question": "Why does Furosemide cause hypocalcemia and hypercalciuria?",
+    "model_answer": "Why Furosemide Causes Hypocalcemia / Hypercalciuria:\n• Inhibition of NKCC2 (↓NKCC) in the thick ascending limb of the loop of Henle prevents normal K+ recycling back into the tubular lumen.\n• This abolishes the lumen-positive transepithelial electrical potential difference (↓ driving electric force) that normally drives paracellular reabsorption of Ca+2 and Mg+2.\n• Consequently, large amounts of Ca+2 and Mg+2 are excreted in urine (hypercalciuria), potentially leading to hypocalcemia.",
+    "pearl": "ملاحظة: مدرات العروة (Loop) تلغي الجهد الكهربائي الموجب في لمعة الأنبوب فتمنع امتصاص الكالسيوم (تزيد إخراجه)، عكس الثيازايد الذي يحتفظ بالكالسيوم."
   },
   {
     "id": 755,
@@ -1939,9 +1939,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Frusemide increases the effect of Warfarin and Lithium.",
-    "model_answer": "Furosemide Interaction with Warfarin and Lithium:\n• With Warfarin: Furosemide binds extensively to serum albumin (>95-98%). It competitively displaces Warfarin from plasma protein binding sites, increasing the free, pharmacologically active unbound fraction of Warfarin, which prolongs prothrombin time (elevates INR) and increases bleeding risk.\n• With Lithium: Furosemide-induced natriuresis and volume contraction trigger compensatory proximal tubular reabsorption of sodium. Because the proximal tubule handles Lithium identically to Sodium, lithium reabsorption is markedly increased, reducing renal lithium clearance by up to 40% and precipitating severe Lithium Toxicity (tremors, ataxia, seizures).",
-    "pearl": "Key Note: Diuretics (especially thiazides and loop diuretics) and NSAIDs are the two most common drug classes that precipitate severe lithium toxicity."
+    "question": "Furosemide increases the effect of Warfarin and toxicity of Lithium.",
+    "model_answer": "Furosemide Interactions with Warfarin and Lithium:\n1. With Warfarin: Furosemide is highly protein-bound (~98%); it competitively displaces Warfarin from plasma albumin binding sites, increasing free active Warfarin and escalating bleeding risk.\n2. With Lithium: Furosemide-induced volume contraction and Na+ loss cause compensatory proximal tubular reabsorption of sodium and lithium, markedly decreasing the renal clearance of Lithium and precipitating severe Lithium toxicity.",
+    "pearl": "ملاحظة: Furosemide يزيح الوارفارين من بروتينات البلازما، ويقلل التخلص الكلوي من الليثيوم مسبباً التسمم."
   },
   {
     "id": 756,
@@ -1951,9 +1951,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Spironolactone use is preferred in acute HF.",
-    "model_answer": "Why Spironolactone is Preferred in Heart Failure and Cirrhosis:\nPathophysiological Rationale:\nIn both Congestive Heart Failure and Hepatic Cirrhosis, decreased effective arterial blood volume triggers intense compensatory neurohormonal activation of the RAAS axis, resulting in marked Secondary Hyperaldosteronism:\n• Spironolactone specifically and competitively antagonizes mineralocorticoid receptors, neutralizing the excessive circulating aldosterone.\n• In heart failure, it blocks aldosterone-mediated myocardial fibrosis, reduces left ventricular adverse remodeling, prevents cardiac arrhythmias, and significantly improves survival (RALES trial).\n• In cirrhosis with ascites, it is the fundamental drug of choice to overcome secondary aldosterone-driven sodium retention.",
-    "pearl": "Key Note: Aldosterone promotes progressive myocardial and vascular collagen fibrosis; Spironolactone's survival benefit in CHF is largely anti-fibrotic."
+    "question": "Why is Spironolactone preferred in congestive heart failure and hepatic cirrhosis?",
+    "model_answer": "Why Spironolactone is Preferred in Heart Failure and Cirrhosis:\n• Competitive Aldosterone Antagonism: Both conditions exhibit secondary hyperaldosteronism due to effective arterial underfilling.\n• Therapeutic Benefits:\n  1. Spironolactone competitively antagonizes the increased aldosterone effect at mineralocorticoid receptors.\n  2. Prevents aldosterone-mediated progressive myocardial fibrosis, vascular remodeling, and cardiac hypertrophy.\n  3. Promotes natriuresis while preventing life-threatening hypokalemia.",
+    "pearl": "ملاحظة: Spironolactone يثبط مستقبلات الألدوستيرون تنافسياً فيمنع تليف عضلة القلب ويحافظ على البوتاسيوم."
   },
   {
     "id": 757,
@@ -1963,9 +1963,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Spironolactone is effective in polycystic ovary syndrome.",
-    "model_answer": "Why Spironolactone is Effective in Polycystic Ovary Syndrome (PCOS):\nAnti-Androgenic Mechanisms:\nSpironolactone is a synthetic steroid congener with dual anti-androgenic actions:\n1. Directly binds to and competitively blocks peripheral Androgen Receptors in target tissues (hair follicles and sebaceous glands).\n2. Inhibits key microsomal steroidogenic enzymes (17α-hydroxylase and 17,20-lyase), reducing ovarian and adrenal biosynthesis of androgens.\nClinical benefit: Significantly reduces clinical manifestations of hyperandrogenism in PCOS, including hirsutism, cystic acne, and male-pattern androgenetic alopecia.",
-    "pearl": "Key Note: Because of its anti-androgen action, Spironolactone can feminize a male fetus; women of childbearing potential MUST use reliable contraception."
+    "question": "Why is Spironolactone effective in Polycystic Ovary Syndrome (PCOS)?",
+    "model_answer": "Why Spironolactone is Effective in PCOS:\nAnti-Androgenic Mechanisms:\n1. Competitively blocks peripheral Androgen Receptors in target tissues (hair follicles and sebaceous glands).\n2. Inhibits 17α-hydroxylase and 17,20-desmolase, directly decreasing ovarian and adrenal androgen synthesis.\nClinical efficacy: Significantly reduces hirsutism and severe acne in PCOS patients.",
+    "pearl": "ملاحظة: Spironolactone يعالج أعراض تكيس المبايض (شعرانية وحب شباب) بغلق مستقبلات الأندروجين وتثبيط تصنيعه."
   },
   {
     "id": 758,
@@ -1975,9 +1975,21 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Spironolactone use may cause gynecomastia. € 759) In Addison's, Spironolactone has no effect while Amiloride is effective. VOOi ¡ Page 159 Revisio",
-    "model_answer": "Why Spironolactone Causes Gynecomastia and Impotence:\nSpironolactone has structural homology to steroid sex hormones and non-selectively interacts with androgen and estrogen receptors:\n1. Competitively blocks androgen receptors in target tissues.\n2. Displaces Estradiol from Sex Hormone-Binding Globulin (SHBG), increasing free, active estrogen levels.\n3. Enhances peripheral aromatization of testosterone into estradiol.\n4. Inhibits testicular 17α-hydroxylase, decreasing testosterone biosynthesis.\nResult: An elevated estrogen-to-androgen ratio, causing painful bilateral gynecomastia (in up to 10% of men), decreased libido, and erectile dysfunction.",
-    "pearl": "Key Note: Switching to Eplerenone (which has 1000-fold less affinity for androgen and progesterone receptors) eliminates spironolactone-induced gynecomastia."
+    "question": "Why may Spironolactone use cause gynecomastia and impotence?",
+    "model_answer": "Why Spironolactone Causes Gynecomastia and Impotence:\n• Structural Homology: Spironolactone is a synthetic steroid congener structurally homologous to steroid sex hormones.\n• Mechanism:\n  1. Competitively antagonizes androgen receptors (antiandrogen effect).\n  2. Displaces estradiol from sex hormone-binding globulin (SHBG).\n  3. Inhibits 17α-hydroxylase, decreasing systemic testosterone synthesis.\nResult: The altered androgen/estrogen ratio causes painful gynecomastia and erectile dysfunction in men.",
+    "pearl": "ملاحظة: دواء Eplerenone يعتبر بديلاً حديثاً لـ Spironolactone لأنه انتقائي لمستقبلات الألدوستيرون ولا يسبب التثدي."
+  },
+  {
+    "id": 759,
+    "number": 759,
+    "type": "clinical_case",
+    "subject": "pharmacology",
+    "subject_title": "Renal Pharmacology & Diuretics",
+    "subject_ar": "فارماكولوجيا ومدرات البول",
+    "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
+    "question": "In Addison's disease, Spironolactone has no effect while Amiloride is effective.",
+    "model_answer": "Why Spironolactone is Ineffective in Addison's Disease while Amiloride Works:\n• Spironolactone Mechanism: Spironolactone is a competitive aldosterone receptor antagonist; it is effective only in the presence of circulating aldosterone (hyperaldosteronism). In Addison's disease (primary adrenal insufficiency), there is a complete absence of endogenous aldosterone, leaving no hormonal action for Spironolactone to antagonize.\n• Amiloride Mechanism: In contrast, Amiloride does NOT depend on aldosterone. It directly blocks apical Epithelial Sodium Channels (ENaC) in the late DCT and collecting duct, remaining fully effective even in the complete absence of aldosterone.",
+    "pearl": "ملاحظة: Spironolactone يحتاج لوجود الألدوستيرون ليعمل كـ Competitive antagonist، بينما Amiloride يغلق قنوات ENaC مباشرة وبشكل مستقل عن الألدوستيرون."
   },
   {
     "id": 760,
@@ -1987,9 +1999,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Acetazolamide diuretic effect is of limited duration.",
-    "model_answer": "Why Acetazolamide Diuretic Effect is of Limited Duration (Self-Limiting):\nWithin 48-72 hours of continuous Acetazolamide therapy, its diuretic efficacy drops dramatically due to:\n1. Bicarbonate Depletion: Massive renal excretion of HCO3- causes severe metabolic acidosis, markedly reducing the filtered load of bicarbonate arriving at the PCT.\n2. Low luminal HCO3- deprives carbonic anhydrase of substrate, halting further natriuresis.\n3. Compensatory Solute Reabsorption: Downstream segments of the nephron (loop of Henle and distal tubules) adaptively upregulate NaCl reabsorption to compensate for proximal sodium loss, restoring fluid balance.",
-    "pearl": "Key Note: To maintain diuretic efficacy, carbonic anhydrase inhibitors require intermittent dosing schedules (e.g. 2-3 days on, 1-2 days off) to allow bicarbonate regeneration."
+    "question": "Why is the diuretic effect of Acetazolamide of limited duration (self-limiting)?",
+    "model_answer": "Why Acetazolamide Diuretic Effect is Self-Limiting:\n• Mechanism of Tolerance:\n  1. Acetazolamide causes heavy urinary bicarbonate excretion, resulting in severe systemic HCO3- depletion and hyperchloremic metabolic acidosis.\n  2. As filtered bicarbonate in the glomerular ultrafiltrate declines, less bicarbonate is available in the lumen to drive Na+ reabsorption inhibition.\n  3. Consequently, compensatory upstream and downstream parts of the nephron increase NaCl reabsorption, abolishing the diuretic effect after 48-72 hours.",
+    "pearl": "ملاحظة: نضوب البيكربونات (HCO3- depletion) يؤدي إلى قلة تأثير الدواء وزيادة امتصاص الصوديوم في أجزاء النفرون الأخرى."
   },
   {
     "id": 761,
@@ -1999,9 +2011,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Use of Acetazolamide in absence seizure.",
-    "model_answer": "Use of Acetazolamide in Absence Seizures:\nMechanism of Anticonvulsant Action:\n1. Inhibition of Central Carbonic Anhydrase: Carbonic anhydrase in glial cells and neurons maintains extracellular and intracellular brain pH.\n2. Metabolic & Local Brain Acidosis: Acetazolamide increases CO2 retention and local hydrogen ion concentration in the central nervous system.\n3. Neuronal Hyperpolarization: Local acidosis and elevated CO2 hyperpolarize neuronal membranes and inhibit neuronal voltage-gated ion channels, suppressing abnormal synchronous thalamocortical discharge patterns that characterize absence (petit mal) seizures.",
-    "pearl": "Key Note: Rapid tolerance (loss of antiepileptic efficacy) develops within months due to glial CA enzyme upregulation."
+    "question": "Use of Acetazolamide in absence seizures (petit mal).",
+    "model_answer": "Use of Acetazolamide in Absence Seizures:\nMechanism of Anticonvulsant Action:\n• Inhibition of central nervous system Carbonic Anhydrase results in local and systemic metabolic acidosis and decreased HCO3- in brain tissue.\n• Acidosis elevates the neuronal seizure threshold and stabilizes hyper-excitable neuronal cell membranes, reducing absence paroxysms.",
+    "pearl": "ملاحظة: تثبيط إنزيم Carbonic anhydrase في المخ يسبب حماضاً أيضياً يرفع عتبة التشنجات ويهدئ النوبات الصرعية."
   },
   {
     "id": 762,
@@ -2011,9 +2023,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Acetazolamide should be avoided in liver cirrhosis.",
-    "model_answer": "Why Acetazolamide Should Be Avoided in Liver Cirrhosis:\nAcetazolamide inhibits bicarbonate reabsorption, producing heavily alkaline urine (high urine pH):\n1. In an alkaline tubular environment, ionized ammonium ions (NH4+) are converted into non-ionized, lipid-soluble Ammonia gas (NH3):\n   NH4+ + OH- ⇌ NH3 + H2O.\n2. Unlike charged NH4+ (which is trapped and excreted), non-ionized NH3 freely diffuses back across the tubular epithelium into peritubular capillaries and systemic circulation.\n3. In patients with hepatic cirrhosis, the failing liver cannot detoxify ammonia via the urea cycle.\n4. Elevated blood ammonia rapidly crosses the blood-brain barrier, triggering or worsening acute Hepatic Encephalopathy and fatal coma.",
-    "pearl": "Key Note: Cirrhosis + Acetazolamide = Ammonia retention = Fatal Hepatic Coma (absolute contraindication)."
+    "question": "Why should Acetazolamide be avoided in liver cirrhosis?",
+    "model_answer": "Why Acetazolamide Should Be Avoided in Liver Cirrhosis:\n• Mechanism of Ammonia Toxicity:\n  1. Acetazolamide strongly alkalinizes the tubular urine.\n  2. Alkaline urine prevents the conversion of toxic ammonia (NH3) into non-diffusible ammonium (NH4+) in the collecting ducts (decreased excretion of NH4+).\n  3. Non-ionized ammonia freely diffuses back into the systemic circulation, rapidly precipitating or worsening fatal Hepatic Encephalopathy.",
+    "pearl": "ملاحظة: جعل البول قلوياً يمنع تحويل الأمونيا إلى أمونيوم، فتعود الأمونيا إلى الدم وتسرع حدوث الغيبوبة الكبدية."
   },
   {
     "id": 763,
@@ -2023,9 +2035,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Renal stone may be formed with chronic use of Acetazolamide.",
-    "model_answer": "Why Renal Stones May Form with Chronic Use of Acetazolamide:\nTwo Synergistic Biochemical Factors:\n1. Persistent Urinary Alkalinization: Acetazolamide produces a continuously high urinary pH (> 7.5 to 8.0) due to massive bicarbonate wasting. In alkaline urine, Calcium Phosphate (brushite / apatite) has very low solubility and readily precipitates.\n2. Marked Hypocitraturia: Acetazolamide-induced systemic metabolic acidosis stimulates proximal tubular reabsorption and intracellular metabolism of Citrate. Citrate is the kidney's most potent endogenous inhibitor of calcium stone formation.\nResult: Precipitation of insoluble calcium phosphate salts leads to Nephrocalcinosis and Calcium Phosphate Nephrolithiasis.",
-    "pearl": "Key Note: Alkaline urine + Hypocitraturia = Calcium Phosphate stone formation."
+    "question": "Why may renal stones form with chronic use of Acetazolamide?",
+    "model_answer": "Why Renal Stones May Form with Chronic Use of Acetazolamide:\n• Persistent Alkaline Urine: High urine pH markedly decreases the solubility of calcium phosphate salts.\n• Calcium Phosphate Precipitation: Alkaline urine leads directly to precipitation of Ca+2 phosphate salts in the urinary tract, forming radiopaque calcium phosphate nephrolithiasis.",
+    "pearl": "ملاحظة: القلوية الشديدة للبول ترسب أملاح فوسفات الكالسيوم مسببة حصوات كلوية."
   },
   {
     "id": 764,
@@ -2035,9 +2047,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Hypernatremia which may occur with Mannitol.",
-    "model_answer": "Why Hypernatremia May Occur with Mannitol:\nMechanism of Osmotic Free Water Loss:\n• Mannitol is an osmotic diuretic that is filtered at the glomerulus but not reabsorbed, remaining within the tubular lumen.\n• It creates an osmotic gradient that opposes water reabsorption, predominantly in the thin descending limb of Henle and PCT.\n• With large, repeated doses or prolonged administration, the renal loss of water far exceeds the excretion of sodium (free water deficit), resulting in hemoconcentration, severe dehydration, and severe Hypernatremia.",
-    "pearl": "Key Note: Mannitol produces transient hyponatremia early (water shift from ICF to ECF) followed by severe hypernatremia late (osmotic water diuresis)."
+    "question": "Hypernatremia which may occur with Mannitol administration.",
+    "model_answer": "Why Hypernatremia May Occur with Mannitol:\n• Mechanism of Osmotic Water Loss:\n  1. Mannitol is an osmotic diuretic that is filtered at the glomerulus but not reabsorbed, creating a powerful intraluminal osmotic gradient that opposes water reabsorption in the thin descending limb and PCT.\n  2. Renal excretion of free water far exceeds the excretion of sodium (free water deficit).\n  3. Repeated doses without adequate fluid replacement cause hemoconcentration, severe dehydration, and severe Hypernatremia.",
+    "pearl": "ملاحظة: مانيتول يسبب فقدان ماء حر يفوق فقدان الصوديوم (Free water deficit)، مما يؤدي لتركيز الصوديوم في الدم."
   },
   {
     "id": 765,
@@ -2047,9 +2059,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Amiloride can be used in cystic fibrosis.",
-    "model_answer": "Why Amiloride Can Be Used in Cystic Fibrosis:\nCellular Mechanism:\n• In Cystic Fibrosis, defective CFTR chloride channels normally fail to inhibit the Epithelial Sodium Channel (ENaC). Consequently, airway epithelial ENaC becomes constitutively hyperactive.\n• Hyperactive ENaC causes excessive absorption of Na+ and water out of airway surface liquid into respiratory epithelial cells, leaving the respiratory mucus severely dehydrated, thick, and viscid.\n• Inhaled aerosolized Amiloride directly blocks apical ENaC channels in airway epithelium, preventing sodium and water resorption, rehydrating airway secretions, and restoring mucociliary clearance.",
-    "pearl": "Key Note: Amiloride aerosol specifically targets the pulmonary phenotype of cystic fibrosis by restoring periciliary liquid layer hydration."
+    "question": "Why can Amiloride be used in Cystic Fibrosis?",
+    "model_answer": "Why Amiloride Can Be Used in Cystic Fibrosis:\n• Cellular Mechanism:\n  1. In Cystic Fibrosis, defective CFTR channels fail to inhibit the Epithelial Sodium Channel (ENaC), making airway ENaC hyperactive.\n  2. Hyperactive ENaC causes excessive Na+ and water absorption out of airway surface liquid, leaving mucus dehydrated and thick.\n  3. Inhaled aerosolized Amiloride directly inhibits apical Na+ channels (ENaC) in airway epithelial cells, preserving luminal hydration and improving mucociliary clearance.",
+    "pearl": "ملاحظة: Amiloride يستنشق رذاذاً لغلق قنوات ENaC في الرئتين، مما يرطب الإفرازات المخاطية في التليف الكيسي."
   },
   {
     "id": 766,
@@ -2059,9 +2071,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Concomitant use of ACEi and Amiloride increases the risk of hyperkalemia.",
-    "model_answer": "Why Concomitant ACEi and Amiloride Increases Risk of Severe Hyperkalemia:\nDual Synergistic Blockade of Potassium Excretion:\n1. ACE Inhibitors (e.g. Enalapril, Lisinopril): Block conversion of Angiotensin I to Angiotensin II, markedly suppressing adrenal cortical secretion of Aldosterone.\n2. Amiloride: Directly blocks apical ENaC sodium channels in principal cells of the late DCT and collecting duct, eliminating the lumen-negative electrical potential required to drive K+ secretion.\nResult: Both the hormonal stimulus (Aldosterone) and the electrical driving force for renal potassium excretion are completely abolished, creating dangerous, life-threatening severe Hyperkalemia.",
-    "pearl": "Key Note: Combining ACEi/ARBs with potassium-sparing diuretics requires strict baseline and biweekly monitoring of serum K+ and creatinine."
+    "question": "Why does concomitant use of ACEi and Amiloride increase the risk of hyperkalemia?",
+    "model_answer": "Why Concomitant ACEi and Amiloride Increases Risk of Severe Hyperkalemia:\nDual Blockade of Potassium Elimination:\n1. ACE Inhibitors (e.g. Enalapril): Suppress Angiotensin II formation, thereby markedly decreasing Aldosterone secretion from the adrenal cortex.\n2. Amiloride: Directly blocks apical ENaC sodium channels in late DCT and collecting ducts, abolishing the negative luminal electrical potential required for K+ excretion.\nResult: Both hormonal drive and electrical gradient for K+ excretion are blocked, creating severe, life-threatening Hyperkalemia.",
+    "pearl": "ملاحظة: اجتماع مثبطات ACE (تقلل إفراز الألدوستيرون) مع Amiloride (يمنع إخراج البوتاسيوم) يسبب فرط بوتاسيوم خطير."
   },
   {
     "id": 767,
@@ -2071,9 +2083,9 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Allopurinol increases the toxicity of Azathioprine.",
-    "model_answer": "Why Allopurinol Increases the Toxicity of Azathioprine:\nPharmacokinetic Interaction:\n• Azathioprine is an immunosuppressive prodrug that is non-enzymatically cleaved into the active antimetabolite 6-Mercaptopurine (6-MP).\n• The major pathway for enzymatic degradation and metabolic inactivation of 6-MP into inactive 6-thiouric acid is catalyzed by Xanthine Oxidase (XO).\n• Allopurinol is a potent inhibitor of Xanthine Oxidase.\n• Concomitant administration blocks 6-MP inactivation, diverting 6-MP into the hypoxanthine-guanine phosphoribosyltransferase pathway and resulting in massive accumulation of active cytotoxic thioguanine nucleotides (6-TGN).\n• This causes catastrophic, life-threatening Bone Marrow Aplasia (severe pancytopenia).\n• Clinical Rule: If co-administration is unavoidable, the Azathioprine / 6-MP dose MUST be reduced by 75% (to 25% of the standard dose).",
-    "pearl": "Key Note: Reduce Azathioprine or 6-MP dose by 75% whenever initiating Allopurinol or Febuxostat."
+    "question": "Why does Allopurinol increase the toxicity of Azathioprine?",
+    "model_answer": "Why Allopurinol Increases the Toxicity of Azathioprine:\n• Pharmacokinetic Mechanism:\n  1. Azathioprine is converted into 6-Mercaptopurine (6-MP).\n  2. The primary pathway for metabolic inactivation of 6-MP is catalyzed by Xanthine Oxidase (XO).\n  3. Allopurinol potently inhibits Xanthine Oxidase, blocking the metabolism of Azathioprine / 6-MP.\n  4. Active cytotoxic metabolites accumulate, causing catastrophic bone marrow depression (severe pancytopenia).\n• Rule: If combination is necessary, reduce Azathioprine dose by 75%.",
+    "pearl": "ملاحظة: Allopurinol يثبط إنزيم Xanthine oxidase المسؤول عن تكسير Azathioprine، مسبباً تثبيطاً خطيراً لنخاع العظم."
   },
   {
     "id": 768,
@@ -2083,8 +2095,8 @@
     "subject_title": "Renal Pharmacology & Diuretics",
     "subject_ar": "فارماكولوجيا ومدرات البول",
     "topic": "Pharmacology Give Reason (علل وفارماكولوجي)",
-    "question": "Alteration of Urinary pH in treatment of.UTI.",
-    "model_answer": "Alteration of Urinary pH in the Treatment of UTI:\n1. Alkalinization of Urine (using Potassium Citrate or Sodium Bicarbonate):\n   • Inhibits bacterial growth of acidic-loving organisms such as Escherichia coli.\n   • Relieves distressing symptoms of dysuria and painful bladder spasm.\n   • Enhances the antimicrobial activity of basic antibacterial agents: Sulfonamides, Aminoglycosides (Gentamicin, Streptomycin), and Macrolides (Erythromycin).\n2. Acidification of Urine (using Ammonium Chloride, Mandelic Acid, or Ascorbic Acid / Vitamin C):\n   • Essential for the antimicrobial efficacy of Methenamine (Hexamine), which requires an acidic urine pH (< 5.5) to hydrolyze and liberate bactericidal free formaldehyde.\n   • Enhances the antibacterial efficacy of Nitrofurantoin, Penicillins, and Tetracyclines.",
-    "pearl": "Key Note: Basic antibiotics (Sulfonamides, Aminoglycosides) work best in ALKALINE urine; Acidic antibiotics and Methenamine work best in ACIDIC urine."
+    "question": "Alteration of urinary pH in the treatment of UTI.",
+    "model_answer": "Alteration of Urinary pH in the Treatment of UTI:\n1. Alkalinization of Urine (e.g. by NaHCO3 or Potassium Citrate):\n   • Suppresses bacterial growth of acid-loving organisms like Escherichia coli & relieves dysuria.\n   • Increases the antimicrobial activity of: Sulfonamides, Streptomycin, Gentamicin & Erythromycin.\n2. Acidification of Urine (e.g. by NH4Cl, Mandelic Acid, or Ascorbic acid / Vitamin C):\n   • Increases the antibacterial activity of: Penicillins, Tetracyclines, Methenamine (Hexamine), and Nitrofurantoin (Hexamine requires pH < 5.5 to liberate bactericidal formaldehyde).",
+    "pearl": "ملاحظة: قلوية البول تزيد فعالية السلفوناميد والأمينوجليكوزيد، بينما حمضية البول تزيد فعالية البنسلين والهيكسامين والنيتروفورانتوين."
   }
 ]
