@@ -9,29 +9,33 @@
     <title>منصة بنك أسئلة موديول الكلى والجهاز البولي | طب الأزهر - إعداد أحمد وائل</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Amiri:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-deep: #050e18;
-            --bg-base: #091728;
-            --bg-card: #0e243d;
-            --bg-card-hover: #143357;
+            --bg-deep: #050d18;
+            --bg-surface: #0a1727;
+            --bg-card: #0f243c;
+            --bg-card-hover: #143252;
             --border-card: #183a61;
+            --border-subtle: rgba(255, 255, 255, 0.08);
             --border-highlight: rgba(0, 229, 255, 0.4);
             --cyan-primary: #00e5ff;
+            --cyan-glow: rgba(0, 229, 255, 0.25);
             --teal-accent: #0d9488;
-            --gold-primary: #efd57f;
+            --emerald-accent: #10b981;
+            --emerald-glow: rgba(16, 185, 129, 0.25);
+            --gold-azhar: #efd57f;
             --gold-light: #fce494;
+            --gold-glow: rgba(239, 213, 127, 0.3);
             --amber-solute: #f59e0b;
-            --azhar-green: #059669;
-            --azhar-green-light: #10b981;
             --text-main: #ffffff;
-            --text-secondary: #d1e4f7;
-            --text-muted: #8caecf;
+            --text-secondary: #cde1f5;
+            --text-muted: #8aa9c7;
             --radius-lg: 20px;
             --radius-md: 14px;
-            --shadow-card: 0 16px 36px -8px rgba(3, 9, 16, 0.75), 0 0 0 1px rgba(255, 255, 255, 0.05);
-            --shadow-glow: 0 0 25px rgba(0, 229, 255, 0.25);
+            --radius-sm: 8px;
+            --shadow-card: 0 16px 36px -8px rgba(3, 9, 16, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.05);
+            --shadow-hover: 0 20px 42px -10px rgba(0, 229, 255, 0.25), 0 0 0 1px rgba(0, 229, 255, 0.35);
         }
 
         * {
@@ -45,9 +49,10 @@
         body {
             background-color: var(--bg-deep);
             background-image: 
-                radial-gradient(circle at 50% 0%, rgba(0, 229, 255, 0.1) 0%, transparent 65%),
-                radial-gradient(circle at 80% 50%, rgba(13, 148, 136, 0.06) 0%, transparent 50%),
-                linear-gradient(180deg, #050e18 0%, #091728 100%);
+                radial-gradient(circle at 50% 0%, rgba(0, 229, 255, 0.12) 0%, transparent 60%),
+                radial-gradient(circle at 85% 40%, rgba(13, 148, 136, 0.08) 0%, transparent 45%),
+                radial-gradient(circle at 15% 70%, rgba(239, 213, 127, 0.05) 0%, transparent 45%),
+                linear-gradient(180deg, #050d18 0%, #091728 100%);
             color: var(--text-main);
             min-height: 100vh;
             display: flex;
@@ -60,15 +65,15 @@
 
         .hub-container {
             width: 100%;
-            max-width: 1120px;
+            max-width: 1140px;
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 22px;
         }
 
         /* Faculty Gate Hero Card */
         .hero-gate-card {
-            background: var(--bg-base);
+            background: var(--bg-surface);
             border: 1.5px solid var(--border-card);
             border-radius: var(--radius-lg);
             box-shadow: var(--shadow-card);
@@ -81,7 +86,7 @@
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
-            background: linear-gradient(90deg, var(--teal-accent), var(--cyan-primary), var(--gold-primary));
+            background: linear-gradient(90deg, var(--teal-accent), var(--cyan-primary), var(--gold-azhar));
             z-index: 2;
         }
 
@@ -94,7 +99,7 @@
         .gate-photo-wrapper {
             position: relative;
             overflow: hidden;
-            min-height: 270px;
+            min-height: 280px;
         }
 
         .gate-photo {
@@ -108,15 +113,15 @@
         .gate-photo-overlay {
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(270deg, var(--bg-base) 0%, rgba(9, 23, 40, 0.3) 100%);
+            background: linear-gradient(270deg, var(--bg-surface) 0%, rgba(10, 23, 39, 0.25) 100%);
         }
 
         .gate-info {
-            padding: 24px 28px;
+            padding: 26px 30px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 12px;
+            gap: 14px;
         }
 
         .faculty-brand-header {
@@ -126,13 +131,13 @@
         }
 
         .faculty-logo-circle {
-            width: 56px;
-            height: 56px;
+            width: 58px;
+            height: 58px;
             border-radius: 50%;
             background: #ffffff;
             padding: 3px;
-            border: 2px solid var(--gold-primary);
-            box-shadow: 0 0 16px rgba(239, 213, 127, 0.4);
+            border: 2px solid var(--gold-azhar);
+            box-shadow: 0 0 16px rgba(239, 213, 127, 0.35);
             flex-shrink: 0;
         }
 
@@ -140,10 +145,11 @@
             font-size: 1.25rem;
             font-weight: 800;
             color: #ffffff;
+            letter-spacing: -0.2px;
         }
 
         .faculty-titles p {
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             color: var(--gold-light);
             font-weight: 600;
         }
@@ -151,11 +157,11 @@
         .hero-module-title {
             font-size: 1.85rem;
             font-weight: 900;
-            background: linear-gradient(135deg, #ffffff 0%, var(--cyan-primary) 50%, var(--gold-primary) 100%);
+            background: linear-gradient(135deg, #ffffff 0%, var(--cyan-primary) 55%, var(--gold-light) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-top: 4px;
-            line-height: 1.3;
+            margin-top: 2px;
+            line-height: 1.35;
         }
 
         .hero-module-desc {
@@ -164,72 +170,143 @@
             line-height: 1.65;
         }
 
-        .hero-badges-row {
+        /* Standout Author Spotlight */
+        .author-spotlight-wrapper {
             display: flex;
             align-items: center;
-            flex-wrap: wrap;
+            margin-top: 4px;
+        }
+
+        .author-spotlight-badge {
+            display: inline-flex;
+            align-items: center;
             gap: 10px;
-            margin-top: 6px;
+            background: linear-gradient(135deg, rgba(239, 213, 127, 0.14) 0%, rgba(0, 229, 255, 0.1) 100%);
+            border: 1.5px solid rgba(239, 213, 127, 0.45);
+            border-radius: 999px;
+            padding: 8px 18px 8px 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 14px rgba(239, 213, 127, 0.2);
+            transition: all 0.25s ease;
         }
 
-        .author-badge {
-            background: rgba(239, 213, 127, 0.12);
-            border: 1px solid rgba(239, 213, 127, 0.35);
-            border-radius: 30px;
-            padding: 5px 14px;
-            font-size: 0.85rem;
-            font-weight: 700;
+        .author-spotlight-badge:hover {
+            border-color: var(--gold-light);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 24px rgba(239, 213, 127, 0.3);
+        }
+
+        .author-stethoscope-icon {
+            font-size: 1.25rem;
+            line-height: 1;
+            filter: drop-shadow(0 0 6px rgba(0, 229, 255, 0.5));
+        }
+
+        .author-label-text {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .author-name-text {
+            font-size: 1.02rem;
+            font-weight: 900;
             color: var(--gold-light);
-            display: flex;
-            align-items: center;
-            gap: 6px;
+            letter-spacing: 0.2px;
         }
 
-        .kpi-badge {
-            background: rgba(0, 229, 255, 0.12);
-            border: 1px solid rgba(0, 229, 255, 0.35);
-            border-radius: 30px;
+        .author-verified-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: rgba(16, 185, 129, 0.22);
+            border: 1px solid rgba(16, 185, 129, 0.5);
+            color: #34d399;
+            font-size: 0.74rem;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 12px;
+        }
+
+        /* Verified Alert Banner */
+        .verified-banner {
+            background: linear-gradient(90deg, rgba(16, 185, 129, 0.18) 0%, rgba(0, 229, 255, 0.14) 100%);
+            border: 1.5px solid rgba(16, 185, 129, 0.45);
+            border-radius: var(--radius-md);
+            padding: 14px 22px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            box-shadow: 0 8px 24px rgba(3, 9, 16, 0.45);
+        }
+
+        .verified-banner-content {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .verified-icon {
+            font-size: 1.6rem;
+            line-height: 1;
+        }
+
+        .verified-title {
+            font-weight: 800;
+            font-size: 0.98rem;
+            color: #34d399;
+        }
+
+        .verified-subtitle {
+            font-size: 0.86rem;
+            color: var(--text-secondary);
+            margin-top: 2px;
+        }
+
+        .verified-tag {
+            background: #10b981;
+            color: #050d18;
+            font-weight: 900;
+            font-size: 0.78rem;
             padding: 5px 14px;
-            font-size: 0.85rem;
-            font-weight: 700;
-            color: var(--cyan-primary);
-            display: flex;
-            align-items: center;
-            gap: 6px;
+            border-radius: 20px;
+            white-space: nowrap;
+            letter-spacing: 0.3px;
         }
 
-        /* Stats Bar */
+        /* 3-Card Stats Bar */
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 14px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
         }
 
         .stat-card {
             background: var(--bg-card);
-            border: 1px solid var(--border-card);
+            border: 1.5px solid var(--border-card);
             border-radius: var(--radius-md);
-            padding: 16px 18px;
+            padding: 18px 22px;
             display: flex;
             align-items: center;
-            gap: 14px;
+            gap: 16px;
             box-shadow: var(--shadow-card);
-            transition: all 0.2s ease;
+            transition: all 0.25s ease;
         }
 
         .stat-card:hover {
             border-color: var(--cyan-primary);
+            box-shadow: var(--shadow-hover);
             transform: translateY(-2px);
         }
 
         .stat-icon {
-            width: 44px;
-            height: 44px;
-            border-radius: 12px;
+            width: 50px;
+            height: 50px;
+            border-radius: 14px;
             background: rgba(0, 229, 255, 0.1);
             border: 1px solid rgba(0, 229, 255, 0.25);
             color: var(--cyan-primary);
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -237,15 +314,17 @@
         }
 
         .stat-info h4 {
-            font-size: 1.35rem;
+            font-size: 1.5rem;
             font-weight: 900;
             color: #ffffff;
+            line-height: 1.2;
         }
 
         .stat-info p {
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             color: var(--text-muted);
             font-weight: 600;
+            margin-top: 2px;
         }
 
         /* Search & Filter Bar */
@@ -253,18 +332,30 @@
             background: var(--bg-card);
             border: 1.5px solid var(--border-card);
             border-radius: var(--radius-md);
-            padding: 10px 18px;
+            padding: 12px 20px;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 14px;
             box-shadow: var(--shadow-card);
+            transition: border-color 0.2s ease;
+        }
+
+        .search-wrapper:focus-within {
+            border-color: var(--cyan-primary);
+            box-shadow: 0 0 0 3px rgba(0, 229, 255, 0.15);
+        }
+
+        .search-icon {
+            font-size: 1.2rem;
+            color: var(--cyan-primary);
+            flex-shrink: 0;
         }
 
         .search-input {
             background: transparent;
             border: none;
             color: #ffffff;
-            font-size: 0.95rem;
+            font-size: 0.96rem;
             width: 100%;
             outline: none;
         }
@@ -273,11 +364,21 @@
             color: var(--text-muted);
         }
 
-        /* Subject Cards Grid */
+        .search-counter {
+            font-size: 0.82rem;
+            color: var(--cyan-primary);
+            background: rgba(0, 229, 255, 0.1);
+            padding: 4px 10px;
+            border-radius: 12px;
+            white-space: nowrap;
+            font-weight: 700;
+        }
+
+        /* Subject Cards Grid (9 items: 8 Subjects + 1 Clinical Bank) */
         .subjects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+            gap: 22px;
         }
 
         .subject-card {
@@ -288,7 +389,7 @@
             box-shadow: var(--shadow-card);
             display: flex;
             flex-direction: column;
-            transition: all 0.25s ease;
+            transition: all 0.28s ease;
             text-decoration: none;
             color: inherit;
             position: relative;
@@ -296,16 +397,16 @@
 
         .subject-card:hover {
             border-color: var(--cyan-primary);
-            box-shadow: 0 20px 40px -10px rgba(0, 229, 255, 0.2);
+            box-shadow: var(--shadow-hover);
             transform: translateY(-4px);
         }
 
         .card-img-wrapper {
             width: 100%;
-            height: 160px;
+            height: 165px;
             overflow: hidden;
             position: relative;
-            background: #06111d;
+            background: #050d18;
         }
 
         .card-img {
@@ -313,7 +414,7 @@
             height: 100%;
             object-fit: cover;
             display: block;
-            transition: transform 0.3s ease;
+            transition: transform 0.35s ease;
         }
 
         .subject-card:hover .card-img {
@@ -324,18 +425,19 @@
             position: absolute;
             top: 12px;
             right: 12px;
-            background: rgba(6, 17, 29, 0.85);
+            background: rgba(5, 13, 24, 0.88);
             backdrop-filter: blur(8px);
             border: 1px solid var(--cyan-primary);
             border-radius: 20px;
-            padding: 4px 12px;
+            padding: 5px 12px;
             font-size: 0.8rem;
             font-weight: 800;
             color: var(--cyan-primary);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
         }
 
         .card-body {
-            padding: 20px;
+            padding: 20px 22px;
             display: flex;
             flex-direction: column;
             flex-grow: 1;
@@ -349,7 +451,7 @@
         }
 
         .card-header-row h3 {
-            font-size: 1.18rem;
+            font-size: 1.2rem;
             font-weight: 800;
             color: #ffffff;
             display: flex;
@@ -358,48 +460,89 @@
         }
 
         .card-sub {
-            font-size: 0.82rem;
+            font-size: 0.84rem;
             color: var(--cyan-primary);
-            font-weight: 600;
+            font-weight: 700;
             direction: ltr;
             text-align: right;
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
 
         .card-desc {
-            font-size: 0.88rem;
+            font-size: 0.9rem;
             color: var(--text-secondary);
             line-height: 1.6;
             flex-grow: 1;
         }
 
+        /* Progress Mini Bar on Card */
+        .card-progress-box {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 4px;
+            padding: 8px 12px;
+            background: rgba(0, 229, 255, 0.05);
+            border: 1px solid rgba(0, 229, 255, 0.15);
+            border-radius: var(--radius-sm);
+        }
+
+        .card-progress-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+
+        .card-progress-labels span:last-child {
+            color: var(--emerald-accent);
+        }
+
+        .card-progress-track {
+            height: 6px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .card-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--teal-accent), var(--emerald-accent));
+            border-radius: 999px;
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
         .card-cta {
-            margin-top: 8px;
+            margin-top: 10px;
             padding-top: 14px;
             border-top: 1px solid rgba(255, 255, 255, 0.08);
             display: flex;
             align-items: center;
             justify-content: space-between;
             color: var(--cyan-primary);
-            font-size: 0.9rem;
+            font-size: 0.92rem;
             font-weight: 800;
         }
 
-        .card-cta span {
+        .card-cta span.cta-arrow {
             transition: transform 0.2s ease;
+            font-size: 1.1rem;
         }
 
-        .subject-card:hover .card-cta span {
-            transform: translateX(-4px);
+        .subject-card:hover .card-cta span.cta-arrow {
+            transform: translateX(-5px);
         }
 
         /* Footer */
         .hub-footer {
-            margin-top: 20px;
-            padding: 24px;
+            margin-top: 24px;
+            padding: 26px 20px;
             text-align: center;
             border-top: 1px solid var(--border-card);
             color: var(--text-muted);
-            font-size: 0.88rem;
+            font-size: 0.9rem;
             display: flex;
             flex-direction: column;
             gap: 8px;
@@ -409,29 +552,30 @@
             color: var(--gold-light);
         }
 
-        /* Mobile Layout */
+        /* Mobile Layout Optimizations */
         @media (max-width: 768px) {
-            body { padding: 12px 10px 60px; align-items: stretch; }
-            .hub-container { width: 100%; max-width: 100%; box-sizing: border-box; }
+            body { padding: 12px 10px 50px; align-items: stretch; }
+            .hub-container { width: 100%; max-width: 100%; gap: 16px; }
             .gate-banner-grid { grid-template-columns: 100%; width: 100%; }
             .gate-photo-wrapper { height: 140px; min-height: unset; width: 100%; }
-            .gate-info { padding: 16px 14px; width: 100%; box-sizing: border-box; }
-            .faculty-brand-header { gap: 10px; width: 100%; }
-            .faculty-logo-circle { width: 42px; height: 42px; }
-            .faculty-titles h2 { font-size: 1.02rem; }
-            .faculty-titles p { font-size: 0.76rem; }
-            .hero-module-title { font-size: 1.2rem; line-height: 1.35; word-wrap: break-word; }
-            .hero-module-desc { font-size: 0.84rem; line-height: 1.6; }
-            .hero-badges-row { gap: 6px; }
-            .author-badge, .kpi-badge { font-size: 0.75rem; padding: 4px 10px; }
-            .stats-grid { grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; }
-            .stat-card { padding: 10px 12px; gap: 10px; }
-            .stat-icon { width: 36px; height: 36px; font-size: 1.05rem; }
-            .stat-info h4 { font-size: 1.15rem; }
-            .stat-info p { font-size: 0.7rem; }
-            .search-wrapper { width: 100%; box-sizing: border-box; }
-            .subjects-grid { grid-template-columns: 100%; gap: 16px; width: 100%; }
-            .subject-card { width: 100%; box-sizing: border-box; }
+            .gate-info { padding: 18px 16px; width: 100%; }
+            .faculty-brand-header { gap: 10px; }
+            .faculty-logo-circle { width: 44px; height: 44px; }
+            .faculty-titles h2 { font-size: 1.05rem; }
+            .faculty-titles p { font-size: 0.78rem; }
+            .hero-module-title { font-size: 1.25rem; line-height: 1.35; }
+            .hero-module-desc { font-size: 0.86rem; line-height: 1.6; }
+            .author-spotlight-badge { padding: 6px 14px 6px 12px; gap: 8px; width: 100%; justify-content: center; }
+            .author-name-text { font-size: 0.95rem; }
+            .verified-banner { flex-direction: column; align-items: flex-start; gap: 10px; padding: 12px 16px; }
+            .verified-tag { align-self: flex-start; }
+            .stats-grid { grid-template-columns: 1fr; gap: 10px; }
+            .stat-card { padding: 12px 16px; gap: 12px; }
+            .stat-icon { width: 42px; height: 42px; font-size: 1.25rem; }
+            .stat-info h4 { font-size: 1.25rem; }
+            .stat-info p { font-size: 0.78rem; }
+            .subjects-grid { grid-template-columns: 100%; gap: 16px; }
+            .subject-card { width: 100%; }
         }
     </style>
 </head>
@@ -451,149 +595,216 @@
                         <img src="assets/al_azhar_logo.png" alt="شعار جامعة الأزهر" class="faculty-logo-circle">
                         <div class="faculty-titles">
                             <h2>جامعة الأزهر - كلية الطب (بنين) بالقاهرة</h2>
-                            <p>Al-Azhar Faculty of Medicine | بنك الأسئلة والمحاكاة التفاعلية</p>
+                            <p>Al-Azhar Faculty of Medicine | بنك الأسئلة والتدريب التفاعلي</p>
                         </div>
                     </div>
                     <h1 class="hero-module-title">موديول الكلى والجهاز البولي (Renal System)</h1>
                     <p class="hero-module-desc">
-                        بنك أسئلة وتدريب تفاعلي لطلاب كلية الطب، يغطي أسئلة موديول الكلى والجهاز البولي مقسمة حسب المواد مع إجاباتها النموذجية وشرحها.
+                        منصة تعليمية متكاملة لطلاب كلية الطب، تغطي كافة أقسام موديول الكلى والجهاز البولي مقسمة علمياً حسب المواد والحالات السريرية، مع الإجابات النموذجية المعتمدة وشرحها الطبي الدقيق.
                     </p>
-                    <div class="hero-badges-row">
-                        <span class="author-badge">🩺 إعداد وتدقيق: أحمد وائل</span>
-                        <span class="kpi-badge">🫘 780 سؤالاً وحالة</span>
-                        <span class="kpi-badge">⚡ بنك أسئلة شامل</span>
+                    
+                    <!-- Spotlight Author Badge -->
+                    <div class="author-spotlight-wrapper">
+                        <div class="author-spotlight-badge">
+                            <span class="author-stethoscope-icon">🩺</span>
+                            <span class="author-label-text">إعداد وتدقيق وتنظيم:</span>
+                            <span class="author-name-text">أحمد وائل</span>
+                            <span class="author-verified-pill">✓ مُعتمد</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
 
         <!-- Model Answer Verified Banner -->
-        <div style="background: linear-gradient(90deg, rgba(16, 185, 129, 0.25), rgba(0, 229, 255, 0.2)); border: 1px solid rgba(16, 185, 129, 0.5); border-radius: 14px; padding: 14px 20px; margin: 18px 0 25px; display: flex; align-items: center; justify-content: space-between; gap: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-            <div style="display: flex; align-items: center; gap: 12px;">
-                <span style="font-size: 1.6rem;">✨</span>
+        <div class="verified-banner">
+            <div class="verified-banner-content">
+                <span class="verified-icon">✨</span>
                 <div>
-                    <div style="font-weight: 800; font-size: 1rem; color: #10b981;">تم تحديث واعتماد الإجابات وفقاً لنماذج الإجابة الرسمية</div>
-                    <div style="font-size: 0.85rem; color: #cde1f5; margin-top: 2px;">تم تدقيق كافة الأسئلة وإصلاح الاستثناءات وتحديث جميع الأقسام.</div>
+                    <div class="verified-title">تم تدقيق واعتماد الإجابات وفقاً لنماذج الإجابة الرسمية</div>
+                    <div class="verified-subtitle">مراجعة شاملة لجميع الأقسام، تصحيح دقيق للاستثناءات، وتوفير شروحات طبية باللغة الإنجليزية.</div>
                 </div>
             </div>
-            <span style="background: #10b981; color: #06111d; font-weight: 800; font-size: 0.78rem; padding: 5px 12px; border-radius: 20px; white-space: nowrap;">مُحَدَّث</span>
+            <span class="verified-tag">مُحَدَّث 2026</span>
         </div>
 
-
-        <!-- Stats Bar -->
+        <!-- 3-Card Stats Bar -->
         <section class="stats-grid">
             <div class="stat-card">
-                <div class="stat-icon">🫘</div>
+                <div class="stat-icon">📊</div>
                 <div class="stat-info">
-                    <h4>780</h4>
-                    <p>إجمالي الأسئلة والحالات</p>
+                    <h4>770</h4>
+                    <p>إجمالي الأسئلة والحالات السريرية</p>
                 </div>
             </div>
             <div class="stat-card">
                 <div class="stat-icon">📚</div>
                 <div class="stat-info">
-                    <h4>7 + 1</h4>
-                    <p>أقسام المواد والحالات</p>
-                </div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-icon">💡</div>
-                <div class="stat-info">
-                    <h4>100%</h4>
-                    <p>شرح وتوضيح لكل سؤال</p>
+                    <h4>8 + 1</h4>
+                    <p>أقسام المواد وبنك الحالات</p>
                 </div>
             </div>
             <div class="stat-card">
                 <div class="stat-icon">🎯</div>
                 <div class="stat-info">
-                    <h4>164</h4>
-                    <p>صفحة موديول مغطاة</p>
+                    <h4>100%</h4>
+                    <p>إجابات وشروحات نموذجية معتمدة</p>
                 </div>
             </div>
         </section>
 
-        <!-- Search Bar -->
+        <!-- Search Bar with Live Subject Count -->
         <div class="search-wrapper">
-            <span style="font-size:1.1rem; color:var(--cyan-primary);">🔍</span>
-            <input type="text" id="subjectSearch" class="search-input" placeholder="ابحث عن أي مادة أو موضوع (مثل: Physiology, Furosemide, Glomerulonephritis, Schistosoma, Stones)...">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="subjectSearch" class="search-input" placeholder="ابحث عن أي مادة أو موضوع (مثل: Physiology, Furosemide, Glomerulonephritis, Schistosoma, Stones, Micro)...">
+            <span class="search-counter" id="searchCounter">9 أقسام</span>
         </div>
 
-        <!-- Subject Cards Grid -->
+        <!-- Subject Cards Grid (8 Academic Subjects + 1 Clinical Bank) -->
         <section class="subjects-grid" id="subjectsGrid">
 
-            <a href="physiology_renal_interactive_quiz.html?v=20261105v7" class="subject-card" data-keywords="فسيولوجيا الكلى والجهاز البولي Renal Physiology وظائف الكبيبة الكلوية، معدل الترشيح GFR، آليات التدفق بالتيار المعاكس Countercurrent، إعادة امتصاص الصوديوم والماء، وتنظيم التوازن الحمضي القاعدي.">
+            <!-- 1. Physiology -->
+            <a href="physiology_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="فسيولوجيا الكلى والجهاز البولي Renal Physiology وظائف الكبيبة الكلوية، معدل الترشيح GFR، آليات التدفق بالتيار المعاكس Countercurrent، إعادة امتصاص الصوديوم والماء، وتنظيم التوازن الحمضي القاعدي.">
                 <div class="card-img-wrapper">
                     <img src="assets/physiology_banner.jpg" alt="فسيولوجيا الكلى والجهاز البولي" class="card-img">
-                    <div class="card-badge">107 MCQs + 25 Cases</div>
+                    <div class="card-badge">107 MCQs</div>
                 </div>
                 <div class="card-body">
                     <div class="card-header-row">
                         <h3>⚡ فسيولوجيا الكلى والجهاز البولي</h3>
                     </div>
                     <div class="card-sub">Renal Physiology</div>
-                    <p class="card-desc">وظائف الكبيبة الكلوية، معدل الترشيح GFR، آليات التدفق بالتيار المعاكس Countercurrent، إعادة امتصاص الصوديوم والماء، وتنظيم التوازن الحمضي القاعدي.</p>
+                    <p class="card-desc">وظائف الكبيبة الكلوية، معدل الترشيح الكبيبي GFR، آليات التدفق بالتيار المعاكس، وإعادة امتصاص الماء والشوارد.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/107</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
                     <div class="card-cta">
-                        <span>بدء بنك الأسئلة والتدريب</span>
-                        <span>◀</span>
+                        <span class="cta-label">بدء بنك الأسئلة والتدريب</span>
+                        <span class="cta-arrow">◀</span>
                     </div>
                 </div>
             </a>
-    
-            <a href="pharmacology_renal_interactive_quiz.html?v=20261105v7" class="subject-card" data-keywords="فارماكولوجيا الكلى ومدرات البول Renal Pharmacology & Diuretics مدرات العروة (Furosemide)، الثيازايد، موفرات البوتاسيوم (Spironolactone)، مثبطات الأنهيدراز، آليات النقل، التداخلات الدوائية، وأسئلة علل الشهيرة.">
+
+            <!-- 2. Pharmacology -->
+            <a href="pharmacology_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="فارماكولوجيا الكلى ومدرات البول Renal Pharmacology & Diuretics مدرات العروة (Furosemide)، الثيازايد، موفرات البوتاسيوم (Spironolactone)، مثبطات الأنهيدراز، آليات النقل، التداخلات الدوائية، وأسئلة علل الشهيرة.">
                 <div class="card-img-wrapper">
                     <img src="assets/pharmacology_banner.jpg" alt="فارماكولوجيا الكلى ومدرات البول" class="card-img">
-                    <div class="card-badge">126 MCQs + 56 Reasons</div>
+                    <div class="card-badge">116 MCQs</div>
                 </div>
                 <div class="card-body">
                     <div class="card-header-row">
                         <h3>💊 فارماكولوجيا الكلى ومدرات البول</h3>
                     </div>
                     <div class="card-sub">Renal Pharmacology & Diuretics</div>
-                    <p class="card-desc">مدرات العروة (Furosemide)، الثيازايد، موفرات البوتاسيوم (Spironolactone)، مثبطات الأنهيدراز، آليات النقل، التداخلات الدوائية، وأسئلة علل الشهيرة.</p>
+                    <p class="card-desc">مدرات العروة (Furosemide)، الثيازايد، موفرات البوتاسيوم، ومثبطات الأنهيدراز الكربوني وتداخلاتها السريرية.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/116</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
                     <div class="card-cta">
-                        <span>بدء بنك الأسئلة والتدريب</span>
-                        <span>◀</span>
+                        <span class="cta-label">بدء بنك الأسئلة والتدريب</span>
+                        <span class="cta-arrow">◀</span>
                     </div>
                 </div>
             </a>
-    
-            <a href="pathology_renal_interactive_quiz.html?v=20261105v7" class="subject-card" data-keywords="باثولوجيا وأمراض الكلى والمسالك Renal Pathology أمراض الكبيبات (Nephrotic vs Nephritic)، التهاب الكبيبات سريع الترقي RPGN، داء التبدل الطفيف، اعتلال الكلى الغشائي، النخر الأنبوبي الحاد ATN، وأورام الكلى RCC.">
+
+            <!-- 3. Pathology -->
+            <a href="pathology_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="باثولوجيا وأمراض الكلى والمسالك Renal Pathology أمراض الكبيبات (Nephrotic vs Nephritic)، التهاب الكبيبات سريع الترقي RPGN، داء التبدل الطفيف، اعتلال الكلى الغشائي، النخر الأنبوبي الحاد ATN، وأورام الكلى RCC.">
                 <div class="card-img-wrapper">
                     <img src="assets/pathology_banner.jpg" alt="باثولوجيا وأمراض الكلى والمسالك" class="card-img">
-                    <div class="card-badge">157 MCQs + 47 Cases</div>
+                    <div class="card-badge">158 MCQs</div>
                 </div>
                 <div class="card-body">
                     <div class="card-header-row">
                         <h3>🩺 باثولوجيا وأمراض الكلى والمسالك</h3>
                     </div>
                     <div class="card-sub">Renal Pathology</div>
-                    <p class="card-desc">أمراض الكبيبات (Nephrotic vs Nephritic)، التهاب الكبيبات سريع الترقي RPGN، داء التبدل الطفيف، اعتلال الكلى الغشائي، النخر الأنبوبي الحاد ATN، وأورام الكلى RCC.</p>
+                    <p class="card-desc">اعتلالات الكبيبات (Nephrotic vs Nephritic)، التهاب كبيبات الكلى الحاد وسريع الترقي، داء التبدل الطفيف، وأورام الكلى RCC.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/158</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
                     <div class="card-cta">
-                        <span>بدء بنك الأسئلة والتدريب</span>
-                        <span>◀</span>
+                        <span class="cta-label">بدء بنك الأسئلة والتدريب</span>
+                        <span class="cta-arrow">◀</span>
                     </div>
                 </div>
             </a>
-    
-            <a href="microbiology_renal_interactive_quiz.html?v=20261105v7" class="subject-card" data-keywords="ميكروبيولوجيا وطفيليات المسالك Renal Microbiology & Parasitology عدوى المسالك البولية UTI و CAUTI، بكتيريا E. coli و Proteus mirabilis، تكون حصوات الستروفايت، زراعة البول، وطفيليات البلهارسيا البولية Schistosoma وديدان Enterobius.">
+
+            <!-- 4. Microbiology -->
+            <a href="microbiology_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="ميكروبيولوجيا المسالك البولية Renal Microbiology عدوى المسالك البولية UTI و CAUTI، بكتيريا E. coli و Proteus mirabilis، تكون حصوات الستروفايت، زراعة البول، ومضادات البكتيريا.">
                 <div class="card-img-wrapper">
-                    <img src="assets/microbiology_banner.jpg" alt="ميكروبيولوجيا وطفيليات المسالك" class="card-img">
-                    <div class="card-badge">108 MCQs</div>
+                    <img src="assets/microbiology_banner.jpg" alt="ميكروبيولوجيا المسالك البولية" class="card-img">
+                    <div class="card-badge">65 MCQs</div>
                 </div>
                 <div class="card-body">
                     <div class="card-header-row">
-                        <h3>🧫 ميكروبيولوجيا وطفيليات المسالك</h3>
+                        <h3>🧫 ميكروبيولوجيا المسالك البولية</h3>
                     </div>
-                    <div class="card-sub">Renal Microbiology & Parasitology</div>
-                    <p class="card-desc">عدوى المسالك البولية UTI و CAUTI، بكتيريا E. coli و Proteus mirabilis، تكون حصوات الستروفايت، زراعة البول، وطفيليات البلهارسيا البولية Schistosoma وديدان Enterobius.</p>
+                    <div class="card-sub">Renal Microbiology & UTIs</div>
+                    <p class="card-desc">عدوى الجهاز البولي (UTI & CAUTI)، بكتيريا E. coli و Proteus، مزارع البول والمضادات الحيوية المناسبة.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/65</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
                     <div class="card-cta">
-                        <span>بدء بنك الأسئلة والتدريب</span>
-                        <span>◀</span>
+                        <span class="cta-label">بدء بنك الأسئلة والتدريب</span>
+                        <span class="cta-arrow">◀</span>
                     </div>
                 </div>
             </a>
-    
-            <a href="histology_renal_interactive_quiz.html?v=20261105v7" class="subject-card" data-keywords="نسيجيات الكلى والمسالك Renal Histology أنسجة الكبيبة الكلوية، حاجز الترشيح، الخلايا الرجلاء Podocytes، جهاز مجاورات الكبيبة JGA، ظهارة الأنابيب البولية PCT و DCT، وخلايا الظهارة الانتقالية Facet cells.">
+
+            <!-- 5. Parasitology -->
+            <a href="parasitology_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="طفيليات المسالك البولية Renal Parasitology طفيليات البلهارسيا البولية Schistosoma haematobium، دورة الحياة والحلزون الناقل Bulinus truncatus، ديدان Enterobius vermicularis، التشخيص المخبري والعلاج Praziquantel.">
+                <div class="card-img-wrapper">
+                    <img src="assets/parasitology_banner.jpg" alt="طفيليات المسالك البولية" class="card-img">
+                    <div class="card-badge">43 MCQs</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-header-row">
+                        <h3>🦠 طفيليات المسالك البولية</h3>
+                    </div>
+                    <div class="card-sub">Renal Parasitology</div>
+                    <p class="card-desc">طفيليات البلهارسيا البولية Schistosoma haematobium، الحلزون الناقل Bulinus، وتشخيص وعلاج ديدان Enterobius.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/43</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
+                    <div class="card-cta">
+                        <span class="cta-label">بدء بنك الأسئلة والتدريب</span>
+                        <span class="cta-arrow">◀</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 6. Histology -->
+            <a href="histology_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="نسيجيات الكلى والمسالك Renal Histology أنسجة الكبيبة الكلوية، حاجز الترشيح، الخلايا الرجلاء Podocytes، جهاز مجاورات الكبيبة JGA، ظهارة الأنابيب البولية PCT و DCT، وخلايا الظهارة الانتقالية Facet cells.">
                 <div class="card-img-wrapper">
                     <img src="assets/histology_banner.jpg" alt="نسيجيات الكلى والمسالك" class="card-img">
                     <div class="card-badge">33 MCQs</div>
@@ -603,103 +814,154 @@
                         <h3>🔬 نسيجيات الكلى (Renal Histology)</h3>
                     </div>
                     <div class="card-sub">Renal Histology</div>
-                    <p class="card-desc">حاجز الترشيح الكبيبي، الخلايا الرجلاء Podocytes، جهاز مجاورات الكبيبة JGA، ظهارة الأنابيب البولية، وخلايا الظهارة الانتقالية Facet cells.</p>
+                    <p class="card-desc">حاجز الترشيح الكبيبي، الخلايا الرجلاء Podocytes، جهاز مجاورات الكبيبة JGA، وخلايا الظهارة الانتقالية Facet cells.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/33</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
                     <div class="card-cta">
-                        <span>بدء بنك الأسئلة والتدريب</span>
-                        <span>◀</span>
+                        <span class="cta-label">بدء بنك الأسئلة والتدريب</span>
+                        <span class="cta-arrow">◀</span>
                     </div>
                 </div>
             </a>
 
-            <a href="anatomy_renal_interactive_quiz.html?v=20261105v7" class="subject-card" data-keywords="تشريح الكلى والمسالك البولية Renal Anatomy & Embryology مجاورات الكلى، مسار الحالب وتضيقاته، جدار المثانة وعضلة Detrusor، أجزاء مجرى البول في الذكور والإناث، وعلم الأجنة.">
+            <!-- 7. Anatomy -->
+            <a href="anatomy_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="تشريح الكلى والمسالك البولية Renal Anatomy & Embryology مجاورات الكلى، مسار الحالب وتضيقاته، جدار المثانة وعضلة Detrusor، أجزاء مجرى البول في الذكور والإناث، وعلم الأجنة.">
                 <div class="card-img-wrapper">
                     <img src="assets/anatomy_banner.jpg" alt="تشريح الكلى والمسالك البولية" class="card-img">
                     <div class="card-badge">12 MCQs</div>
                 </div>
                 <div class="card-body">
                     <div class="card-header-row">
-                        <h3>🫀 تشريح الكلى والمسالك (Renal Anatomy)</h3>
+                        <h3>🫀 تشريح وأجنة المسالك البولية</h3>
                     </div>
                     <div class="card-sub">Renal Anatomy & Embryology</div>
-                    <p class="card-desc">تشريح الكلى ومجاوراتها، مسار الحالب وتضيقاته، جدار المثانة وعضلة Detrusor، أجزاء مجرى البول في الذكور والإناث، وعلم الأجنة.</p>
+                    <p class="card-desc">تشريح الكلى ومجاوراتها، مسار الحالب وتضيقاته التشريحية، عضلة Detrusor في المثانة، وأجزاء مجرى البول.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/12</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
                     <div class="card-cta">
-                        <span>بدء بنك الأسئلة والتدريب</span>
-                        <span>◀</span>
+                        <span class="cta-label">بدء بنك الأسئلة والتدريب</span>
+                        <span class="cta-arrow">◀</span>
                     </div>
                 </div>
             </a>
-    
-            <a href="biochemistry_renal_interactive_quiz.html?v=20261105v7" class="subject-card" data-keywords="كيمياء حيوية وحصوات الكلى Renal Biochemistry & Calculi أيض وتكسير البيورينات، حمض اليوريك، النقرس Gout، متلازمة Lesch-Nyhan، التركيب الكيميائي لحصوات الكلى والبلورات وتوازن الأيونات.">
+
+            <!-- 8. Biochemistry -->
+            <a href="biochemistry_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="كيمياء حيوية وحصوات الكلى Renal Biochemistry & Calculi أيض وتكسير البيورينات، حمض اليوريك، النقرس Gout، متلازمة Lesch-Nyhan، التركيب الكيميائي لحصوات الكلى والبلورات وتوازن الأيونات.">
                 <div class="card-img-wrapper">
                     <img src="assets/biochemistry_banner.jpg" alt="كيمياء حيوية وحصوات الكلى" class="card-img">
-                    <div class="card-badge">61 MCQs + 26 Cases</div>
+                    <div class="card-badge">61 MCQs</div>
                 </div>
                 <div class="card-body">
                     <div class="card-header-row">
                         <h3>🧬 كيمياء حيوية وحصوات الكلى</h3>
                     </div>
                     <div class="card-sub">Renal Biochemistry & Calculi</div>
-                    <p class="card-desc">أيض وتكسير البيورينات، حمض اليوريك، النقرس Gout، متلازمة Lesch-Nyhan، التركيب الكيميائي لحصوات الكلى والبلورات وتوازن الأيونات.</p>
+                    <p class="card-desc">أيض وتكسير البيورينات، حمض اليوريك، متلازمة Lesch-Nyhan، والتركيب الكيميائي لحصوات الكلى والبلورات البولية.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/61</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
                     <div class="card-cta">
-                        <span>بدء بنك الأسئلة والتدريب</span>
-                        <span>◀</span>
+                        <span class="cta-label">بدء بنك الأسئلة والتدريب</span>
+                        <span class="cta-arrow">◀</span>
                     </div>
                 </div>
             </a>
-    
-            <a href="clinical_cases_renal_interactive_quiz.html?v=20261105v7" class="subject-card" data-keywords="بنك الحالات السريرية والأسئلة المقالية والتعليلات Clinical Cases & Give Reason Bank قسم يجمع الحالات السريرية وسيناريوهات التشخيص والأسئلة المقالية وأسئلة التعليل مع الإجابات النموذجية باللغة الإنجليزية.">
+
+            <!-- 9. Clinical Cases & Essay Bank -->
+            <a href="clinical_cases_renal_interactive_quiz.html?v=20261105v9" class="subject-card" data-keywords="بنك الحالات السريرية والأسئلة المقالية والتعليلات Clinical Cases & Give Reason Bank قسم يجمع الحالات السريرية وسيناريوهات التشخيص والأسئلة المقالية وأسئلة التعليل مع الإجابات النموذجية باللغة الإنجليزية.">
                 <div class="card-img-wrapper">
                     <img src="assets/clinical_cases_banner.jpg" alt="الحالات السريرية والأسئلة المقالية" class="card-img">
-                    <div class="card-badge">174 سؤالاً مقالياً وحالة</div>
+                    <div class="card-badge">175 حالة ومقال</div>
                 </div>
                 <div class="card-body">
                     <div class="card-header-row">
                         <h3>📋 الحالات السريرية والأسئلة المقالية</h3>
                     </div>
                     <div class="card-sub">Clinical Cases & Essay Bank</div>
-                    <p class="card-desc">قسم يجمع الحالات السريرية وسيناريوهات التشخيص والأسئلة المقالية وأسئلة التعليل مع الإجابات النموذجية والشرح بالإنجليزية.</p>
+                    <p class="card-desc">قسم يجمع كافة الحالات السريرية وسيناريوهات التشخيص والأسئلة المقالية وأسئلة علل مع الإجابات والشروح النموذجية بالإنجليزية.</p>
+                    <div class="card-progress-box">
+                        <div class="card-progress-labels">
+                            <span class="progress-text">التقدم: 0%</span>
+                            <span class="progress-count">0/175</span>
+                        </div>
+                        <div class="card-progress-track">
+                            <div class="card-progress-fill"></div>
+                        </div>
+                    </div>
                     <div class="card-cta">
-                        <span>بدء بنك الأسئلة والتدريب</span>
-                        <span>◀</span>
+                        <span class="cta-label">بدء بنك الحالات والتدريب</span>
+                        <span class="cta-arrow">◀</span>
                     </div>
                 </div>
             </a>
-    
+
         </section>
 
-        <!-- Footer -->
+        <!-- Academic Footer -->
         <footer class="hub-footer">
             <p><strong>جامعة الأزهر - كلية الطب (بنين) بالقاهرة</strong> | موديول الكلى والجهاز البولي (Renal System Module)</p>
-            <p>إعداد وتدقيق وتنظيم: <strong>د. أحمد وائل (Ahmed Wael)</strong> | منصة تعليمية غير ربحية لخدمة طلاب الطب</p>
-            <p style="font-size:0.8rem; margin-top:4px;">اللهم انفعنا بما علمتنا وعلمنا ما ينفعنا وزدنا علماً 🤲</p>
+            <p>إعداد وتدقيق وتنظيم: <strong>أحمد وائل</strong> | منصة تعليمية غير ربحية لخدمة طلاب الطب</p>
+            <p style="font-size:0.82rem; margin-top:4px;">اللهم انفعنا بما علمتنا وعلمنا ما ينفعنا وزدنا علماً 🤲</p>
         </footer>
 
     </div>
 
     <script>
-        // Real-time Search Filter
+        // Real-time Search & Filter with dynamic counter
         const searchInput = document.getElementById('subjectSearch');
         const cards = document.querySelectorAll('.subject-card');
+        const searchCounter = document.getElementById('searchCounter');
+        const totalCards = cards.length;
 
         searchInput.addEventListener('input', (e) => {
             const term = e.target.value.toLowerCase().trim();
+            let visibleCount = 0;
             cards.forEach(card => {
-                const kw = card.getAttribute('data-keywords').toLowerCase();
-                if (!term || kw.includes(term)) {
+                const kw = (card.getAttribute('data-keywords') || '').toLowerCase();
+                const text = card.textContent.toLowerCase();
+                if (!term || kw.includes(term) || text.includes(term)) {
                     card.style.display = 'flex';
+                    visibleCount++;
                 } else {
                     card.style.display = 'none';
                 }
             });
+
+            if (term) {
+                searchCounter.textContent = `${visibleCount} من ${totalCards}`;
+            } else {
+                searchCounter.textContent = `${totalCards} أقسام`;
+            }
         });
 
-        // Dynamic User Progress Indicators on Hub Cards
+        // Dynamic User Progress Indicators on Hub Cards from localStorage
         document.addEventListener('DOMContentLoaded', () => {
             const subjectMap = {
                 'physiology_renal_interactive_quiz': { key: 'physiology', total: 107 },
                 'pharmacology_renal_interactive_quiz': { key: 'pharmacology', total: 116 },
                 'pathology_renal_interactive_quiz': { key: 'pathology', total: 158 },
-                'microbiology_renal_interactive_quiz': { key: 'microbiology', total: 108 },
+                'microbiology_renal_interactive_quiz': { key: 'microbiology', total: 65 },
+                'parasitology_renal_interactive_quiz': { key: 'parasitology', total: 43 },
                 'histology_renal_interactive_quiz': { key: 'histology', total: 33 },
                 'anatomy_renal_interactive_quiz': { key: 'anatomy', total: 12 },
                 'biochemistry_renal_interactive_quiz': { key: 'biochemistry', total: 61 }
@@ -717,14 +979,30 @@
                                 if (data && data.answers) {
                                     const solved = Object.keys(data.answers).length;
                                     if (solved > 0) {
-                                        const pct = Math.round((solved / info.total) * 100);
+                                        const pct = Math.min(100, Math.round((solved / info.total) * 100));
+                                        
+                                        // Update top badge
                                         const badge = card.querySelector('.card-badge');
                                         if (badge) {
-                                            badge.innerHTML += ` · <span style="color:#10b981;">تم حل ${solved}/${info.total} (${pct}%)</span>`;
+                                            badge.innerHTML = `${info.total} MCQs · <span style="color:#10b981;">${pct}%</span>`;
                                         }
-                                        const cta = card.querySelector('.card-cta span:first-child');
-                                        if (cta) {
-                                            cta.textContent = `متابعة التدريب (تم حل ${solved} من ${info.total})`;
+
+                                        // Update progress bar
+                                        const progressBox = card.querySelector('.card-progress-box');
+                                        if (progressBox) {
+                                            progressBox.style.display = 'flex';
+                                            const progressText = progressBox.querySelector('.progress-text');
+                                            const progressCount = progressBox.querySelector('.progress-count');
+                                            const progressFill = progressBox.querySelector('.card-progress-fill');
+                                            if (progressText) progressText.textContent = `تم إنجاز: ${pct}%`;
+                                            if (progressCount) progressCount.textContent = `${solved}/${info.total}`;
+                                            if (progressFill) progressFill.style.width = `${pct}%`;
+                                        }
+
+                                        // Update CTA
+                                        const ctaLabel = card.querySelector('.card-cta .cta-label');
+                                        if (ctaLabel) {
+                                            ctaLabel.textContent = `متابعة التدريب (تم حل ${solved} من ${info.total})`;
                                         }
                                     }
                                 }
@@ -740,14 +1018,28 @@
                             const arr = JSON.parse(raw);
                             if (Array.isArray(arr) && arr.length > 0) {
                                 const solved = arr.length;
-                                const pct = Math.round((solved / 174) * 100);
+                                const total = 175;
+                                const pct = Math.min(100, Math.round((solved / total) * 100));
+                                
                                 const badge = card.querySelector('.card-badge');
                                 if (badge) {
-                                    badge.innerHTML += ` · <span style="color:#10b981;">تمت مراجعة ${solved}/174 (${pct}%)</span>`;
+                                    badge.innerHTML = `${total} حالة · <span style="color:#10b981;">${pct}%</span>`;
                                 }
-                                const cta = card.querySelector('.card-cta span:first-child');
-                                if (cta) {
-                                    cta.textContent = `متابعة المراجعة (تمت مراجعة ${solved} من 174)`;
+
+                                const progressBox = card.querySelector('.card-progress-box');
+                                if (progressBox) {
+                                    progressBox.style.display = 'flex';
+                                    const progressText = progressBox.querySelector('.progress-text');
+                                    const progressCount = progressBox.querySelector('.progress-count');
+                                    const progressFill = progressBox.querySelector('.card-progress-fill');
+                                    if (progressText) progressText.textContent = `تم إنجاز: ${pct}%`;
+                                    if (progressCount) progressCount.textContent = `${solved}/${total}`;
+                                    if (progressFill) progressFill.style.width = `${pct}%`;
+                                }
+
+                                const ctaLabel = card.querySelector('.card-cta .cta-label');
+                                if (ctaLabel) {
+                                    ctaLabel.textContent = `متابعة التدريب (تمت مراجعة ${solved} من ${total})`;
                                 }
                             }
                         }
